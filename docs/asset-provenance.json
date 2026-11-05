@@ -892,5 +892,41 @@
   ],
   "additional_art": "47 candidate pages / 94 generated PNGs in optional art ZIP; not runtime-integrated",
   "tool_previews": "475 downsampled native map previews in standalone tool, not original project artwork",
-  "font_files_distributed": false
+  "font_files_distributed": false,
+  "homepage_images": {
+    "updated": "2026-11-06",
+    "source": "images supplied by project maintainer; kept at original PNG resolution",
+    "files": [
+      {
+        "path": "docs/images/classic-banner.png",
+        "kind": "user-supplied project banner",
+        "sha256": "6e406d4da75e45022333e0752719895cdae1cb5b82d1afddb22be30269968a58",
+        "dimensions": [
+          2243,
+          701
+        ],
+        "text_metadata_fields": 0
+      },
+      {
+        "path": "docs/images/original-battle.png",
+        "kind": "user-supplied original-game battle screenshot",
+        "sha256": "cad4aa2402e2858a3be937670a05c4d68dc38f369c86e3df606d1f92f5ad64ca",
+        "dimensions": [
+          499,
+          375
+        ],
+        "text_metadata_fields": 0
+      },
+      {
+        "path": "docs/images/map-tester.png",
+        "kind": "user-supplied map tester screenshot",
+        "sha256": "1b0213f88e49f57c04c7a94da64e73d8f4bb3caea461d698e5239e8cc49cb9b5",
+        "dimensions": [
+          1692,
+          1215
+        ],
+        "text_metadata_fields": 0
+      }
+    ]
+  }
 }

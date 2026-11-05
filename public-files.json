@@ -53,8 +53,8 @@
     },
     {
       "path": "docs/asset-provenance.json",
-      "bytes": 43344,
-      "sha256": "79a1c044b2fe004d1d80471c23257f9d11720f5fc3c176f74943c0108d390b80"
+      "bytes": 44466,
+      "sha256": "2acc7e86f4458d78151cf860bbaafd82ac828dbfa2ffd194d5956d59acd5f8d6"
     },
     {
       "path": "docs/current-validation.json",
@@ -62,14 +62,34 @@
       "sha256": "09613756d1d1cff8202b72331a066d7b08352894ad82b6096fe96ce5dc66fb52"
     },
     {
+      "path": "docs/images/classic-banner.png",
+      "bytes": 2291229,
+      "sha256": "6e406d4da75e45022333e0752719895cdae1cb5b82d1afddb22be30269968a58"
+    },
+    {
+      "path": "docs/images/community-banner.svg",
+      "bytes": 3629,
+      "sha256": "f889189ab8f31a615b2ff8cf9aa5ecc43f80296e4321992f4fadef9ac94ecb7a"
+    },
+    {
       "path": "docs/images/map-overview.png",
       "bytes": 1889637,
       "sha256": "201e1d4c2f4755a5033e3de63c3f41a3e3abaac611bb914e74d5dfcbeef1252c"
     },
     {
+      "path": "docs/images/map-tester.png",
+      "bytes": 1065734,
+      "sha256": "1b0213f88e49f57c04c7a94da64e73d8f4bb3caea461d698e5239e8cc49cb9b5"
+    },
+    {
       "path": "docs/images/nameplate-preview.png",
       "bytes": 2346742,
       "sha256": "e75f709b65f8952d832924bfff6e4ebf89a74e75599b36dab0452d9d7daf7c35"
+    },
+    {
+      "path": "docs/images/original-battle.png",
+      "bytes": 361996,
+      "sha256": "cad4aa2402e2858a3be937670a05c4d68dc38f369c86e3df606d1f92f5ad64ca"
     },
     {
       "path": "docs/source-modules.json",
@@ -117,9 +137,19 @@
       "sha256": "3e428dbe8ed78822ae49aee8246b9556afccab46e8e7a1d2fe3425bd3ac646e5"
     },
     {
+      "path": "docs/玩家常见问题.md",
+      "bytes": 3888,
+      "sha256": "e7e80e75285ae8fa2e886f06b25b78e2e50614ca724c61b09f5a316885bd3500"
+    },
+    {
       "path": "docs/知识与模块索引.md",
       "bytes": 3217,
       "sha256": "5ca467591f550cdb9e89f9e4c148150e2c7c60058172e07038a80900a868605d"
+    },
+    {
+      "path": "docs/社区发布文案.md",
+      "bytes": 3630,
+      "sha256": "090606cc4197551d38d7b5db1c2b6f88b8ac1efd326b8873cafac41c956fc688"
     },
     {
       "path": "docs/维护与隐私.md",
@@ -138,8 +168,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2464,
-      "sha256": "d5839a117343abbe17c02467174c3b77bc3366432b6fcc503819788ddf261188"
+      "bytes": 8860,
+      "sha256": "d793a0bf2d78e308070fa7e07dd7712dbf668b1604bfcd90b27e74d249dca744"
     },
     {
       "path": "requirements-map.txt",
