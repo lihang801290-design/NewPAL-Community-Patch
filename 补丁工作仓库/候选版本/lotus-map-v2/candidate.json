@@ -1,0 +1,2722 @@
+{
+  "symbols": {
+    "select": 17895424,
+    "context": 17895844,
+    "context_dispatch": 17896013,
+    "paint": 17896050,
+    "visit": 17896291,
+    "widgets": 17896362,
+    "surface": 17897877,
+    "draw": 17898178,
+    "sample": 17900899,
+    "frame": 17900996,
+    "dream_trampoline": 17901093,
+    "clear": 17901098,
+    "checksum": 17901192,
+    "read": 17901252,
+    "write": 17901586,
+    "write_wrapper": 17901862,
+    "load_wrapper": 17901877,
+    "reset_wrapper": 17901925,
+    "actor_enabled": 17901939
+  },
+  "state": {
+    "current": 17928192,
+    "point": 17928196,
+    "page": 17928200,
+    "bit": 17928204,
+    "px": 17928208,
+    "py": 17928212,
+    "last_point": 17928216,
+    "last_index": 17928220,
+    "visited": 17928224,
+    "loaded": 17928228,
+    "dirty": 17928232,
+    "pixel_x": 17928236,
+    "pixel_y": 17928240,
+    "center_x": 17928244,
+    "center_y": 17928248,
+    "changed": 17928252,
+    "surface": 17928256,
+    "alpha_offset": 17928260,
+    "row_skip": 17928264,
+    "render": 17928268,
+    "front_layer": 17928272,
+    "back_layer": 17928276,
+    "count": 17928280,
+    "read_ok": 17928284,
+    "io_error": 17928288,
+    "matched": 17928292
+  },
+  "ids": 17929216,
+  "ptrs": 17929472,
+  "dirty": 17929984,
+  "record": 17960960,
+  "mask_data": 17960988,
+  "alpha": 18579456,
+  "brush": 17940480,
+  "origin": 17895424,
+  "code_size": 6593,
+  "rows": [
+    {
+      "scene": 27,
+      "index": 0,
+      "page": 0,
+      "family": 0,
+      "width": 160,
+      "height": 90,
+      "tx": 28,
+      "ty": 108,
+      "numerator": 195,
+      "denominator": 1000,
+      "base": "np_lp_base_27_v1.png",
+      "overlay": "np_lp_road_27_v1.png",
+      "ports": {
+        "14": {
+          "page": [
+            42,
+            381
+          ],
+          "grid": [
+            4.7,
+            87.6
+          ]
+        },
+        "15": {
+          "page": [
+            515,
+            121
+          ],
+          "grid": [
+            156.2,
+            4.3
+          ]
+        },
+        "3501:1": {
+          "page": [
+            143,
+            323
+          ],
+          "grid": [
+            37,
+            69
+          ]
+        },
+        "3502:2": {
+          "page": [
+            140,
+            285
+          ],
+          "grid": [
+            36,
+            57
+          ]
+        },
+        "3503:3": {
+          "page": [
+            43,
+            267
+          ],
+          "grid": [
+            5,
+            51
+          ]
+        },
+        "3504:4": {
+          "page": [
+            74,
+            189
+          ],
+          "grid": [
+            15,
+            26
+          ]
+        },
+        "3505:5": {
+          "page": [
+            118,
+            192
+          ],
+          "grid": [
+            29,
+            27
+          ]
+        },
+        "3506:6": {
+          "page": [
+            212,
+            251
+          ],
+          "grid": [
+            59,
+            46
+          ]
+        },
+        "3507:7": {
+          "page": [
+            327,
+            176
+          ],
+          "grid": [
+            96,
+            22
+          ]
+        },
+        "3508:8": {
+          "page": [
+            346,
+            282
+          ],
+          "grid": [
+            102,
+            56
+          ]
+        },
+        "3509:9": {
+          "page": [
+            405,
+            210
+          ],
+          "grid": [
+            121,
+            33
+          ]
+        },
+        "3510:10": {
+          "page": [
+            377,
+            270
+          ],
+          "grid": [
+            112,
+            52
+          ]
+        },
+        "3511:11": {
+          "page": [
+            187,
+            363
+          ],
+          "grid": [
+            51,
+            82
+          ]
+        },
+        "3512:12": {
+          "page": [
+            249,
+            326
+          ],
+          "grid": [
+            71,
+            70
+          ]
+        },
+        "3513:13": {
+          "page": [
+            84,
+            270
+          ],
+          "grid": [
+            18,
+            52
+          ]
+        },
+        "3514:1": {
+          "page": [
+            149,
+            348
+          ],
+          "grid": [
+            39,
+            77
+          ]
+        },
+        "3515:2": {
+          "page": [
+            77,
+            285
+          ],
+          "grid": [
+            16,
+            57
+          ]
+        },
+        "3516:3": {
+          "page": [
+            43,
+            170
+          ],
+          "grid": [
+            5,
+            20
+          ]
+        },
+        "3517:4": {
+          "page": [
+            112,
+            342
+          ],
+          "grid": [
+            27,
+            75
+          ]
+        },
+        "3518:5": {
+          "page": [
+            159,
+            229
+          ],
+          "grid": [
+            42,
+            39
+          ]
+        },
+        "3519:6": {
+          "page": [
+            262,
+            186
+          ],
+          "grid": [
+            75,
+            25
+          ]
+        },
+        "3520:7": {
+          "page": [
+            433,
+            288
+          ],
+          "grid": [
+            130,
+            58
+          ]
+        },
+        "3521:8": {
+          "page": [
+            408,
+            338
+          ],
+          "grid": [
+            122,
+            74
+          ]
+        },
+        "3522:9": {
+          "page": [
+            383,
+            251
+          ],
+          "grid": [
+            114,
+            46
+          ]
+        },
+        "3523:10": {
+          "page": [
+            324,
+            366
+          ],
+          "grid": [
+            95,
+            83
+          ]
+        },
+        "3524:11": {
+          "page": [
+            134,
+            357
+          ],
+          "grid": [
+            34,
+            80
+          ]
+        },
+        "3525:12": {
+          "page": [
+            424,
+            307
+          ],
+          "grid": [
+            127,
+            64
+          ]
+        },
+        "3526:13": {
+          "page": [
+            330,
+            270
+          ],
+          "grid": [
+            97,
+            52
+          ]
+        }
+      }
+    },
+    {
+      "scene": 827,
+      "index": 1,
+      "page": 0,
+      "family": 0,
+      "width": 160,
+      "height": 90,
+      "tx": 28,
+      "ty": 108,
+      "numerator": 195,
+      "denominator": 1000,
+      "base": "np_lp_base_827_v1.png",
+      "overlay": "np_lp_road_827_v1.png",
+      "ports": {
+        "14": {
+          "page": [
+            42,
+            381
+          ],
+          "grid": [
+            4.7,
+            87.6
+          ]
+        },
+        "15": {
+          "page": [
+            515,
+            121
+          ],
+          "grid": [
+            156.2,
+            4.3
+          ]
+        }
+      }
+    }
+  ],
+  "links": [
+    {
+      "number": 1,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        143,
+        323
+      ],
+      "b_point": [
+        149,
+        348
+      ],
+      "points": [
+        [
+          143,
+          323
+        ],
+        [
+          106,
+          326
+        ],
+        [
+          106,
+          201
+        ],
+        [
+          268,
+          201
+        ],
+        [
+          268,
+          245
+        ],
+        [
+          396,
+          245
+        ],
+        [
+          396,
+          310
+        ],
+        [
+          268,
+          310
+        ],
+        [
+          268,
+          348
+        ],
+        [
+          149,
+          348
+        ]
+      ],
+      "file": "np_lp_link_01_v1.png",
+      "active_actors": [
+        3501,
+        3514
+      ],
+      "conditions": [
+        {
+          "kind": "native_variable_ge",
+          "actor": 3542,
+          "parameter": 2,
+          "value": 1,
+          "value_is_true": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        140,
+        285
+      ],
+      "b_point": [
+        77,
+        285
+      ],
+      "points": [
+        [
+          140,
+          285
+        ],
+        [
+          77,
+          285
+        ]
+      ],
+      "file": "np_lp_link_02_v1.png",
+      "active_actors": [
+        3502,
+        3515
+      ],
+      "conditions": []
+    },
+    {
+      "number": 3,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        43,
+        267
+      ],
+      "b_point": [
+        43,
+        170
+      ],
+      "points": [
+        [
+          43,
+          267
+        ],
+        [
+          43,
+          170
+        ]
+      ],
+      "file": "np_lp_link_03_v1.png",
+      "active_actors": [
+        3503,
+        3516
+      ],
+      "conditions": []
+    },
+    {
+      "number": 4,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        74,
+        189
+      ],
+      "b_point": [
+        112,
+        342
+      ],
+      "points": [
+        [
+          74,
+          189
+        ],
+        [
+          74,
+          235
+        ],
+        [
+          112,
+          235
+        ],
+        [
+          112,
+          342
+        ]
+      ],
+      "file": "np_lp_link_04_v1.png",
+      "active_actors": [
+        3504,
+        3517
+      ],
+      "conditions": []
+    },
+    {
+      "number": 5,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        118,
+        192
+      ],
+      "b_point": [
+        159,
+        229
+      ],
+      "points": [
+        [
+          118,
+          192
+        ],
+        [
+          118,
+          229
+        ],
+        [
+          159,
+          229
+        ]
+      ],
+      "file": "np_lp_link_05_v1.png",
+      "active_actors": [
+        3505,
+        3518
+      ],
+      "conditions": []
+    },
+    {
+      "number": 6,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        212,
+        251
+      ],
+      "b_point": [
+        262,
+        186
+      ],
+      "points": [
+        [
+          212,
+          251
+        ],
+        [
+          262,
+          251
+        ],
+        [
+          262,
+          186
+        ]
+      ],
+      "file": "np_lp_link_06_v1.png",
+      "active_actors": [
+        3506,
+        3519
+      ],
+      "conditions": []
+    },
+    {
+      "number": 7,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        327,
+        176
+      ],
+      "b_point": [
+        433,
+        288
+      ],
+      "points": [
+        [
+          327,
+          176
+        ],
+        [
+          327,
+          198
+        ],
+        [
+          286,
+          198
+        ],
+        [
+          286,
+          288
+        ],
+        [
+          433,
+          288
+        ]
+      ],
+      "file": "np_lp_link_07_v1.png",
+      "active_actors": [
+        3507,
+        3520
+      ],
+      "conditions": []
+    },
+    {
+      "number": 8,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        346,
+        282
+      ],
+      "b_point": [
+        408,
+        338
+      ],
+      "points": [
+        [
+          346,
+          282
+        ],
+        [
+          346,
+          338
+        ],
+        [
+          408,
+          338
+        ]
+      ],
+      "file": "np_lp_link_08_v1.png",
+      "active_actors": [
+        3508,
+        3521
+      ],
+      "conditions": []
+    },
+    {
+      "number": 9,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        405,
+        210
+      ],
+      "b_point": [
+        383,
+        251
+      ],
+      "points": [
+        [
+          405,
+          210
+        ],
+        [
+          383,
+          210
+        ],
+        [
+          383,
+          251
+        ]
+      ],
+      "file": "np_lp_link_09_v1.png",
+      "active_actors": [
+        3509,
+        3522
+      ],
+      "conditions": []
+    },
+    {
+      "number": 10,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        377,
+        270
+      ],
+      "b_point": [
+        324,
+        366
+      ],
+      "points": [
+        [
+          377,
+          270
+        ],
+        [
+          377,
+          366
+        ],
+        [
+          324,
+          366
+        ]
+      ],
+      "file": "np_lp_link_10_v1.png",
+      "active_actors": [
+        3510,
+        3523
+      ],
+      "conditions": []
+    },
+    {
+      "number": 11,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        187,
+        363
+      ],
+      "b_point": [
+        134,
+        357
+      ],
+      "points": [
+        [
+          187,
+          363
+        ],
+        [
+          134,
+          363
+        ],
+        [
+          134,
+          357
+        ]
+      ],
+      "file": "np_lp_link_11_v1.png",
+      "active_actors": [
+        3511,
+        3524
+      ],
+      "conditions": []
+    },
+    {
+      "number": 12,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        249,
+        326
+      ],
+      "b_point": [
+        424,
+        307
+      ],
+      "points": [
+        [
+          249,
+          326
+        ],
+        [
+          286,
+          326
+        ],
+        [
+          286,
+          307
+        ],
+        [
+          424,
+          307
+        ]
+      ],
+      "file": "np_lp_link_12_v1.png",
+      "active_actors": [
+        3512,
+        3525
+      ],
+      "conditions": []
+    },
+    {
+      "number": 13,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        84,
+        270
+      ],
+      "b_point": [
+        330,
+        270
+      ],
+      "points": [
+        [
+          84,
+          270
+        ],
+        [
+          330,
+          270
+        ]
+      ],
+      "file": "np_lp_link_13_v1.png",
+      "active_actors": [
+        3513,
+        3526
+      ],
+      "conditions": []
+    },
+    {
+      "number": 14,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        143,
+        323
+      ],
+      "b_point": [
+        286,
+        270
+      ],
+      "points": [
+        [
+          143,
+          323
+        ],
+        [
+          106,
+          326
+        ],
+        [
+          106,
+          201
+        ],
+        [
+          268,
+          201
+        ],
+        [
+          268,
+          245
+        ],
+        [
+          286,
+          245
+        ],
+        [
+          286,
+          270
+        ]
+      ],
+      "file": "np_lp_link_14_v1.png",
+      "active_actors": [
+        3501
+      ],
+      "conditions": [
+        {
+          "kind": "native_variable_ge",
+          "actor": 3542,
+          "parameter": 2,
+          "value": 1,
+          "value_is_true": true
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "page": 0,
+      "a": 0,
+      "b": 0,
+      "a_point": [
+        149,
+        348
+      ],
+      "b_point": [
+        286,
+        270
+      ],
+      "points": [
+        [
+          149,
+          348
+        ],
+        [
+          268,
+          348
+        ],
+        [
+          268,
+          320
+        ],
+        [
+          321,
+          320
+        ],
+        [
+          321,
+          270
+        ],
+        [
+          286,
+          270
+        ]
+      ],
+      "file": "np_lp_link_15_v1.png",
+      "active_actors": [
+        3514
+      ],
+      "conditions": [
+        {
+          "kind": "native_variable_ge",
+          "actor": 3542,
+          "parameter": 2,
+          "value": 1,
+          "value_is_true": true
+        }
+      ]
+    }
+  ],
+  "header_offsets": [],
+  "payload_span": [
+    13169664,
+    14468096
+  ],
+  "previous": {
+    "symbols": {
+      "select": 7360512,
+      "context": 7363645,
+      "context_dispatch": 7363798,
+      "paint": 7363816,
+      "visit": 7364057,
+      "widgets": 7364128,
+      "surface": 7368233,
+      "draw": 7368534,
+      "frame": 7372362,
+      "dream_trampoline": 7372454,
+      "clear": 7372466,
+      "checksum": 7372560,
+      "read": 7372620,
+      "write": 7373032,
+      "write_wrapper": 7373335,
+      "load_wrapper": 7373350,
+      "reset_wrapper": 7373398
+    },
+    "state": {
+      "current": 7393280,
+      "point": 7393284,
+      "page": 7393288,
+      "bit": 7393292,
+      "px": 7393296,
+      "py": 7393300,
+      "last_point": 7393304,
+      "last_index": 7393308,
+      "visited": 7393312,
+      "loaded": 7393316,
+      "dirty": 7393320,
+      "pixel_x": 7393324,
+      "pixel_y": 7393328,
+      "center_x": 7393332,
+      "center_y": 7393336,
+      "changed": 7393340,
+      "surface": 7393344,
+      "alpha_offset": 7393348,
+      "row_skip": 7393352,
+      "render": 7393356,
+      "front_layer": 7393360,
+      "back_layer": 7393364,
+      "count": 7393368,
+      "read_ok": 7393372,
+      "io_error": 7393376,
+      "matched": 7393380
+    },
+    "ids": 7394304,
+    "ptrs": 7394560,
+    "dirty": 7395072,
+    "record": 7426048,
+    "mask_data": 7426076,
+    "alpha": 12668928,
+    "brush": 7405568,
+    "origin": 7360512,
+    "code_size": 12900,
+    "rows": [
+      {
+        "index": 0,
+        "scene": 502,
+        "width": 40,
+        "height": 30,
+        "tx": 454,
+        "ty": 279,
+        "numerator": 180,
+        "denominator": 1000,
+        "page": 0,
+        "family": 0,
+        "base": "np_lr_base_502_v1.png",
+        "overlay": "np_lr_road_502_v1.png",
+        "name": "洞外",
+        "ports": {
+          "1": {
+            "tag": 1,
+            "destination": 503,
+            "world": [
+              66.672,
+              160.0
+            ],
+            "page": [
+              466,
+              308
+            ]
+          }
+        },
+        "alpha_sha256": "0c762ddbdd5d56847232f044010a74a9899b399e11b47296f202fbf2c0a64d34",
+        "road_grid_sha256": "4576189b05c96bb7f07a8baeed36861e50181325cbe5cf120ed5d6127663e44c"
+      },
+      {
+        "index": 1,
+        "scene": 503,
+        "width": 160,
+        "height": 120,
+        "tx": 165,
+        "ty": 194,
+        "numerator": 100,
+        "denominator": 1000,
+        "page": 0,
+        "family": 1,
+        "base": "np_lr_base_503_v1.png",
+        "overlay": "np_lr_road_503_v1.png",
+        "name": "主洞·第一层",
+        "ports": {
+          "1": {
+            "tag": 1,
+            "destination": 502,
+            "world": [
+              2552.0,
+              880.0
+            ],
+            "page": [
+              420,
+              282
+            ]
+          },
+          "2": {
+            "tag": 2,
+            "destination": 504,
+            "world": [
+              1216.0,
+              56.0
+            ],
+            "page": [
+              287,
+              200
+            ]
+          },
+          "3": {
+            "tag": 3,
+            "destination": 504,
+            "world": [
+              1888.0,
+              56.0
+            ],
+            "page": [
+              354,
+              200
+            ]
+          },
+          "4": {
+            "tag": 4,
+            "destination": 509,
+            "world": [
+              626.672,
+              602.672
+            ],
+            "page": [
+              228,
+              254
+            ]
+          },
+          "5": {
+            "tag": 6,
+            "destination": 510,
+            "world": [
+              8.0,
+              1584.0
+            ],
+            "page": [
+              166,
+              352
+            ]
+          }
+        },
+        "alpha_sha256": "3c7b044c8cb73d485c79ed50e1d393d9bef188fff0ea3d741f240fcf2a923a7e",
+        "road_grid_sha256": "1fd8118ea840a4f3f03ccf017efddcabf4ef1b5aa055abb6b0b5b7b4dfe333c2"
+      },
+      {
+        "index": 2,
+        "scene": 506,
+        "width": 160,
+        "height": 120,
+        "tx": 165,
+        "ty": 194,
+        "numerator": 100,
+        "denominator": 1000,
+        "page": 0,
+        "family": 1,
+        "base": "np_lr_base_506_v1.png",
+        "overlay": "np_lr_road_506_v1.png",
+        "name": "主洞·第二层",
+        "ports": {
+          "7": {
+            "tag": 1,
+            "destination": 505,
+            "world": [
+              2436.8,
+              395.2
+            ],
+            "page": [
+              409,
+              234
+            ]
+          },
+          "8": {
+            "tag": 2,
+            "destination": 507,
+            "world": [
+              2552.0,
+              1536.0
+            ],
+            "page": [
+              420,
+              348
+            ]
+          }
+        },
+        "alpha_sha256": "8e2b4a781be38d5cdf499eea22a85a9f6a36cb02081fb60d09d5731f984d8df9",
+        "road_grid_sha256": "1e972c687301bcbea3d714a0f5052a05ddf6ff0302b307ade43c9b8346a8c932"
+      },
+      {
+        "index": 3,
+        "scene": 508,
+        "width": 160,
+        "height": 120,
+        "tx": 165,
+        "ty": 194,
+        "numerator": 100,
+        "denominator": 1000,
+        "page": 0,
+        "family": 1,
+        "base": "np_lr_base_508_v1.png",
+        "overlay": "np_lr_road_508_v1.png",
+        "name": "主洞·第三层",
+        "ports": {
+          "9": {
+            "tag": 1,
+            "destination": 507,
+            "world": [
+              2260.8,
+              635.2
+            ],
+            "page": [
+              391,
+              258
+            ]
+          },
+          "10": {
+            "tag": 2,
+            "destination": 509,
+            "world": [
+              8.0,
+              1320.0
+            ],
+            "page": [
+              166,
+              326
+            ]
+          }
+        },
+        "alpha_sha256": "acb5c28263f4d30e3ee30d45dc40161c3f741c906ce2c86b79cdb4e19b207f0d",
+        "road_grid_sha256": "11ab17d3f82478e58783b71e2952e2ec22052bcc7603b2346646206bb6b47454"
+      },
+      {
+        "index": 4,
+        "scene": 504,
+        "width": 80,
+        "height": 60,
+        "tx": 171,
+        "ty": 80,
+        "numerator": 80,
+        "denominator": 1000,
+        "page": 0,
+        "family": 0,
+        "base": "np_lr_base_504_v1.png",
+        "overlay": "np_lr_road_504_v1.png",
+        "name": "上方短通道",
+        "ports": {
+          "2": {
+            "tag": 1,
+            "destination": 503,
+            "world": [
+              120.0,
+              936.0
+            ],
+            "page": [
+              181,
+              155
+            ]
+          },
+          "3": {
+            "tag": 2,
+            "destination": 503,
+            "world": [
+              1249.136,
+              929.136
+            ],
+            "page": [
+              271,
+              154
+            ]
+          },
+          "6": {
+            "tag": 3,
+            "destination": 505,
+            "world": [
+              1272.0,
+              368.0
+            ],
+            "page": [
+              273,
+              109
+            ]
+          }
+        },
+        "alpha_sha256": "7b2cd364aae27d99dfadaf52966d93dd29e950006ca025e47749d1874d842493",
+        "road_grid_sha256": "c9c55b818d4724dd7a33abd820106526cefac2493a7bc979b7cb495e3dadecd5"
+      },
+      {
+        "index": 5,
+        "scene": 505,
+        "width": 120,
+        "height": 75,
+        "tx": 404,
+        "ty": 80,
+        "numerator": 68,
+        "denominator": 1000,
+        "page": 0,
+        "family": 0,
+        "base": "np_lr_base_505_v1.png",
+        "overlay": "np_lr_road_505_v1.png",
+        "name": "上方旧洞",
+        "ports": {
+          "6": {
+            "tag": 1,
+            "destination": 504,
+            "world": [
+              121.456,
+              73.456
+            ],
+            "page": [
+              412,
+              85
+            ]
+          },
+          "7": {
+            "tag": 2,
+            "destination": 506,
+            "world": [
+              1810.432,
+              1180.864
+            ],
+            "page": [
+              527,
+              160
+            ]
+          }
+        },
+        "alpha_sha256": "4cef7cfe76f1f4b75027edd05fb75f5f557da5dbdfc697b78bc29731943e1dcd",
+        "road_grid_sha256": "713a0c755d71c8387bac0758c6a003c5cf979e5709ec3098a16b833c1e04f3bf"
+      },
+      {
+        "index": 6,
+        "scene": 509,
+        "width": 80,
+        "height": 90,
+        "tx": 20,
+        "ty": 172,
+        "numerator": 80,
+        "denominator": 1000,
+        "page": 0,
+        "family": 0,
+        "base": "np_lr_base_509_v1.png",
+        "overlay": "np_lr_road_509_v1.png",
+        "name": "左S支洞",
+        "ports": {
+          "4": {
+            "tag": 2,
+            "destination": 503,
+            "world": [
+              1272.0,
+              384.0
+            ],
+            "page": [
+              122,
+              203
+            ]
+          },
+          "10": {
+            "tag": 1,
+            "destination": 508,
+            "world": [
+              1272.0,
+              1248.0
+            ],
+            "page": [
+              122,
+              272
+            ]
+          }
+        },
+        "alpha_sha256": "b14ffa7122191339d097eb63412dd07cafd5d0ebd2ec9a05d4d041adda055750",
+        "road_grid_sha256": "bd4120e0f5991870e180f631f11b134cc5333300990760c5f806fc08c2cbb1b4"
+      },
+      {
+        "index": 7,
+        "scene": 507,
+        "width": 80,
+        "height": 90,
+        "tx": 523,
+        "ty": 211,
+        "numerator": 70,
+        "denominator": 1000,
+        "page": 0,
+        "family": 0,
+        "base": "np_lr_base_507_v1.png",
+        "overlay": "np_lr_road_507_v1.png",
+        "name": "右S支洞",
+        "ports": {
+          "8": {
+            "tag": 1,
+            "destination": 506,
+            "world": [
+              8.0,
+              1248.0
+            ],
+            "page": [
+              524,
+              298
+            ]
+          },
+          "9": {
+            "tag": 2,
+            "destination": 508,
+            "world": [
+              8.0,
+              384.0
+            ],
+            "page": [
+              524,
+              238
+            ]
+          }
+        },
+        "alpha_sha256": "7b098951bb7a0bd477ee680f923245454b215a12cd0874fd3712caf0aeeaa4c1",
+        "road_grid_sha256": "b0a775e53e3a1a8fd789dc1728e545ce3614d9f76f1d968f7170c64c4445d2e7"
+      },
+      {
+        "index": 8,
+        "scene": 510,
+        "width": 80,
+        "height": 75,
+        "tx": 25,
+        "ty": 345,
+        "numerator": 70,
+        "denominator": 1000,
+        "page": 0,
+        "family": 0,
+        "base": "np_lr_base_510_v1.png",
+        "overlay": "np_lr_road_510_v1.png",
+        "name": "圆形支洞",
+        "ports": {
+          "5": {
+            "tag": 1,
+            "destination": 503,
+            "world": [
+              1172.0,
+              224.0
+            ],
+            "page": [
+              107,
+              361
+            ]
+          },
+          "11": {
+            "tag": 2,
+            "destination": 511,
+            "world": [
+              1140.0,
+              482.0
+            ],
+            "page": [
+              105,
+              379
+            ]
+          }
+        },
+        "alpha_sha256": "361b401a93e816030869b9f6adeb1ed6a477eb28404c0349cf3a7bb79cafb1d2",
+        "road_grid_sha256": "be10352088e1016405099dc8ab769a6c4ff44c2813c4ae23ef338759bfcb1366"
+      },
+      {
+        "index": 9,
+        "scene": 511,
+        "width": 140,
+        "height": 105,
+        "tx": 198,
+        "ty": 213,
+        "numerator": 105,
+        "denominator": 1000,
+        "page": 1,
+        "family": 2,
+        "base": "np_lr_base_511_v1.png",
+        "overlay": "np_lr_road_511_v1.png",
+        "name": "主洞·第一层",
+        "ports": {
+          "11": {
+            "tag": 1,
+            "destination": 510,
+            "world": [
+              8.0,
+              320.0
+            ],
+            "page": [
+              199,
+              247
+            ]
+          },
+          "12": {
+            "tag": 2,
+            "destination": 512,
+            "world": [
+              436.0,
+              332.0
+            ],
+            "page": [
+              244,
+              248
+            ]
+          },
+          "13": {
+            "tag": 3,
+            "destination": 512,
+            "world": [
+              200.0,
+              440.0
+            ],
+            "page": [
+              219,
+              259
+            ]
+          },
+          "14": {
+            "tag": 4,
+            "destination": 513,
+            "world": [
+              1684.8,
+              283.2
+            ],
+            "page": [
+              375,
+              243
+            ]
+          },
+          "15": {
+            "tag": 5,
+            "destination": 517,
+            "world": [
+              186.672,
+              989.328
+            ],
+            "page": [
+              218,
+              317
+            ]
+          },
+          "16": {
+            "tag": 6,
+            "destination": 518,
+            "world": [
+              624.0,
+              1672.0
+            ],
+            "page": [
+              264,
+              389
+            ]
+          }
+        },
+        "alpha_sha256": "efdaf3d299c8f4a5b0a2f83151ef5db8f3638298033941dfd4829bf8169fd80c",
+        "road_grid_sha256": "dc18af32c1e9a55c1743bd3be7fcffa06d703d7426402edc43531ecaeb2612fa"
+      },
+      {
+        "index": 10,
+        "scene": 514,
+        "width": 140,
+        "height": 105,
+        "tx": 198,
+        "ty": 213,
+        "numerator": 105,
+        "denominator": 1000,
+        "page": 1,
+        "family": 2,
+        "base": "np_lr_base_514_v1.png",
+        "overlay": "np_lr_road_514_v1.png",
+        "name": "主洞·第二层",
+        "ports": {
+          "18": {
+            "tag": 2,
+            "destination": 512,
+            "world": [
+              344.0,
+              592.0
+            ],
+            "page": [
+              234,
+              275
+            ]
+          },
+          "19": {
+            "tag": 1,
+            "destination": 515,
+            "world": [
+              1245.328,
+              386.672
+            ],
+            "page": [
+              329,
+              254
+            ]
+          }
+        },
+        "alpha_sha256": "82f2bc888fe59b648b6b112ba1ac90de1970ac82613592629ee6272af9e05c6f",
+        "road_grid_sha256": "6a9226f8d1fd13979c94dafb9731e7e3df02290b97ddffbf887291ad6e3af196"
+      },
+      {
+        "index": 11,
+        "scene": 516,
+        "width": 140,
+        "height": 105,
+        "tx": 198,
+        "ty": 213,
+        "numerator": 105,
+        "denominator": 1000,
+        "page": 1,
+        "family": 2,
+        "base": "np_lr_base_516_v1.png",
+        "overlay": "np_lr_road_516_v1.png",
+        "name": "主洞·第三层",
+        "ports": {
+          "20": {
+            "tag": 1,
+            "destination": 515,
+            "world": [
+              596.0,
+              636.0
+            ],
+            "page": [
+              261,
+              280
+            ]
+          },
+          "21": {
+            "tag": 2,
+            "destination": 517,
+            "world": [
+              8.0,
+              1272.0
+            ],
+            "page": [
+              199,
+              347
+            ]
+          }
+        },
+        "alpha_sha256": "3998799f2d38f6f0fadf2f5a325fe45b52aa34bc2be4496ee758d71995866174",
+        "road_grid_sha256": "9badae275d0d3cc06bd0c00b4ed626903d45d8a3a36268463365cf9b49874afc"
+      },
+      {
+        "index": 12,
+        "scene": 512,
+        "width": 64,
+        "height": 48,
+        "tx": 25,
+        "ty": 80,
+        "numerator": 110,
+        "denominator": 1000,
+        "page": 1,
+        "family": 0,
+        "base": "np_lr_base_512_v1.png",
+        "overlay": "np_lr_road_512_v1.png",
+        "name": "斜向通道",
+        "ports": {
+          "12": {
+            "tag": 1,
+            "destination": 511,
+            "world": [
+              1016.0,
+              296.0
+            ],
+            "page": [
+              137,
+              113
+            ]
+          },
+          "13": {
+            "tag": 3,
+            "destination": 511,
+            "world": [
+              280.0,
+              760.0
+            ],
+            "page": [
+              56,
+              164
+            ]
+          },
+          "17": {
+            "tag": 2,
+            "destination": 513,
+            "world": [
+              1016.0,
+              152.0
+            ],
+            "page": [
+              137,
+              97
+            ]
+          },
+          "18": {
+            "tag": 4,
+            "destination": 514,
+            "world": [
+              976.0,
+              744.0
+            ],
+            "page": [
+              132,
+              162
+            ]
+          }
+        },
+        "alpha_sha256": "23655d40852758fbadc547ad979f187fa2bdf54b3d2428b87ca109a51181a798",
+        "road_grid_sha256": "8b2dade22ac58e50369e049b5a6eed1ef0bb1dc7d40ef65dd6d1f8f8ec8eb4e7"
+      },
+      {
+        "index": 13,
+        "scene": 513,
+        "width": 100,
+        "height": 30,
+        "tx": 180,
+        "ty": 84,
+        "numerator": 155,
+        "denominator": 1000,
+        "page": 1,
+        "family": 0,
+        "base": "np_lr_base_513_v1.png",
+        "overlay": "np_lr_road_513_v1.png",
+        "name": "狭长通道",
+        "ports": {
+          "14": {
+            "tag": 2,
+            "destination": 511,
+            "world": [
+              1432.0,
+              472.0
+            ],
+            "page": [
+              402,
+              157
+            ]
+          },
+          "17": {
+            "tag": 1,
+            "destination": 512,
+            "world": [
+              8.0,
+              288.0
+            ],
+            "page": [
+              181,
+              129
+            ]
+          }
+        },
+        "alpha_sha256": "febc496b1a2901a1e49ef9914235c50ee31e0b39ab43d4a82a42f51d01476b0a",
+        "road_grid_sha256": "1fba0d41fa7d20eff6bfcc79663d845a645c747fcdd5541f66de701153eb8c11"
+      },
+      {
+        "index": 14,
+        "scene": 515,
+        "width": 100,
+        "height": 60,
+        "tx": 490,
+        "ty": 200,
+        "numerator": 75,
+        "denominator": 1000,
+        "page": 1,
+        "family": 0,
+        "base": "np_lr_base_515_v1.png",
+        "overlay": "np_lr_road_515_v1.png",
+        "name": "小S支洞",
+        "ports": {
+          "19": {
+            "tag": 2,
+            "destination": 514,
+            "world": [
+              1592.0,
+              352.0
+            ],
+            "page": [
+              609,
+              226
+            ]
+          },
+          "20": {
+            "tag": 1,
+            "destination": 516,
+            "world": [
+              352.0,
+              952.0
+            ],
+            "page": [
+              516,
+              271
+            ]
+          }
+        },
+        "alpha_sha256": "b4d5a10743694bc92e5532d6b5e59f4cce44c92f20f1b01f3b2ff8109ba34e31",
+        "road_grid_sha256": "690168bbc8f4659b3eb4f78a0d9af13aa51e8c87c96b81b438dc02c5222ceb88"
+      },
+      {
+        "index": 15,
+        "scene": 517,
+        "width": 80,
+        "height": 75,
+        "tx": 25,
+        "ty": 240,
+        "numerator": 90,
+        "denominator": 1000,
+        "page": 1,
+        "family": 0,
+        "base": "np_lr_base_517_v1.png",
+        "overlay": "np_lr_road_517_v1.png",
+        "name": "左S支洞",
+        "ports": {
+          "15": {
+            "tag": 2,
+            "destination": 511,
+            "world": [
+              1272.0,
+              752.0
+            ],
+            "page": [
+              139,
+              308
+            ]
+          },
+          "21": {
+            "tag": 1,
+            "destination": 516,
+            "world": [
+              1272.0,
+              1080.0
+            ],
+            "page": [
+              139,
+              337
+            ]
+          }
+        },
+        "alpha_sha256": "94fc38b44847187af8ffddd374278ecef8bd104a87319a5fec1fee35759d9970",
+        "road_grid_sha256": "dc1ade2433defff23d3f84978177ddf214c699c9e1daa0a851642b168a36b016"
+      },
+      {
+        "index": 16,
+        "scene": 518,
+        "width": 40,
+        "height": 30,
+        "tx": 525,
+        "ty": 304,
+        "numerator": 140,
+        "denominator": 1000,
+        "page": 1,
+        "family": 0,
+        "base": "np_lr_base_518_v1.png",
+        "overlay": "np_lr_road_518_v1.png",
+        "name": "大殿",
+        "ports": {
+          "16": {
+            "tag": 1,
+            "destination": 511,
+            "world": [
+              600.0,
+              434.672
+            ],
+            "page": [
+              609,
+              365
+            ]
+          }
+        },
+        "alpha_sha256": "cc3e717992c130362f6fe0b588b96095c269aa9fbca3a4a5d94f43e5cd0d8972",
+        "road_grid_sha256": "24c6dc1d895ba793272a26b5cd7e31211df4c20b6c0139064e7f8d190585382c"
+      }
+    ],
+    "links": [
+      {
+        "number": 1,
+        "page": 0,
+        "a": 0,
+        "b": 1,
+        "a_scene": 502,
+        "b_scene": 503,
+        "a_point": [
+          466,
+          308
+        ],
+        "b_point": [
+          420,
+          282
+        ],
+        "file": "np_lr_link_01_v1.png",
+        "points": [
+          [
+            466,
+            308
+          ],
+          [
+            466,
+            282
+          ],
+          [
+            420,
+            282
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 2,
+        "page": 0,
+        "a": 1,
+        "b": 4,
+        "a_scene": 503,
+        "b_scene": 504,
+        "a_point": [
+          287,
+          200
+        ],
+        "b_point": [
+          181,
+          155
+        ],
+        "file": "np_lr_link_02_v1.png",
+        "points": [
+          [
+            287,
+            200
+          ],
+          [
+            286,
+            186
+          ],
+          [
+            286,
+            170
+          ],
+          [
+            182,
+            170
+          ],
+          [
+            181,
+            155
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 3,
+        "page": 0,
+        "a": 1,
+        "b": 4,
+        "a_scene": 503,
+        "b_scene": 504,
+        "a_point": [
+          354,
+          200
+        ],
+        "b_point": [
+          271,
+          154
+        ],
+        "file": "np_lr_link_03_v1.png",
+        "points": [
+          [
+            354,
+            200
+          ],
+          [
+            354,
+            142
+          ],
+          [
+            270,
+            142
+          ],
+          [
+            271,
+            154
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 4,
+        "page": 0,
+        "a": 1,
+        "b": 6,
+        "a_scene": 503,
+        "b_scene": 509,
+        "a_point": [
+          228,
+          254
+        ],
+        "b_point": [
+          122,
+          203
+        ],
+        "file": "np_lr_link_04_v1.png",
+        "points": [
+          [
+            228,
+            254
+          ],
+          [
+            226,
+            242
+          ],
+          [
+            206,
+            242
+          ],
+          [
+            206,
+            250
+          ],
+          [
+            138,
+            250
+          ],
+          [
+            138,
+            190
+          ],
+          [
+            122,
+            190
+          ],
+          [
+            122,
+            203
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 5,
+        "page": 0,
+        "a": 1,
+        "b": 8,
+        "a_scene": 503,
+        "b_scene": 510,
+        "a_point": [
+          166,
+          352
+        ],
+        "b_point": [
+          107,
+          361
+        ],
+        "file": "np_lr_link_05_v1.png",
+        "points": [
+          [
+            166,
+            352
+          ],
+          [
+            154,
+            354
+          ],
+          [
+            154,
+            350
+          ],
+          [
+            114,
+            350
+          ],
+          [
+            107,
+            361
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 6,
+        "page": 0,
+        "a": 4,
+        "b": 5,
+        "a_scene": 504,
+        "b_scene": 505,
+        "a_point": [
+          273,
+          109
+        ],
+        "b_point": [
+          412,
+          85
+        ],
+        "file": "np_lr_link_06_v1.png",
+        "points": [
+          [
+            273,
+            109
+          ],
+          [
+            286,
+            110
+          ],
+          [
+            286,
+            86
+          ],
+          [
+            398,
+            86
+          ],
+          [
+            412,
+            85
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 7,
+        "page": 0,
+        "a": 5,
+        "b": 2,
+        "a_scene": 505,
+        "b_scene": 506,
+        "a_point": [
+          527,
+          160
+        ],
+        "b_point": [
+          409,
+          234
+        ],
+        "file": "np_lr_link_07_v1.png",
+        "points": [
+          [
+            527,
+            160
+          ],
+          [
+            526,
+            174
+          ],
+          [
+            410,
+            174
+          ],
+          [
+            410,
+            222
+          ],
+          [
+            409,
+            234
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 8,
+        "page": 0,
+        "a": 2,
+        "b": 7,
+        "a_scene": 506,
+        "b_scene": 507,
+        "a_point": [
+          420,
+          348
+        ],
+        "b_point": [
+          524,
+          298
+        ],
+        "file": "np_lr_link_08_v1.png",
+        "points": [
+          [
+            420,
+            348
+          ],
+          [
+            434,
+            346
+          ],
+          [
+            510,
+            346
+          ],
+          [
+            510,
+            298
+          ],
+          [
+            524,
+            298
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 9,
+        "page": 0,
+        "a": 7,
+        "b": 3,
+        "a_scene": 507,
+        "b_scene": 508,
+        "a_point": [
+          524,
+          238
+        ],
+        "b_point": [
+          391,
+          258
+        ],
+        "file": "np_lr_link_09_v1.png",
+        "points": [
+          [
+            524,
+            238
+          ],
+          [
+            522,
+            226
+          ],
+          [
+            390,
+            226
+          ],
+          [
+            390,
+            246
+          ],
+          [
+            391,
+            258
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 10,
+        "page": 0,
+        "a": 3,
+        "b": 6,
+        "a_scene": 508,
+        "b_scene": 509,
+        "a_point": [
+          166,
+          326
+        ],
+        "b_point": [
+          122,
+          272
+        ],
+        "file": "np_lr_link_10_v1.png",
+        "points": [
+          [
+            166,
+            326
+          ],
+          [
+            154,
+            326
+          ],
+          [
+            154,
+            286
+          ],
+          [
+            130,
+            286
+          ],
+          [
+            122,
+            272
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 12,
+        "page": 1,
+        "a": 9,
+        "b": 12,
+        "a_scene": 511,
+        "b_scene": 512,
+        "a_point": [
+          244,
+          248
+        ],
+        "b_point": [
+          137,
+          113
+        ],
+        "file": "np_lr_link_12_v1.png",
+        "points": [
+          [
+            244,
+            248
+          ],
+          [
+            218,
+            222
+          ],
+          [
+            146,
+            222
+          ],
+          [
+            146,
+            126
+          ],
+          [
+            138,
+            126
+          ],
+          [
+            137,
+            113
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 13,
+        "page": 1,
+        "a": 9,
+        "b": 12,
+        "a_scene": 511,
+        "b_scene": 512,
+        "a_point": [
+          219,
+          259
+        ],
+        "b_point": [
+          56,
+          164
+        ],
+        "file": "np_lr_link_13_v1.png",
+        "points": [
+          [
+            219,
+            259
+          ],
+          [
+            190,
+            262
+          ],
+          [
+            138,
+            262
+          ],
+          [
+            138,
+            178
+          ],
+          [
+            58,
+            178
+          ],
+          [
+            56,
+            164
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 14,
+        "page": 1,
+        "a": 9,
+        "b": 13,
+        "a_scene": 511,
+        "b_scene": 513,
+        "a_point": [
+          375,
+          243
+        ],
+        "b_point": [
+          402,
+          157
+        ],
+        "file": "np_lr_link_14_v1.png",
+        "points": [
+          [
+            375,
+            243
+          ],
+          [
+            386,
+            214
+          ],
+          [
+            386,
+            170
+          ],
+          [
+            402,
+            170
+          ],
+          [
+            402,
+            157
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 15,
+        "page": 1,
+        "a": 9,
+        "b": 15,
+        "a_scene": 511,
+        "b_scene": 517,
+        "a_point": [
+          218,
+          317
+        ],
+        "b_point": [
+          139,
+          308
+        ],
+        "file": "np_lr_link_15_v1.png",
+        "points": [
+          [
+            218,
+            317
+          ],
+          [
+            202,
+            318
+          ],
+          [
+            202,
+            310
+          ],
+          [
+            154,
+            310
+          ],
+          [
+            139,
+            308
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 16,
+        "page": 1,
+        "a": 9,
+        "b": 16,
+        "a_scene": 511,
+        "b_scene": 518,
+        "a_point": [
+          264,
+          389
+        ],
+        "b_point": [
+          609,
+          365
+        ],
+        "file": "np_lr_link_16_v1.png",
+        "points": [
+          [
+            264,
+            389
+          ],
+          [
+            266,
+            402
+          ],
+          [
+            622,
+            402
+          ],
+          [
+            622,
+            366
+          ],
+          [
+            609,
+            365
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 17,
+        "page": 1,
+        "a": 12,
+        "b": 13,
+        "a_scene": 512,
+        "b_scene": 513,
+        "a_point": [
+          137,
+          97
+        ],
+        "b_point": [
+          181,
+          129
+        ],
+        "file": "np_lr_link_17_v1.png",
+        "points": [
+          [
+            137,
+            97
+          ],
+          [
+            150,
+            98
+          ],
+          [
+            150,
+            130
+          ],
+          [
+            166,
+            130
+          ],
+          [
+            181,
+            129
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 18,
+        "page": 1,
+        "a": 12,
+        "b": 10,
+        "a_scene": 512,
+        "b_scene": 514,
+        "a_point": [
+          132,
+          162
+        ],
+        "b_point": [
+          234,
+          275
+        ],
+        "file": "np_lr_link_18_v1.png",
+        "points": [
+          [
+            132,
+            162
+          ],
+          [
+            134,
+            150
+          ],
+          [
+            222,
+            150
+          ],
+          [
+            222,
+            270
+          ],
+          [
+            234,
+            275
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 19,
+        "page": 1,
+        "a": 10,
+        "b": 14,
+        "a_scene": 514,
+        "b_scene": 515,
+        "a_point": [
+          329,
+          254
+        ],
+        "b_point": [
+          609,
+          226
+        ],
+        "file": "np_lr_link_19_v1.png",
+        "points": [
+          [
+            329,
+            254
+          ],
+          [
+            330,
+            242
+          ],
+          [
+            330,
+            202
+          ],
+          [
+            622,
+            202
+          ],
+          [
+            622,
+            226
+          ],
+          [
+            609,
+            226
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 20,
+        "page": 1,
+        "a": 14,
+        "b": 11,
+        "a_scene": 515,
+        "b_scene": 516,
+        "a_point": [
+          516,
+          271
+        ],
+        "b_point": [
+          261,
+          280
+        ],
+        "file": "np_lr_link_20_v1.png",
+        "points": [
+          [
+            516,
+            271
+          ],
+          [
+            514,
+            286
+          ],
+          [
+            386,
+            286
+          ],
+          [
+            386,
+            266
+          ],
+          [
+            262,
+            266
+          ],
+          [
+            261,
+            280
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      },
+      {
+        "number": 21,
+        "page": 1,
+        "a": 11,
+        "b": 15,
+        "a_scene": 516,
+        "b_scene": 517,
+        "a_point": [
+          199,
+          347
+        ],
+        "b_point": [
+          139,
+          337
+        ],
+        "file": "np_lr_link_21_v1.png",
+        "points": [
+          [
+            199,
+            347
+          ],
+          [
+            186,
+            346
+          ],
+          [
+            186,
+            338
+          ],
+          [
+            154,
+            338
+          ],
+          [
+            139,
+            337
+          ]
+        ],
+        "empty_paper_grid_checked": true
+      }
+    ],
+    "header_offsets": [
+      968,
+      976,
+      392,
+      340,
+      400
+    ],
+    "status": "candidate; verification pending",
+    "baseline_sha1": "b5a0b8cd39ec092653fa78a643c6e156c0792b47",
+    "candidate_sha1": "00a13b8f4fa34201dafb67f99639959c112e7698",
+    "pages": 2,
+    "independent_fog_records": 17,
+    "save_namespace": "np_luocha3_%d.dat / NLR3",
+    "native_saves_modified": false,
+    "test_bridge_code_unchanged": true
+  },
+  "baseline_sha1": "4fcbb543ea1ff27e4a7ad4965a85c1a242bd5e61",
+  "candidate_sha1": "202d55090f16852968c4d97f4f8974999539bd73",
+  "status": "candidate; offline verification pending",
+  "map_test_bridge_unchanged": true,
+  "save_namespace_unchanged": true,
+  "resources_changed": [
+    "np_lp_road_27_v1.png",
+    "np_lp_road_827_v1.png"
+  ]
+}

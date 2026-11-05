@@ -1,0 +1,36 @@
+{
+  "symbols": {
+    "active": 7340032,
+    "frame": 7340080,
+    "gate_0": 7340627,
+    "gate_1": 7340663,
+    "gate_2": 7340699,
+    "gate_3": 7340735,
+    "save_guard": 7340771
+  },
+  "state": {
+    "magic": 7344128,
+    "version": 7344132,
+    "enabled": 7344136,
+    "heartbeat": 7344140,
+    "request": 7344144,
+    "ack": 7344148,
+    "scene": 7344152,
+    "x": 7344156,
+    "y": 7344160,
+    "result": 7344164,
+    "busy": 7344168,
+    "frames": 7344172,
+    "warps": 7344176,
+    "blocked_saves": 7344180
+  },
+  "origin": 7340032,
+  "scene_count": 556,
+  "code_size": 775,
+  "frame_target": 6226395,
+  "baseline_sha1": "a95e308bc2c28413c7617c37e67c0c723a71f7f0",
+  "candidate_sha1": "8da3294b577d2ef8bacd2446e2be74946a41913a",
+  "status": "development bridge; internal checks pending",
+  "lease_ms": 3000,
+  "normal_default": "disabled; expires when the controller heartbeat is absent"
+}

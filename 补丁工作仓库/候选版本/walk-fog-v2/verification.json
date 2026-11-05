@@ -1,0 +1,18 @@
+{
+  "status": "passed; gameplay acceptance pending",
+  "baseline_sha1": "5b166964c08dc517bbb782cc49f83a9374a047e1",
+  "candidate_sha1": "ce9c3bde38e20ae32233cae27a57e26ba3a36b80",
+  "checks": [
+    "exterior502 reveals locally with both optional native buffers zero; feather has >30 alpha levels; no whole-scene reveal",
+    "walking grows the persistent union, standing still is unchanged, neighboring unentered fragments stay hidden",
+    "invalid scene/leader/dimensions/coordinates/dialogue/battle/encounter excluded",
+    "actual scene transition reveals only a local brush in new cave and connection with both visited endpoints",
+    "real map frame: SDL lock/unlock, 307200 exact feather-alpha results at both alpha-byte positions, row padding/RGB intact, dirty cache, 25px marker centered, map close resumes",
+    "missing new overlay fails closed without invalid native draws",
+    "exact closed-save fingerprint retained; NMF2 feather pixels restore after rewind/restart/slot-switch, .sav untouched",
+    "absent/legacy/truncated/overlong/header/pixel corruption and same-length replaced native saves cannot import false exploration",
+    "thumbnail ignored; failed sidecar write nonfatal; new-game clears feather pixels/owned menu and preserves native prologue",
+    "only seven old map-helper entry jumps/PE sizes changed; all native original and accepted input/glow/audio/combat/settings code retained"
+  ],
+  "limits": "native x86 executed offline, SDL/file APIs substituted; actual game appearance/position/persistence acceptance pending; dynamic story targets not implemented"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed; user gameplay verification pending",
+  "baseline_sha1": "202d55090f16852968c4d97f4f8974999539bd73",
+  "candidate_sha1": "a3ada144aa8d4b051005deb155dbd283acc0fc00",
+  "checks": [
+    "17 actual x86 scene transforms and independent reveal masks match the approved translated atlas",
+    "real x86 validates NLR3 then rigidly migrates every byte incl clipped edges; visited/floor metadata retained; NLR4 reload is idempotent; corrupt old file rejected; no native save writes",
+    "scripted lotus intermediate positions still reveal passively while native input stays disabled",
+    "final chained native save callback writes NLR4/NLP1/NMF2 independently; native save bytes unchanged",
+    "lotus final alpha reaches real SDL surface; normal/completion route gates retain 13/14 links",
+    "94 resource dependencies pinned; all 3 marker PNGs clear 25px outputs from 400px master; only two map payloads/hooks change, native combat/motion/input untouched"
+  ],
+  "gameplay_tested": false,
+  "native_saves_modified": false,
+  "map_test_bridge_unchanged": true
+}

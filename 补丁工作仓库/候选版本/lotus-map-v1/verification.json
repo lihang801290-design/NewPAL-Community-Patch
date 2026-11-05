@@ -1,0 +1,17 @@
+{
+  "status": "passed; gameplay acceptance pending",
+  "baseline_sha1": "00a13b8f4fa34201dafb67f99639959c112e7698",
+  "candidate_sha1": "361ce26cc62f8599c39db98d9131c244dfb80b46",
+  "checks": [
+    "27/827 exact shared coordinate transform; separate progressive masks, radius60 and soft edge; both phase flag states accepted",
+    "invalid dimensions/party/battle-transition data cannot reveal",
+    "existing M event opens/closes lotus via new dispatch; unchanged native input chain",
+    "native variable changes normal/completion lotus routes; disabled actor events hide links; no other-stage overlay or link leakage",
+    "return-cave frame selection still reached through prior chain; lotus remains untouched",
+    "NLP1 exact two-mask roundtrip/restart and corruption rejection; old NLR3/NMF2 sidecars still written; native save bytes untouched",
+    "only five map hooks and PE sizes changed; old map code, test bridge, mouse, controller, combat and encounter code preserved"
+  ],
+  "map_test_bridge_unchanged": true,
+  "art_finalized": false,
+  "limits": "Offline x86 execution with SDL/file/native-variable APIs substituted; actual route availability, stage switching, rendering and movement need user gameplay tests."
+}

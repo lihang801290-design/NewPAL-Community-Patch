@@ -1,0 +1,28 @@
+{
+  "origin": 6164480,
+  "state": 6166528,
+  "tail_rva": 472140,
+  "tail_bytes": 74,
+  "motion_section_offset": 1438720,
+  "motion_section_size": 8192,
+  "changes": [
+    {
+      "offset": 1438720,
+      "old_sha256": "01cfd33692e319bed558eb2295d44946dbae1078f57f0851d1ae9b1b61b5c38f",
+      "new_sha256": "56cfb6a680b4361e66a7591ee7b7fc9f3def5220024ddaa02b020c3db230490d",
+      "size": 8192
+    },
+    {
+      "offset": 469068,
+      "old_hex": "89d0ba56555555f7ea89d08945dc8b45e40fbf481889c8ba56555555f7ea89d08945d4eb2590909090909090909090909090909090909090909090909090909090909090909090909090",
+      "new_hex": "8955dc8b45e40fbf4818894dd48b55ec8b423c83b8a00000000075108b4ddcd1e1894ddc8b55d4d1e28955d48b45ec8b480c81e10000000474108b55dcd1e28955dc8b45d4d1e08945d4",
+      "size": 74
+    }
+  ],
+  "native_tail_restored": true,
+  "legacy_fallback_no_longer_scaled": true,
+  "baseline_sha1": "361ce26cc62f8599c39db98d9131c244dfb80b46",
+  "candidate_sha1": "5d953f4b580295c0dd16c26d75a729ef13169731",
+  "status": "candidate; offline and gameplay verification pending",
+  "resources_changed": false
+}

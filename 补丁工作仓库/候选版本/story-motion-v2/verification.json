@@ -1,0 +1,32 @@
+{
+  "status": "passed; gameplay acceptance pending",
+  "baseline_sha1": "361ce26cc62f8599c39db98d9131c244dfb80b46",
+  "candidate_sha1": "5d953f4b580295c0dd16c26d75a729ef13169731",
+  "native_actor_register_comparisons": 4536,
+  "scripted_context_comparisons": 567,
+  "slow_fractional_steps": 486,
+  "recovery_cases": 4,
+  "radius_cases": 8,
+  "example": {
+    "raw": [
+      4,
+      2
+    ],
+    "old": [
+      1,
+      0
+    ],
+    "native": [
+      4,
+      2
+    ],
+    "fixed": [
+      4,
+      2
+    ]
+  },
+  "map_test_bridge_unchanged": true,
+  "resources_unchanged": true,
+  "changed_bytes": 662,
+  "limits": "Offline x86 instruction checks; lotus camera recovery and native scripted gameplay need a clean-save retest."
+}

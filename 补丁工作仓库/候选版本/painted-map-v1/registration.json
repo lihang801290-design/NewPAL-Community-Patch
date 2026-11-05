@@ -1,0 +1,171 @@
+{
+  "status": "native branch registration compiled; gameplay validation pending",
+  "tables": [
+    {
+      "scene": 502,
+      "width": 40,
+      "height": 30,
+      "offset": 0,
+      "entries": 1200
+    },
+    {
+      "scene": 498,
+      "width": 120,
+      "height": 75,
+      "offset": 4800,
+      "entries": 9000
+    },
+    {
+      "scene": 499,
+      "width": 100,
+      "height": 30,
+      "offset": 40800,
+      "entries": 3000
+    },
+    {
+      "scene": 518,
+      "width": 40,
+      "height": 30,
+      "offset": 52800,
+      "entries": 1200
+    }
+  ],
+  "lut_sha256": "11f197d3dca858add546bb9d5fa6a7e95ff368d7db72942faf138439fda54792",
+  "source_sha256": "314d4248185e1a2946b87f0e6fd3e70995ee4a45434cdc7eeeee1986a1f7dc2d",
+  "paper_sha256": "299575889ae72f399c2b6423a4432fd0b9bcd15fbb685271f5604a33a8107c3e",
+  "source_size": [
+    1500,
+    1049
+  ],
+  "scale_to_game": [
+    0.4266666666666667,
+    0.45757864632983797
+  ],
+  "layers": [
+    {
+      "file": "np_map_fragment_502_v1.png",
+      "x": 495,
+      "y": 348,
+      "required_mask": 1
+    },
+    {
+      "file": "np_map_fragment_498_v1.png",
+      "x": 19,
+      "y": 194,
+      "required_mask": 2
+    },
+    {
+      "file": "np_map_fragment_499_v1.png",
+      "x": 224,
+      "y": 64,
+      "required_mask": 4
+    },
+    {
+      "file": "np_map_fragment_518_v1.png",
+      "x": 14,
+      "y": 49,
+      "required_mask": 8
+    },
+    {
+      "file": "np_map_link_502_498_v1.png",
+      "x": 401,
+      "y": 386,
+      "required_mask": 3
+    },
+    {
+      "file": "np_map_link_498_499_v1.png",
+      "x": 59,
+      "y": 166,
+      "required_mask": 6
+    },
+    {
+      "file": "np_map_link_499_518_v1.png",
+      "x": 162,
+      "y": 121,
+      "required_mask": 12
+    }
+  ],
+  "branches": [
+    {
+      "scene": 502,
+      "edge": 0,
+      "native_points": 14,
+      "art_points": 49,
+      "dark_centerline_points": 3
+    },
+    {
+      "scene": 498,
+      "edge": 0,
+      "native_points": 98,
+      "art_points": 256,
+      "dark_centerline_points": 2
+    },
+    {
+      "scene": 498,
+      "edge": 1,
+      "native_points": 21,
+      "art_points": 40,
+      "dark_centerline_points": 0
+    },
+    {
+      "scene": 498,
+      "edge": 2,
+      "native_points": 192,
+      "art_points": 405,
+      "dark_centerline_points": 8
+    },
+    {
+      "scene": 498,
+      "edge": 3,
+      "native_points": 42,
+      "art_points": 113,
+      "dark_centerline_points": 0
+    },
+    {
+      "scene": 498,
+      "edge": 4,
+      "native_points": 8,
+      "art_points": 24,
+      "dark_centerline_points": 0
+    },
+    {
+      "scene": 499,
+      "edge": 0,
+      "native_points": 98,
+      "art_points": 246,
+      "dark_centerline_points": 4
+    },
+    {
+      "scene": 518,
+      "edge": 0,
+      "native_points": 29,
+      "art_points": 73,
+      "dark_centerline_points": 2
+    }
+  ],
+  "road_checks": [
+    {
+      "scene": 502,
+      "road_cells": 47,
+      "marker_centers_on_pale_floor": 47
+    },
+    {
+      "scene": 498,
+      "road_cells": 3150,
+      "marker_centers_on_pale_floor": 3150
+    },
+    {
+      "scene": 499,
+      "road_cells": 574,
+      "marker_centers_on_pale_floor": 574
+    },
+    {
+      "scene": 518,
+      "road_cells": 312,
+      "marker_centers_on_pale_floor": 312
+    }
+  ],
+  "live_samples": 77,
+  "method": "nearest corresponding native branch station + paired hand-painted centerline; bounded lateral offset;16px native cell-center lookup (quantization<=8worldpx each axis)",
+  "limitations": "painted schematic registration, not a pixel overlay of native scenery; art road widths differ; runtime event markers not part of this change"
+}

@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+credentials*
+secrets*
+*.key
+*.pem
+*.pfx
+*.p12
+*.sav
+*.dmp
+*.log
+__pycache__/
+.venv/
+node_modules/
+.local/
+dist/
+build/
+隐私核查_仅本机/
+# 发布附件在仓库外生成；公开仓库不纳入旧安装ZIP。

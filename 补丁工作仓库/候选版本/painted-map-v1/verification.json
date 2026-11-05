@@ -1,0 +1,26 @@
+{
+  "status": "passed; gameplay acceptance pending",
+  "baseline_sha1": "cc07ac4fb914c13edde4260e1158778a2ce01777",
+  "candidate_sha1": "5b166964c08dc517bbb782cc49f83a9374a047e1",
+  "checks": [
+    "each actually entered first-dream fragment is recorded while map closed;4 fragments union",
+    "invalid scene/leader/dimensions/position/script-transition never reveal",
+    "once exploration begins, a validated boss-hall scene entered directly into dialogue is retained",
+    "all16 masks draw exact painted fragments and only connectors whose BOTH endpoints are visited",
+    "real complete map frame uses registered icon position, preserves pause and M-close/resume",
+    "missing painted fragments fail closed; no invalid surface blit",
+    "native save notification preserved; sidecar binds entire file dual hash, byte length and slot; native .sav byte-identical",
+    "loading same saved state restores old visited mask, discards unsaved future exploration",
+    "process restart and switching save slots restore independent exploration",
+    "missing/truncated/overlong/corrupt sidecar clears future progress and leaves old native saves loadable",
+    "replaced save incl same-length edit, wrong slot and out-of-range mask rejected even with valid checksum",
+    "thumbnail/preview load does not change exploration or touch sidecars",
+    "sidecar write failure and short/missing native save are nonfatal; no native save writes",
+    "new game/init resets exploration and own map state, replays displaced native prologue exactly",
+    "412 exact native lookup-marker cases across all4 maps, boundaries/random cells and thiscall stack cleanup",
+    "invalid leader, unsupported scene and out-of-bounds positions never index beyond table",
+    "embedded LUT byte-equal; six scoped hooks plus PE size only; accepted Start/map/B/Esc/glow/controller/audio/combat payloads retained",
+    "all8 painted asset hashes verified; registration covers4083 native road cells and77 previously recorded live samples"
+  ],
+  "limits": "schematic branch registration with bounded lateral offsets,16-world-pixel cell quantization; actual visual alignment/save/reload still needs game acceptance; runtime story targets not implemented"
+}

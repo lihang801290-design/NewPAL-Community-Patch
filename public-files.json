@@ -1,0 +1,1435 @@
+{
+  "version": "v0.3.0-preview",
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/问题反馈.md",
+      "bytes": 453,
+      "sha256": "8a01ece99798b6c3de04f39bf21df997b367b19f566791c779f02f91b239b2ed"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 310,
+      "sha256": "7cbfde21a5f8b1ac266699e0c9216674d801db2f356caa3aef42f5f8474b9354"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 241,
+      "sha256": "505ac95450157977ea8312d1c269c58809e7ae6a3ee0d4b6871c3e26c619ed90"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1540,
+      "sha256": "7c28a0f7a652b32a02482cf2a018a8cabe439e5df1f4f1fdd768992c63b5507d"
+    },
+    {
+      "path": "assets/dream-reference/paper.png",
+      "bytes": 472914,
+      "sha256": "5764dba3b238f85600f3c84b406cfea765813ade1c4a7a6dc209d97530447ebf"
+    },
+    {
+      "path": "assets/dream-reference/style.png",
+      "bytes": 3189253,
+      "sha256": "1e196ea43b6f10da5f3e360ac04c242a4f157adca234705ec5b5fed9d35a988f"
+    },
+    {
+      "path": "assets/player-master-400.png",
+      "bytes": 61198,
+      "sha256": "40e5f2b3277729fba669aa9b72ca8d0d1738bd42a611c655e78cdcc680ab3e7b"
+    },
+    {
+      "path": "baseline.json",
+      "bytes": 19468,
+      "sha256": "dc57bfae2c3db9d46cfe55085173f3f5d5831ad53f898668127a718facaddcec"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 678,
+      "sha256": "61feb1ba387be24f2c3e465fb9af2f1d021ddf292ccb8932fdae52a97084067a"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1569,
+      "sha256": "ec9cb9dbcfe52e904fdf80c5d57369488504eccc40e532071a8e8dddd6946c7b"
+    },
+    {
+      "path": "docs/asset-provenance.json",
+      "bytes": 43344,
+      "sha256": "79a1c044b2fe004d1d80471c23257f9d11720f5fc3c176f74943c0108d390b80"
+    },
+    {
+      "path": "docs/current-validation.json",
+      "bytes": 391,
+      "sha256": "09613756d1d1cff8202b72331a066d7b08352894ad82b6096fe96ce5dc66fb52"
+    },
+    {
+      "path": "docs/images/map-overview.png",
+      "bytes": 1889637,
+      "sha256": "201e1d4c2f4755a5033e3de63c3f41a3e3abaac611bb914e74d5dfcbeef1252c"
+    },
+    {
+      "path": "docs/images/nameplate-preview.png",
+      "bytes": 2346742,
+      "sha256": "e75f709b65f8952d832924bfff6e4ebf89a74e75599b36dab0452d9d7daf7c35"
+    },
+    {
+      "path": "docs/source-modules.json",
+      "bytes": 27270,
+      "sha256": "b2360ddf08dae57639dd904cde718fbe1b6fa9b008035c4ac35ac68028844434"
+    },
+    {
+      "path": "docs/功能与状态.md",
+      "bytes": 2134,
+      "sha256": "231746bc12df5eb0cb393d90b9004a966cfaf48697931b2dd3184fe5ba253e20"
+    },
+    {
+      "path": "docs/发布检查.md",
+      "bytes": 1148,
+      "sha256": "bb7decb209a79df3b6f8f62738e284aa735120663a6e010daba6dae729a49eb3"
+    },
+    {
+      "path": "docs/发布维护流程.md",
+      "bytes": 1765,
+      "sha256": "4ddd87cbd5d4814f148f28c2cf3204fcb933853a0427e275481e6c34416d0fc2"
+    },
+    {
+      "path": "docs/地图制作规范.md",
+      "bytes": 2772,
+      "sha256": "21cb68487ad76146182da7fcf4c47e62a85c396f8bcbf23fea3b94910e62dfca"
+    },
+    {
+      "path": "docs/安装与还原.md",
+      "bytes": 1413,
+      "sha256": "d3a849a2915ce9b6b4ee19661cb20aa95f80da97c68003f0ab82e17b606a8a7f"
+    },
+    {
+      "path": "docs/工具说明.md",
+      "bytes": 2196,
+      "sha256": "dc38cf5037d4eb3eee3de83dce20b04b033f909d22e86ff733ee868770c807b3"
+    },
+    {
+      "path": "docs/开发入口.md",
+      "bytes": 1458,
+      "sha256": "994ed79b4a3295e54317673c660f59030378c52b3efc6a00be543356dc3c9cf6"
+    },
+    {
+      "path": "docs/构建与验证.md",
+      "bytes": 1886,
+      "sha256": "3e428dbe8ed78822ae49aee8246b9556afccab46e8e7a1d2fe3425bd3ac646e5"
+    },
+    {
+      "path": "docs/知识与模块索引.md",
+      "bytes": 3217,
+      "sha256": "5ca467591f550cdb9e89f9e4c148150e2c7c60058172e07038a80900a868605d"
+    },
+    {
+      "path": "docs/维护与隐私.md",
+      "bytes": 1831,
+      "sha256": "586fba45f7aa9ee06f143af8d0fc6ab8fac4051644dd617a0577091024aa4707"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 1307,
+      "sha256": "097c1dad24ac93b610945b829e0c366138081454d359a5d47ff0c241b251e476"
+    },
+    {
+      "path": "patch/latest.json.gz",
+      "bytes": 300562,
+      "sha256": "1c32914f48cb049e60a3e016946ae3b5c76d36eb26d6d7e342474d7a48535920"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2464,
+      "sha256": "d5839a117343abbe17c02467174c3b77bc3366432b6fcc503819788ddf261188"
+    },
+    {
+      "path": "requirements-map.txt",
+      "bytes": 46,
+      "sha256": "9c62754e9ccb5ae9cfe1ce969f5b95fbf238da69055426e02e757e74c3a4faaa"
+    },
+    {
+      "path": "Resource/np_lp_base_27_v1.png",
+      "bytes": 521554,
+      "sha256": "f9ba6a67fdf0a57b107222ce059b892b1b9f1e96f6a13706627ee67867d77a09"
+    },
+    {
+      "path": "Resource/np_lp_base_827_v1.png",
+      "bytes": 521554,
+      "sha256": "f9ba6a67fdf0a57b107222ce059b892b1b9f1e96f6a13706627ee67867d77a09"
+    },
+    {
+      "path": "Resource/np_lp_link_01_v1.png",
+      "bytes": 4027,
+      "sha256": "0867670481b3fc8abd0ecdda893bb552b8cb86ef420543342d9947c4583e1e2b"
+    },
+    {
+      "path": "Resource/np_lp_link_02_v1.png",
+      "bytes": 1455,
+      "sha256": "614a07034c674a1a4f19690e94bbf6100dbe6608383c12d664a9d3e4b305d293"
+    },
+    {
+      "path": "Resource/np_lp_link_03_v1.png",
+      "bytes": 1696,
+      "sha256": "06d87c65385f48144ff3c58cd63b103e116fb309888d3b87a665b8b766c1f699"
+    },
+    {
+      "path": "Resource/np_lp_link_04_v1.png",
+      "bytes": 2227,
+      "sha256": "be8dc40e357aef1e97706ae48d911eebbe4e1c1f067877bf22901599428f1850"
+    },
+    {
+      "path": "Resource/np_lp_link_05_v1.png",
+      "bytes": 1681,
+      "sha256": "92e97d10d17169c0b2a1e023e5472e0db30ca0b10a11d4e61bff187154c30b52"
+    },
+    {
+      "path": "Resource/np_lp_link_06_v1.png",
+      "bytes": 1755,
+      "sha256": "e9d22aeeb9dfd469fb1f1d9f97199bd58a1a2464b55dc6ce23188518b4623991"
+    },
+    {
+      "path": "Resource/np_lp_link_07_v1.png",
+      "bytes": 2336,
+      "sha256": "a90254fb5ba2236282a98d43cc0440b3460c7b882817cfbb1751fc3df59c80e8"
+    },
+    {
+      "path": "Resource/np_lp_link_08_v1.png",
+      "bytes": 1793,
+      "sha256": "730ee612d2300ccbbae1a00cf39d29f741841197cb58eb758fb9de31723ad267"
+    },
+    {
+      "path": "Resource/np_lp_link_09_v1.png",
+      "bytes": 1632,
+      "sha256": "8d68f59c89e7e98cc463f1ff27a65208f71a83ee8fd417429339b781cb30f97c"
+    },
+    {
+      "path": "Resource/np_lp_link_10_v1.png",
+      "bytes": 1853,
+      "sha256": "c62cbf6c4cb22d2b77e40b8d5c1f8f3a4782f0ea3c62fe7fc4d687779a865f35"
+    },
+    {
+      "path": "Resource/np_lp_link_11_v1.png",
+      "bytes": 1416,
+      "sha256": "e63a4581c307eef6e6deb4fa719d884091c70b1daef79331edf505a3f5a2c8de"
+    },
+    {
+      "path": "Resource/np_lp_link_12_v1.png",
+      "bytes": 1762,
+      "sha256": "1818697ce5ddf32d918b000c000c0af0c07fb2921290a217c2f663a9626b4a0d"
+    },
+    {
+      "path": "Resource/np_lp_link_13_v1.png",
+      "bytes": 1454,
+      "sha256": "17f4c9e6960ca5f8c5343e6a862f4dc2f6ab277de4ec9b3b8c95c33932de1a41"
+    },
+    {
+      "path": "Resource/np_lp_link_14_v1.png",
+      "bytes": 3705,
+      "sha256": "ff130b3045c692692f5eef5a7a8ce3ed22c7ca73d2454dc8b358137759b14505"
+    },
+    {
+      "path": "Resource/np_lp_link_15_v1.png",
+      "bytes": 2868,
+      "sha256": "42a7c29f6d37607a4677767afa8b17b4af2828691cd43c88b27968b129c6705f"
+    },
+    {
+      "path": "Resource/np_lp_road_27_v1.png",
+      "bytes": 279843,
+      "sha256": "5c4589184592de4998c8285cf0d790a437912708a82eccc3926720c819ee9a79"
+    },
+    {
+      "path": "Resource/np_lp_road_827_v1.png",
+      "bytes": 277265,
+      "sha256": "ede5a4d85d9424c8c8018690c71a80e696c85c02237a2b7776365ea454722b48"
+    },
+    {
+      "path": "Resource/np_lr_base_502_v1.png",
+      "bytes": 520701,
+      "sha256": "86b4d6cfe9f2aeae22ce4f2bba703c89f549623edfd980aec99db3de793682c8"
+    },
+    {
+      "path": "Resource/np_lr_base_503_v1.png",
+      "bytes": 523749,
+      "sha256": "b7d6b3f30af9f3755d7a2f42571ff4a207403439f7b4e584e2fb87031a8c4ecf"
+    },
+    {
+      "path": "Resource/np_lr_base_504_v1.png",
+      "bytes": 522016,
+      "sha256": "f076f7e0f04b2084bdf0e3202a1fd2aab364be52bd26198869b1cd37ac3dc30a"
+    },
+    {
+      "path": "Resource/np_lr_base_505_v1.png",
+      "bytes": 521779,
+      "sha256": "a2340d7d0ab046c29a21ab4f207601a20c01f8ffafb3528f9579489383cb9e06"
+    },
+    {
+      "path": "Resource/np_lr_base_506_v1.png",
+      "bytes": 521995,
+      "sha256": "42dc467b8aab59d16b80d1381b3b3ad838a6e076e7830e8cec0f7ada25156dd2"
+    },
+    {
+      "path": "Resource/np_lr_base_507_v1.png",
+      "bytes": 521389,
+      "sha256": "0555415e8b81b149171806df3b429616e5f90edd529e0d9ddd959a86c402c08a"
+    },
+    {
+      "path": "Resource/np_lr_base_508_v1.png",
+      "bytes": 522083,
+      "sha256": "34e9372041d7df8013c45fb92a35a90b99332718535756ab2407c1d998e33555"
+    },
+    {
+      "path": "Resource/np_lr_base_509_v1.png",
+      "bytes": 521355,
+      "sha256": "c5db921c1461b2353749d5948a684b5b3f09cbe167f99e1728d3571db1ed2f32"
+    },
+    {
+      "path": "Resource/np_lr_base_510_v1.png",
+      "bytes": 521831,
+      "sha256": "b1703f05d3881bdc7a572c9233abe2891c8848f5dfb7db141f69944dcab8a599"
+    },
+    {
+      "path": "Resource/np_lr_base_511_v1.png",
+      "bytes": 525062,
+      "sha256": "a4fa8719df8b12d3136b227cc61046c27ae9a4453430fc1cdf832a2084647086"
+    },
+    {
+      "path": "Resource/np_lr_base_512_v1.png",
+      "bytes": 522938,
+      "sha256": "4878d46af69dbfe6d6f640ad0994e0df3336db8f749fd8a541ee343c85277751"
+    },
+    {
+      "path": "Resource/np_lr_base_513_v1.png",
+      "bytes": 522148,
+      "sha256": "6daf65fb5d60b0964c3e377e8a10271918f0f8301d0f28403a3e697744c76eef"
+    },
+    {
+      "path": "Resource/np_lr_base_514_v1.png",
+      "bytes": 522399,
+      "sha256": "54289992892e731e83e5781214c3318bf2977af3659b206cd21569aa40b89d60"
+    },
+    {
+      "path": "Resource/np_lr_base_515_v1.png",
+      "bytes": 521784,
+      "sha256": "bf24826a897f1dc22e749e1880fa5bd1e6d00a2c2fcecbf54a3b0818171a8795"
+    },
+    {
+      "path": "Resource/np_lr_base_516_v1.png",
+      "bytes": 522452,
+      "sha256": "f612e188c43357d112de0aff2909993acaed8f2f56008412fd35ae0f7c4699fb"
+    },
+    {
+      "path": "Resource/np_lr_base_517_v1.png",
+      "bytes": 521786,
+      "sha256": "40b697210507be61e13ef2f4c07f5e1023a72f0b230ce42cec4ce09a8db8a53a"
+    },
+    {
+      "path": "Resource/np_lr_base_518_v1.png",
+      "bytes": 521121,
+      "sha256": "1d50ee3da42545066ba4285a9efba486a33c2ccd90d4d8aaa5a68c0ec90860e5"
+    },
+    {
+      "path": "Resource/np_lr_label_00_v1.png",
+      "bytes": 2171,
+      "sha256": "4df1c43abce1158a8efd0f55052d5543b70df403c0aa211a4a526d5e6548a9e6"
+    },
+    {
+      "path": "Resource/np_lr_label_01_v1.png",
+      "bytes": 2157,
+      "sha256": "02aa327bb3e39eda7a62318db97a7346e838b7e2e77118bdfa6252222af1b7d9"
+    },
+    {
+      "path": "Resource/np_lr_label_02_v1.png",
+      "bytes": 3974,
+      "sha256": "3dd327fabff65bc4e89dd5135eb5e09b2ec78da2e580e83d90ee63d6c12c9395"
+    },
+    {
+      "path": "Resource/np_lr_label_03_v1.png",
+      "bytes": 3267,
+      "sha256": "ec518d29fee7882ba8ae19e0d0031b9f66f25febb9565cc93b3879e26a355e71"
+    },
+    {
+      "path": "Resource/np_lr_label_04_v1.png",
+      "bytes": 3392,
+      "sha256": "d308d655bfb95ac8428676ec6c18d07f95ebe8c0af4799eac75644edccd4fb93"
+    },
+    {
+      "path": "Resource/np_lr_label_05_v1.png",
+      "bytes": 3389,
+      "sha256": "6fa5ca6624c1eeadd76c8c891b31820be095ae867741f8ca9ad687fb48d0a7f5"
+    },
+    {
+      "path": "Resource/np_lr_label_06_v1.png",
+      "bytes": 3388,
+      "sha256": "0677f3e4a682de66ac48c45e1729f61739e727218dce4eb9309419d26f38c0d4"
+    },
+    {
+      "path": "Resource/np_lr_label_07_v1.png",
+      "bytes": 2157,
+      "sha256": "02aa327bb3e39eda7a62318db97a7346e838b7e2e77118bdfa6252222af1b7d9"
+    },
+    {
+      "path": "Resource/np_lr_label_08_v1.png",
+      "bytes": 3425,
+      "sha256": "48db71a70eedd95d7f65b99109fcbb7356debdee8ebaf7dd2e25456e0a9f2f89"
+    },
+    {
+      "path": "Resource/np_lr_label_09_v1.png",
+      "bytes": 3458,
+      "sha256": "366ff48267bd5b9c61608a1a3265eda2c8ecbcd1bf43d6e5c45ee5e62902401b"
+    },
+    {
+      "path": "Resource/np_lr_label_10_v1.png",
+      "bytes": 3313,
+      "sha256": "22acc02f6c298fbde64a616b96ee0c9d853e10b393fa39b7fa7a00409775eda6"
+    },
+    {
+      "path": "Resource/np_lr_label_11_v1.png",
+      "bytes": 3392,
+      "sha256": "d308d655bfb95ac8428676ec6c18d07f95ebe8c0af4799eac75644edccd4fb93"
+    },
+    {
+      "path": "Resource/np_lr_label_12_v1.png",
+      "bytes": 2198,
+      "sha256": "e0727fb8e2e93153a11fa6edb98c4dac76ebeb1422ae68a37a412423a71952f3"
+    },
+    {
+      "path": "Resource/np_lr_link_01_v1.png",
+      "bytes": 1926,
+      "sha256": "1f5fee8201ba275ba00d32196bc022218e847da4828a99de61ccf77ce226ea0c"
+    },
+    {
+      "path": "Resource/np_lr_link_02_v1.png",
+      "bytes": 1708,
+      "sha256": "923634c9d13768ec86e76fb3d9535d143359acb8ed947eb879ccd84e8053fa22"
+    },
+    {
+      "path": "Resource/np_lr_link_03_v1.png",
+      "bytes": 1546,
+      "sha256": "ad21cc72ece83242e1505286450cbab8386cd178bf4630cf932727ad5a092415"
+    },
+    {
+      "path": "Resource/np_lr_link_04_v1.png",
+      "bytes": 2132,
+      "sha256": "9844bc2ec0957cfd37780dd7524028afe122f26b8b722a10df9fa96a274fea27"
+    },
+    {
+      "path": "Resource/np_lr_link_05_v1.png",
+      "bytes": 1507,
+      "sha256": "dfa05dd42c72dc54b4afb4096efbeb0b4788f3736799aa60357df724e8d635eb"
+    },
+    {
+      "path": "Resource/np_lr_link_06_v1.png",
+      "bytes": 1520,
+      "sha256": "c0bc76fe39cac2b8a5d395f43517fe286c78efaf8aa51b5bcfaa3cfecc58ecb6"
+    },
+    {
+      "path": "Resource/np_lr_link_07_v1.png",
+      "bytes": 1628,
+      "sha256": "09168744364ed9ef976c8a21c8601dca47103e0d0f90114c311f6ca1b03c4cba"
+    },
+    {
+      "path": "Resource/np_lr_link_08_v1.png",
+      "bytes": 1622,
+      "sha256": "29542cb9c7f37e082472d8f1afeed56048bb77c2279125e5244d6e10af1ad055"
+    },
+    {
+      "path": "Resource/np_lr_link_09_v1.png",
+      "bytes": 1569,
+      "sha256": "343e333afb4fa5ae4a583a01fee629ccc9e324a1a60607c70bc1fa6573cc92e7"
+    },
+    {
+      "path": "Resource/np_lr_link_10_v1.png",
+      "bytes": 1681,
+      "sha256": "456b90c9557f2c0dd7948e592e7c437b6cd940eb1d1e712b460e9bc65bf773c0"
+    },
+    {
+      "path": "Resource/np_lr_link_12_v1.png",
+      "bytes": 2352,
+      "sha256": "5fc13785b3801a600326a1240f2e102414f95b763ba97324517418f29762fd0c"
+    },
+    {
+      "path": "Resource/np_lr_link_13_v1.png",
+      "bytes": 2124,
+      "sha256": "017fa7f771a3de10cad7e60940ab70ce16e5e931efb6f7e55a5c739e2ea89c3e"
+    },
+    {
+      "path": "Resource/np_lr_link_14_v1.png",
+      "bytes": 2019,
+      "sha256": "8f1508a60d39e4dc2d4e1ded8a8c9cca4dc66a00ff8dc8a01c31d7652fe33a96"
+    },
+    {
+      "path": "Resource/np_lr_link_15_v1.png",
+      "bytes": 1497,
+      "sha256": "1616a8f4df3b734bd5e3d99d64b2d2042c9c418c31b2ccb92f5a9c2f3fdbfb6d"
+    },
+    {
+      "path": "Resource/np_lr_link_16_v1.png",
+      "bytes": 1592,
+      "sha256": "387d08ccdd593981b4898a4bae5d2a1fcc4b94c6d96389f372a954680b060a4c"
+    },
+    {
+      "path": "Resource/np_lr_link_17_v1.png",
+      "bytes": 1457,
+      "sha256": "0c8c800e8ef0579762a690018cbe90b1ca680fbecd0afa7d5c2ae57aa59040df"
+    },
+    {
+      "path": "Resource/np_lr_link_18_v1.png",
+      "bytes": 1876,
+      "sha256": "f97d94b421fdcb9a4b7cc825e31591daea2041ef83220213177270fb673a2f31"
+    },
+    {
+      "path": "Resource/np_lr_link_19_v1.png",
+      "bytes": 2158,
+      "sha256": "7962e947aaf67e7d60905a55a4cde04b1148932bf6ea501097eccce3d4b299b1"
+    },
+    {
+      "path": "Resource/np_lr_link_20_v1.png",
+      "bytes": 1947,
+      "sha256": "5c07092034f6bc086eaaa9c25c909a3f44b1cda646cd28d60ecef5eaaa9dc9cf"
+    },
+    {
+      "path": "Resource/np_lr_link_21_v1.png",
+      "bytes": 1546,
+      "sha256": "23a899a482a02673ea23a6f04fbec9c70947433ba6e3aabf08cab67c8b561cd1"
+    },
+    {
+      "path": "Resource/np_lr_player_v1.png",
+      "bytes": 1736,
+      "sha256": "71ba35a37b6707526677cddb1a8dc41a4fbbbbac4a36d3a927f32598b5ac1d48"
+    },
+    {
+      "path": "Resource/np_lr_road_502_v1.png",
+      "bytes": 294122,
+      "sha256": "56525d4c97391ee8ee87f5a02b7a3fa261a46167999d0d68e312b41f0edf70a0"
+    },
+    {
+      "path": "Resource/np_lr_road_503_v1.png",
+      "bytes": 386242,
+      "sha256": "5e7c39574069ef36f2d0e5a51f69b1926ae71b45794a23ca7d127531f9fa293b"
+    },
+    {
+      "path": "Resource/np_lr_road_504_v1.png",
+      "bytes": 311705,
+      "sha256": "354cdfa316a1083612ccd9314a996180bead18152b959ab4ba3ea6f4930db746"
+    },
+    {
+      "path": "Resource/np_lr_road_505_v1.png",
+      "bytes": 320154,
+      "sha256": "d23a54b380806a016a3f218989da1fce8e66bbbedb815344bedba584244e5ac8"
+    },
+    {
+      "path": "Resource/np_lr_road_506_v1.png",
+      "bytes": 346934,
+      "sha256": "ade77087df4d1374d9f09c15d4d5cded8af3a496f175c68e2ad3c1e62924e217"
+    },
+    {
+      "path": "Resource/np_lr_road_507_v1.png",
+      "bytes": 317578,
+      "sha256": "f6e3a317a4a368fb8a3a0b24d4882643d30abe951184dd5863b9c0fe6d51cb95"
+    },
+    {
+      "path": "Resource/np_lr_road_508_v1.png",
+      "bytes": 317697,
+      "sha256": "6cd6cac6c43b468c5cee0c7f65eff1358079d7b4a0e421f8001c9e76b8feaf4b"
+    },
+    {
+      "path": "Resource/np_lr_road_509_v1.png",
+      "bytes": 323471,
+      "sha256": "1aace319b498682d60a985e8664d944c2729788cb7fbcc7d28459c04a081560a"
+    },
+    {
+      "path": "Resource/np_lr_road_510_v1.png",
+      "bytes": 310131,
+      "sha256": "f2d5195a8963445273b421310ae209d72879bc1b206ea5bd9cba15091d77c6cf"
+    },
+    {
+      "path": "Resource/np_lr_road_511_v1.png",
+      "bytes": 368458,
+      "sha256": "30437def2e5f1abb36e12abeb5c41985cdffa00ea196b1d4c61b10cb1c75a4a9"
+    },
+    {
+      "path": "Resource/np_lr_road_512_v1.png",
+      "bytes": 314525,
+      "sha256": "22b2c182bfdfeaa34dbaa8bcfa63f045b07ffbfaaf8d0a99574efda18dcd9223"
+    },
+    {
+      "path": "Resource/np_lr_road_513_v1.png",
+      "bytes": 314151,
+      "sha256": "d7a3dfdb59328ffa1a523d247ee847e97f12db34eda64cf2ed1b65dd5ec5a601"
+    },
+    {
+      "path": "Resource/np_lr_road_514_v1.png",
+      "bytes": 312138,
+      "sha256": "c3ade944d9ff9664b523feb4621e3f540251370b3f2be1f812f006542c989380"
+    },
+    {
+      "path": "Resource/np_lr_road_515_v1.png",
+      "bytes": 308775,
+      "sha256": "f01b3bdca6b0a5b71db2942150cecd9c1e8158083fe4ea64674fc4342e7c483f"
+    },
+    {
+      "path": "Resource/np_lr_road_516_v1.png",
+      "bytes": 318573,
+      "sha256": "90719868bdda26961db5affa2725e1b6a5717e635b4b2248a273598890372bae"
+    },
+    {
+      "path": "Resource/np_lr_road_517_v1.png",
+      "bytes": 323636,
+      "sha256": "3e6d443e7b5b9ea640493e422811dcc9d57450c2e78b3b86955f0e33db0e0f8d"
+    },
+    {
+      "path": "Resource/np_lr_road_518_v1.png",
+      "bytes": 300230,
+      "sha256": "2585e4d15a5839d4d71bfcd247b19f90da615fd1fbe96e54009069a77109d3ec"
+    },
+    {
+      "path": "Resource/np_map_fog_base_v1.png",
+      "bytes": 521344,
+      "sha256": "784e259b0ed59d5d96cd8c0f499ca0cc3cb732ab0806cf6f1c84751753717fa4"
+    },
+    {
+      "path": "Resource/np_map_fragment_498_v1.png",
+      "bytes": 277522,
+      "sha256": "f4b56dee79971e8988dd50fd251715cfe47ad3b6f9d686164d4180af961e732e"
+    },
+    {
+      "path": "Resource/np_map_fragment_499_v1.png",
+      "bytes": 91222,
+      "sha256": "da338bab3f2d672ebf58cdcb6b73913366f42dc1add58084f21729ba7bc8199a"
+    },
+    {
+      "path": "Resource/np_map_fragment_502_v1.png",
+      "bytes": 31257,
+      "sha256": "1bad4fb03b0f6f4f95961bc8b5dbbccd8966b55e3d28973845dcedda4e4900b2"
+    },
+    {
+      "path": "Resource/np_map_fragment_518_v1.png",
+      "bytes": 48672,
+      "sha256": "3bd8d2b31250750908a063d39ba86f623164f06cb8764610a675e2220978a655"
+    },
+    {
+      "path": "Resource/np_map_label_498_v1.png",
+      "bytes": 3791,
+      "sha256": "5e921e90b5cddc85005a0aae0a0b875f00190af8b2213b6a42e8e69980f3c2a4"
+    },
+    {
+      "path": "Resource/np_map_label_499_v1.png",
+      "bytes": 4145,
+      "sha256": "c2cde34853dacbe666d1e441aa041c6e3cdf741970c7e6b858ce7617e9d94299"
+    },
+    {
+      "path": "Resource/np_map_label_502_v1.png",
+      "bytes": 4095,
+      "sha256": "8478979b43b028bcb9ca7738e2d4f3a8c793dc71996cd4d68ed4b21c3bf4ac4b"
+    },
+    {
+      "path": "Resource/np_map_label_518_v1.png",
+      "bytes": 5028,
+      "sha256": "40aa64e5685fe451bab25f7c81056f705dc2bd8e97c58b978b0606ea4224ec44"
+    },
+    {
+      "path": "Resource/np_map_link_498_499_v1.png",
+      "bytes": 59827,
+      "sha256": "54b2fd7152d2dc8a348945d3f769e4da591b40f51db4c56da3a4efbb2c154ce3"
+    },
+    {
+      "path": "Resource/np_map_link_499_518_v1.png",
+      "bytes": 5068,
+      "sha256": "18f6121e63d7c175dcbf2e34c50a7597fb4db01a33f09dcadacdb017a27056a3"
+    },
+    {
+      "path": "Resource/np_map_link_502_498_v1.png",
+      "bytes": 14440,
+      "sha256": "8a7d8267747a9f8fc2e1669010bcefde9020f89c089ae59ff72c197b9a7610a8"
+    },
+    {
+      "path": "Resource/np_map_luocha_v1.png",
+      "bytes": 173081,
+      "sha256": "ff8ae1f434600637a82545369171bf5204a6fb8753cead622224cf317f61127e"
+    },
+    {
+      "path": "Resource/np_map_player_v1.png",
+      "bytes": 1736,
+      "sha256": "71ba35a37b6707526677cddb1a8dc41a4fbbbbac4a36d3a927f32598b5ac1d48"
+    },
+    {
+      "path": "Resource/np_map_player_v2.png",
+      "bytes": 1736,
+      "sha256": "71ba35a37b6707526677cddb1a8dc41a4fbbbbac4a36d3a927f32598b5ac1d48"
+    },
+    {
+      "path": "Resource/np_map_walk_overlay_v2.png",
+      "bytes": 475951,
+      "sha256": "90f78c1208d2ccf28541eb73a72d3f43da0b78586c8613f1502fec03c44ce707"
+    },
+    {
+      "path": "Resource/np_option_off_0.png",
+      "bytes": 79423,
+      "sha256": "7cfd83940759fa315e066fb1949c843c0bb23e8e1629ab35d914c8fbdfdd6c7d"
+    },
+    {
+      "path": "Resource/np_option_off_1.png",
+      "bytes": 79481,
+      "sha256": "37698c6d455ef37b4982139630cf6436f579f5bda2049c66c48600e296229752"
+    },
+    {
+      "path": "Resource/np_option_off_2.png",
+      "bytes": 78873,
+      "sha256": "344bf993d12ef0e6b4bfc5f59a6c3b12f2e2a257a34a161ed7496fea9ba396fc"
+    },
+    {
+      "path": "Resource/np_option_off_3.png",
+      "bytes": 78312,
+      "sha256": "c9534a9e385a28330aabf1e42373b4c22ee02d4fe75936af7fcc5520dbb1c1c1"
+    },
+    {
+      "path": "Resource/np_option_on_0.png",
+      "bytes": 79445,
+      "sha256": "73201ef1c63803cebb8506c7ae770f990193ca9e325c9a037f1eb81fd854ca71"
+    },
+    {
+      "path": "Resource/np_option_on_1.png",
+      "bytes": 79503,
+      "sha256": "614a041cd0ba9d401ae6bab2e781105a5781aa55ac53fa6152192ba0b87f6c84"
+    },
+    {
+      "path": "Resource/np_option_on_2.png",
+      "bytes": 78940,
+      "sha256": "282b493a59645703a7273d4edcaa27183e9fae8c514653e09fefbeb8e6ba1e31"
+    },
+    {
+      "path": "Resource/np_option_on_3.png",
+      "bytes": 78326,
+      "sha256": "a3ec7e77b348781fb69aa605cfd51c4c4be8fbcb693ef08509194162d2abd752"
+    },
+    {
+      "path": "third_party/Expat-COPYING",
+      "bytes": 1144,
+      "sha256": "122f2c27000472a201d337b9b31f7eb2b52d091b02857061a8880371612d9534"
+    },
+    {
+      "path": "third_party/libffi-LICENSE",
+      "bytes": 1132,
+      "sha256": "a61d06e8f7be57928e71e800eb9273b05cb8868c484108afe41e4305bb320dde"
+    },
+    {
+      "path": "third_party/license-sources.json",
+      "bytes": 1091,
+      "sha256": "0cd74278484b12a297822c1ceeff9b1bc68f13ba6886e034a7a683ca924646aa"
+    },
+    {
+      "path": "third_party/numpy/LICENSE.txt",
+      "bytes": 47709,
+      "sha256": "14256cc3a2c9d32ac284da96b937feb44f72dd90bee2317ac3020166846ad99d"
+    },
+    {
+      "path": "third_party/pefile/LICENSE",
+      "bytes": 1083,
+      "sha256": "b44409c067c6da52bfb54bb6624fb11a7b52157c3a13ae1400232f8196e86ad3"
+    },
+    {
+      "path": "third_party/Pillow/licenses/LICENSE",
+      "bytes": 78016,
+      "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+    },
+    {
+      "path": "third_party/pyinstaller/licenses/COPYING.txt",
+      "bytes": 32138,
+      "sha256": "dcf75fdb959db1e3b41c0f8505069d2ece781b5ec6b3d0a4d30975cfc6580245"
+    },
+    {
+      "path": "third_party/Python-3.10.8-LICENSE.txt",
+      "bytes": 32762,
+      "sha256": "792fd2d8227bb8785d144c40359b38d752842754e458102ba436fd46252763f3"
+    },
+    {
+      "path": "third_party/Tcl-8.6.12-license.terms",
+      "bytes": 2255,
+      "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+    },
+    {
+      "path": "third_party/Tk-8.6.12-license.terms",
+      "bytes": 2267,
+      "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+    },
+    {
+      "path": "third_party/zlib-notice.txt",
+      "bytes": 1330,
+      "sha256": "4bd59a27fe892346c23d09e48c32e83636e8f539fe389cd40e670ccf4cac138b"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 3818,
+      "sha256": "a3792ae6cbd2bdf45aa962d5a842a3367394ea0e2d1e65ed27a6c7226a610341"
+    },
+    {
+      "path": "tool-baseline.json",
+      "bytes": 293,
+      "sha256": "3fbd00d32ce25e4a30655c374c4313cfe116eae9a7b89e89dbbf21e116ee1091"
+    },
+    {
+      "path": "tools/build_current.py",
+      "bytes": 2367,
+      "sha256": "89393b80924583439dfd4fadb68430fdcd604fa3c07a8fb1089bea8ed1873e14"
+    },
+    {
+      "path": "tools/check_repository.py",
+      "bytes": 1766,
+      "sha256": "8e674646987290f489ca8f2449497fb398316b8300d76521dfd787e653f29aef"
+    },
+    {
+      "path": "tools/freeze_release.py",
+      "bytes": 2136,
+      "sha256": "86f4e96449404eaee44331b239e5792b94242b387e3fa9ff15cee269444b6043"
+    },
+    {
+      "path": "tools/pack_release.py",
+      "bytes": 2963,
+      "sha256": "943670c799f54bc5b6555b7c0e8fdc6e436b365b9d4a21d13444f57ca0a924a5"
+    },
+    {
+      "path": "tools/verify_map_source.py",
+      "bytes": 2234,
+      "sha256": "d592928283d4e8ee8f76a90117278cfda03a74a95526bc147c9eab88697364fc"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/dream-map-isolation-v1/candidate.json",
+      "bytes": 658,
+      "sha256": "916c7d465ca97df33527c37d391bc7c399150013e42f8cceed388d21a28887e1"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/dream-map-isolation-v1/verification.json",
+      "bytes": 1074,
+      "sha256": "70bbf6aaa2dc31646b0d557d5ad045294da6470deacff4f3ada3f64a680e8782"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/dungeon-map-v2/candidate.json",
+      "bytes": 1266,
+      "sha256": "995b14ab5a9e346e19238677bb4c70cc0a788a964733e2fffd68e98cbc0da5b5"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/dungeon-map-v2/verification.json",
+      "bytes": 2380,
+      "sha256": "d1dc5605ec6cc775f67b43bb87034346b7251bb47acd627634e3cc30be6d2fde"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/lotus-map-v1/alpha.bin",
+      "bytes": 614400,
+      "sha256": "08b8ff09921b9e304edd947ad7f222d7843c0cb7c3cfea95f4e237c27576834a"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/lotus-map-v1/atlas.json",
+      "bytes": 15254,
+      "sha256": "422379926d49bf1a7f5054c6ce56e9bad7f3d36ccede785f64dfe4108fbeb9c2"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/lotus-map-v1/candidate.json",
+      "bytes": 53459,
+      "sha256": "ef386146be30ab7f65e132a255a7468e7c639dfa95c8044696ca807bc9e8d0a5"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/lotus-map-v1/verification.json",
+      "bytes": 1245,
+      "sha256": "8779ddeaf9197032f521a996657ade7231f9590b1f75bf8ec66121bf4923e663"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/lotus-map-v2/alpha.bin",
+      "bytes": 614400,
+      "sha256": "723b552e0885612607397fd6d59d19f0e0e191ab3a00f035e7da38d41726e23d"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/lotus-map-v2/atlas.json",
+      "bytes": 15254,
+      "sha256": "422379926d49bf1a7f5054c6ce56e9bad7f3d36ccede785f64dfe4108fbeb9c2"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/lotus-map-v2/candidate.json",
+      "bytes": 53411,
+      "sha256": "54e05c752e11f074e02540327bb4aa98c321e10e4cac1ac7ce9f8d2f8cb44d0b"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/lotus-map-v2/verification.json",
+      "bytes": 1698,
+      "sha256": "bd66a9fc6a237bc9e614ff232e11cdc9c04911e8c9a18f5d46babc12af5a935f"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/luocha-compact-v5-preview/alpha.bin",
+      "bytes": 5222400,
+      "sha256": "9e30ec1f71af0f33f95bff99e52e973d5dd93ef2dfbeedaa356d969f71939cc5"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/luocha-compact-v5-preview/atlas.json",
+      "bytes": 45276,
+      "sha256": "1fef5a62b820c160db5c36bb2ca211a3b992f119e0910ec4c40182d75400b346"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/luocha-compact-v5-preview/verification.json",
+      "bytes": 22561,
+      "sha256": "13839c948d5b23db4d839fe91933114195dca92b09191bcae8f59a24bf45c63e"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/luocha-compact-v6-preview/alpha.bin",
+      "bytes": 5222400,
+      "sha256": "9e30ec1f71af0f33f95bff99e52e973d5dd93ef2dfbeedaa356d969f71939cc5"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/luocha-compact-v6-preview/atlas.json",
+      "bytes": 45024,
+      "sha256": "1e94df453e1b523063c177866ae4022a04061ce576c748c05df4674ca5681673"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/luocha-compact-v6-preview/verification.json",
+      "bytes": 24603,
+      "sha256": "af232dfbdde794141f0edb55a012128fadca9be0c58df6558e237d6ee0d78e42"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/luocha-compact-v6-preview/连接修订.json",
+      "bytes": 1372,
+      "sha256": "945b3cb2e72a3b39246c6e9dcf2ff2cdfb55fb82fcf144ca5e9a08d854308fce"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/luocha-return-v1/alpha.bin",
+      "bytes": 5222400,
+      "sha256": "56db37bcbaf834c12775e79f5525ff3c630cbc3303dfa563a16fc0b7e165d25d"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/luocha-return-v1/atlas.json",
+      "bytes": 44731,
+      "sha256": "e92ad35b9c195c17ba1c7a8e87639f1d02f94ef10d64ddcee62079b21b266681"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/luocha-return-v1/candidate.json",
+      "bytes": 33247,
+      "sha256": "04252f275988ad505051104402e03b001c2452eb3cb6d87d761d09708dc73389"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/luocha-return-v1/verification.json",
+      "bytes": 2285,
+      "sha256": "32c8e2d902e41760380e55d17384ad40bc44992ce63c9fa5bb394a638c8c889a"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/luocha-style-v2-20261104/style-verification.json",
+      "bytes": 24624,
+      "sha256": "7f1a03c598eb0e6c121843119326e60a16f3d4e0bb0bbcbe18b88c91e73d91a0"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/luocha-style-v2-20261104/梦境画风材质参考.png",
+      "bytes": 2572647,
+      "sha256": "1e95978b001e8394257cfdff894d82d1bb9c2b1068f7cb44ab0056dd865c6fd6"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-art-runtime-v6/alpha.bin",
+      "bytes": 5222400,
+      "sha256": "9e30ec1f71af0f33f95bff99e52e973d5dd93ef2dfbeedaa356d969f71939cc5"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-art-runtime-v6/candidate.json",
+      "bytes": 56835,
+      "sha256": "0450e4a90fb5a18737e1e5168b4d709323654c8761d7e6c7d7c3faac502b143a"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-art-runtime-v6/cave-atlas.json",
+      "bytes": 45024,
+      "sha256": "adb453bbaf82912136074626c88d8d1665985ee18c26fb6414de7c4596932066"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-art-runtime-v6/lotus-alpha.bin",
+      "bytes": 614400,
+      "sha256": "696b0d5a908e03bc83f7a84a40053afda1c6383bf27c17e6aabacbb5256042e8"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-art-runtime-v6/lotus-atlas.json",
+      "bytes": 15254,
+      "sha256": "422379926d49bf1a7f5054c6ce56e9bad7f3d36ccede785f64dfe4108fbeb9c2"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-art-runtime-v6/lotus-data/alpha.bin",
+      "bytes": 614400,
+      "sha256": "696b0d5a908e03bc83f7a84a40053afda1c6383bf27c17e6aabacbb5256042e8"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-art-runtime-v6/verification.json",
+      "bytes": 1095,
+      "sha256": "e205ece9162589c4ee50539b84de5d828a45f1df421d513ba3f02115b70bd6c6"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-nameplates-v1/alpha.bin",
+      "bytes": 5222400,
+      "sha256": "9e30ec1f71af0f33f95bff99e52e973d5dd93ef2dfbeedaa356d969f71939cc5"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-nameplates-v1/candidate.json",
+      "bytes": 66549,
+      "sha256": "d0f4256b98ead3202d47a05bcdbcca4cf2004e6a03f2458d4872d0dcafc6c0a4"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-nameplates-v1/cave-atlas.json",
+      "bytes": 45024,
+      "sha256": "adb453bbaf82912136074626c88d8d1665985ee18c26fb6414de7c4596932066"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-nameplates-v1/dream-alpha.bin",
+      "bytes": 307200,
+      "sha256": "6aaecb386c5a40c45c41e4f34a11675b8bacace4e7638aaff13a0171c310bd07"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-nameplates-v1/lotus-alpha.bin",
+      "bytes": 614400,
+      "sha256": "696b0d5a908e03bc83f7a84a40053afda1c6383bf27c17e6aabacbb5256042e8"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-nameplates-v1/lotus-atlas.json",
+      "bytes": 15254,
+      "sha256": "422379926d49bf1a7f5054c6ce56e9bad7f3d36ccede785f64dfe4108fbeb9c2"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-nameplates-v1/nameplates.json",
+      "bytes": 4328,
+      "sha256": "1226651632ac932e9d1df34d887d84ab15eb7c99302e1f4f0dcc98aed2e1c886"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-nameplates-v1/verification.json",
+      "bytes": 1746,
+      "sha256": "462c38d7560ad4b557619abb679c72586c35b1c3eac3ea6538a1a10a5d03a8b4"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-test-v1/candidate.json",
+      "bytes": 931,
+      "sha256": "5d34521bdeaf50e613c458b9e7ab86e6adb04a5fa3a1677020d4d7a2eb83e770"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-test-v1/verification.json",
+      "bytes": 1264,
+      "sha256": "36451a82f070784ff2ee9c235981252e847d0805df7f608becf375f73e8f94fd"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-visual-v4-preview/lotus-alpha.bin",
+      "bytes": 614400,
+      "sha256": "696b0d5a908e03bc83f7a84a40053afda1c6383bf27c17e6aabacbb5256042e8"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-visual-v4-preview/共用纸底_原始分辨率清理.png",
+      "bytes": 2560664,
+      "sha256": "213ac1542b4c79bcb71ba9acf95b9091bc5ef67d724dfc8dc14cf67090d99088"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-visual-v4-preview/原始组件/back_原生裁片.png",
+      "bytes": 83672,
+      "sha256": "b8ea4ad6a71a31ea8d207fd97c89df9dfb0ee984d6a7d81062f8b2eb74b61968"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-visual-v4-preview/原始组件/footer_原生裁片.png",
+      "bytes": 51126,
+      "sha256": "a2177e8c5a8badf5828bbe2dceed2c2583b1ceabdff2b516c88a0790ab0ba5f5"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-visual-v4-preview/原始组件/front_原生裁片.png",
+      "bytes": 80623,
+      "sha256": "d2899b6ff7b51744e05a89c717a9c38d5bf478d33dc87d775af486438e5ad757"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-visual-v4-preview/原始组件/lotus_原生裁片.png",
+      "bytes": 45342,
+      "sha256": "28b20d37de5a7af32730b438850ab40b37c28d5de46c7931b812de1f80d025e0"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/map-visual-v4-preview/原始组件/朱赭名牌_透明笔触.png",
+      "bytes": 252160,
+      "sha256": "f45377bfd98d0c5df9c1fb43717689937b2d0ec386e5b5321d1d3eefb4909e4a"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/painted-map-v1/candidate.json",
+      "bytes": 1614,
+      "sha256": "6aff39115020ec38ba29a60db2fd4454f1f209cba8ac20564363a1b3a25bee58"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/painted-map-v1/registration.json",
+      "bytes": 3813,
+      "sha256": "971bdcce5948ee5e489062f4b49d145e98f3e30e79d6c7d975111c76c1e0e189"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/painted-map-v1/verification.json",
+      "bytes": 2249,
+      "sha256": "66c65448ed23f353f7d9b93b0ed5dd9a0106a2bf6e3f4c6d9208910b09a4d238"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/story-motion-v2/candidate.json",
+      "bytes": 1124,
+      "sha256": "1956e4bf059b6591cb19e24f14c6648cd16ac18b480fb579e49d37eac6b272b3"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/story-motion-v2/verification.json",
+      "bytes": 759,
+      "sha256": "eebcf400522face398401e55e769b8cceb3cf7ca11b0586c4c84b5e18070eb14"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/story-motion-v3/candidate.json",
+      "bytes": 663,
+      "sha256": "1b53793d348b645184ab0518b887cab8f8d687e2609d9176668244b9ee3ab52d"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/story-motion-v3/verification.json",
+      "bytes": 661,
+      "sha256": "881b25da5147d698407fe95bdfeec2b8222f21e3b73363ba29d796a794da3bf7"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/walk-fog-v2/candidate.json",
+      "bytes": 1664,
+      "sha256": "38c2df451df673d2fd22810cb8b501c3f3e757d172ca0a10f3c77320bdb0e27a"
+    },
+    {
+      "path": "补丁工作仓库/候选版本/walk-fog-v2/verification.json",
+      "bytes": 1611,
+      "sha256": "eee89d529403d3d0f5a4a56f695da4323b86e805dcea9fb7257a643313ac4b5c"
+    },
+    {
+      "path": "补丁工作仓库/脚本/audit_akey_history_20261101.py",
+      "bytes": 4539,
+      "sha256": "1691c8910a809b82ad2f2a0614c9a389e262415a163a49ae6f873c2b6ad175fd"
+    },
+    {
+      "path": "补丁工作仓库/脚本/audit_publication_privacy_v1.py",
+      "bytes": 8660,
+      "sha256": "3b6f815ba1aa8d4297aaa8880f312c72aabec59cdf915c64ae4dc176f84a136b"
+    },
+    {
+      "path": "补丁工作仓库/脚本/battle_entry_v1.py",
+      "bytes": 4619,
+      "sha256": "5b64b4256a4b7d1a275a5addad8c0f8a59e5ea97419eeaf0ada964bceb7d3bed"
+    },
+    {
+      "path": "补丁工作仓库/脚本/battle_entry_v2.py",
+      "bytes": 3787,
+      "sha256": "05cf4d903b55647f2d7d302a9c898a4738187f6b0d32762b35d36a0171c25f0f"
+    },
+    {
+      "path": "补丁工作仓库/脚本/battle_entry_v3.py",
+      "bytes": 8748,
+      "sha256": "54a86767d558b9f1319750defdf08f9e639200e6b5fd1a2d0055686f5f95d42b"
+    },
+    {
+      "path": "补丁工作仓库/脚本/battle_entry_v4.py",
+      "bytes": 4309,
+      "sha256": "a63cb845d1342e95cc4f263a70a6f3bfd74045c374220d410844efc0650261b1"
+    },
+    {
+      "path": "补丁工作仓库/脚本/battle_entry_v5.py",
+      "bytes": 5585,
+      "sha256": "d16ad5df45e11b0bdad3bda8e72b770ad3641614eeb393f035d80b8e7fbfccde"
+    },
+    {
+      "path": "补丁工作仓库/脚本/build_luocha_boundary_routes_v1.py",
+      "bytes": 9402,
+      "sha256": "8101761b356691042f6d77b372e7efacf9db79b8854171d9ac65bc2fa24f7061"
+    },
+    {
+      "path": "补丁工作仓库/脚本/build_luocha_runtime_assets_v1.py",
+      "bytes": 13942,
+      "sha256": "c249a959efbb5474aa881728160376e44090c6d975a60a84a31a8457c7e417ad"
+    },
+    {
+      "path": "补丁工作仓库/脚本/build_map_export_index_v1.py",
+      "bytes": 33049,
+      "sha256": "3f625132443e7f1b80369de3d8f2c098d415ff749419149b7425290ba15cf8f7"
+    },
+    {
+      "path": "补丁工作仓库/脚本/build_map_test_catalog_v1.py",
+      "bytes": 3140,
+      "sha256": "5438b52040753eef37c6623c4b8aac1ed1454cee73a65f4c51a2aa31de7fafe3"
+    },
+    {
+      "path": "补丁工作仓库/脚本/build_map_test_exe_v1.py",
+      "bytes": 5608,
+      "sha256": "722baa6b9032df4db5da8e64f3889fade2636ef2ea75f035a990a253bce9d0e6"
+    },
+    {
+      "path": "补丁工作仓库/脚本/collaboration_exchange.py",
+      "bytes": 9972,
+      "sha256": "eeeebdef591299fa2a27adbeec895099c095dceb8dbd19d4782e40fe5b72180e"
+    },
+    {
+      "path": "补丁工作仓库/脚本/coop_balance_v4.py",
+      "bytes": 10047,
+      "sha256": "17114206e474b625491cd5f974822b1ef8371f26dfe7ae3d456ee1ffd097f544"
+    },
+    {
+      "path": "补丁工作仓库/脚本/coop_balance_v5.py",
+      "bytes": 2911,
+      "sha256": "042fcbbfb25af69da82b646a0981b084718d14c5dc8b95c0c1ebb24918514308"
+    },
+    {
+      "path": "补丁工作仓库/脚本/coop_boost_v10.py",
+      "bytes": 2766,
+      "sha256": "0d450b0af1dc851fce79358329b6f628ee9afe22896b6a198a0ee37085ce003d"
+    },
+    {
+      "path": "补丁工作仓库/脚本/coop_native_growth_v11.py",
+      "bytes": 7778,
+      "sha256": "520155894e21bb46a6cd561dbf0adb6ba817327f9bf50ff435bae44705b5eb16"
+    },
+    {
+      "path": "补丁工作仓库/脚本/coop_scaling_v1.py",
+      "bytes": 6130,
+      "sha256": "d4fa69d86a8e4aec41de38613ae580433c41772e0fc369bc2c629e3bd6acfc45"
+    },
+    {
+      "path": "补丁工作仓库/脚本/edge_walk_v1.py",
+      "bytes": 9348,
+      "sha256": "a1fbd20186371e4898826c0baa32722f538f877d3af66b27b787ef8d7cf9e5fa"
+    },
+    {
+      "path": "补丁工作仓库/脚本/export_native_flag_groups_v1.py",
+      "bytes": 4616,
+      "sha256": "ddf1f61b7a586ed8daff57c428f412068811e8bd6acc14e07779c50c3583e010"
+    },
+    {
+      "path": "补丁工作仓库/脚本/extract_map_grid_v1.py",
+      "bytes": 6812,
+      "sha256": "875401b4f98cab49c052d90637c04cf315535f24148164b8d13428d353ab2462"
+    },
+    {
+      "path": "补丁工作仓库/脚本/flash_v4.py",
+      "bytes": 11197,
+      "sha256": "729af00f52700eb933ae636987f66705b2a493c9e48bf26b120c6b71a73d1189"
+    },
+    {
+      "path": "补丁工作仓库/脚本/four_features_v2.py",
+      "bytes": 1460,
+      "sha256": "cc80bdd2d29204e1964723f6722948ae0548655399c9b0fae6032a90ed4ef378"
+    },
+    {
+      "path": "补丁工作仓库/脚本/four_features_v3.py",
+      "bytes": 3452,
+      "sha256": "f3927b432746b1bf5c8c3c5902c801ecd40f3b9b22434d6357cdd6ca0ccc59fc"
+    },
+    {
+      "path": "补丁工作仓库/脚本/four_features_v6.py",
+      "bytes": 2615,
+      "sha256": "995488429c9d89a1db210f9529281f1a71d87e01ffa8be5c6d84c665073f88ca"
+    },
+    {
+      "path": "补丁工作仓库/脚本/four_features_v7.py",
+      "bytes": 4280,
+      "sha256": "3936199a596718b4993171cbd95783a74008cb2743b3ee95b135fa05b98b8294"
+    },
+    {
+      "path": "补丁工作仓库/脚本/four_features_v8.py",
+      "bytes": 2896,
+      "sha256": "bec52dfdb5f884192d7bf08f09590c81aaf37b601bc52318ede9690c219c3a1f"
+    },
+    {
+      "path": "补丁工作仓库/脚本/four_features_v9.py",
+      "bytes": 2894,
+      "sha256": "ecd1e047f7f19c9ddadc73e03cb09b85f965dc1cd3fb4bddde9635d1eb9b7ad3"
+    },
+    {
+      "path": "补丁工作仓库/脚本/group_death_v1.py",
+      "bytes": 10806,
+      "sha256": "506cd0222f60fa454a13a654d52261033a8dd35102af0a2521f0f103a8a53b80"
+    },
+    {
+      "path": "补丁工作仓库/脚本/hover_hand_v1.py",
+      "bytes": 6008,
+      "sha256": "ff5d93f7cd24301c5a643a39b3ae41a9f4150c39cd0c8b77a8f3e378bf370e69"
+    },
+    {
+      "path": "补丁工作仓库/脚本/incense_link_v1.py",
+      "bytes": 4664,
+      "sha256": "5144aaaeaf262f01c83c3fa41671c6cb4601a82d4e55ea528b2f0fedb329cde3"
+    },
+    {
+      "path": "补丁工作仓库/脚本/install_verified_candidate.py",
+      "bytes": 3416,
+      "sha256": "1a0cfc0af27e2ec547520be4aeb3a86f21465187dcad7ab1c09f61a62d750f4d"
+    },
+    {
+      "path": "补丁工作仓库/脚本/joystick_compat_v1.py",
+      "bytes": 3805,
+      "sha256": "5e8ee884af3166cd8cb07e142856ed89f73a3d10cfbc5509cd39212e1b30ad14"
+    },
+    {
+      "path": "补丁工作仓库/脚本/lotus_runtime_v1.py",
+      "bytes": 3895,
+      "sha256": "e7422e37be98a6d82f1dc7d4121350de6f922a089265e471affd5ffa0818fc57"
+    },
+    {
+      "path": "补丁工作仓库/脚本/lotus_runtime_v2.py",
+      "bytes": 5406,
+      "sha256": "d34e27af2a54f1f42e9904ebd2841573e529de6cb4f989ca7cfda3f530fa3d5a"
+    },
+    {
+      "path": "补丁工作仓库/脚本/luocha_boundary_geometry_v2.py",
+      "bytes": 13666,
+      "sha256": "98046377f8f60dc1d2126ecb50924366e823a473c33cc5aadb0b4b6380e55e6d"
+    },
+    {
+      "path": "补丁工作仓库/脚本/luocha_return_runtime_v1.py",
+      "bytes": 26626,
+      "sha256": "0b6bab0c4c9d516b9e6c0fe4bc3c5d55a45bf2cd76bb7818fa6ff19a166d15e4"
+    },
+    {
+      "path": "补丁工作仓库/脚本/map_art_runtime_v6.py",
+      "bytes": 6538,
+      "sha256": "09f593c51bbc50fb2198d2400034d6f23842d7fc93ea2c0a6836b8e5aefc9bc3"
+    },
+    {
+      "path": "补丁工作仓库/脚本/map_nameplates_v1.py",
+      "bytes": 10057,
+      "sha256": "4f7f0b469a9ffb4bdf9a32dcd5bbac74dcc62b3d715bf72fe9a80cb5a4031f67"
+    },
+    {
+      "path": "补丁工作仓库/脚本/map_test_bridge_v1.py",
+      "bytes": 7688,
+      "sha256": "ffb592bcc05c66522e33c331bb0900a068271dc004d8d4c7236e2c3a324a153b"
+    },
+    {
+      "path": "补丁工作仓库/脚本/map_test_catalog_rules_v1.py",
+      "bytes": 599,
+      "sha256": "46e8561e9a662d66a8ae81898e7408b0781113e223e9f6f93b9b251a2a7c92bb"
+    },
+    {
+      "path": "补丁工作仓库/脚本/map_test_exe_entry_v1.py",
+      "bytes": 831,
+      "sha256": "31a8a0b581b9df7e325ed4c285c6581dc31e3c457a81182344ecbc84dca1050b"
+    },
+    {
+      "path": "补丁工作仓库/脚本/map_test_tool_v1.py",
+      "bytes": 21172,
+      "sha256": "753db4923e511f7ec36534cb947e6840ee5b3e4512c3c98aeffdcf2d87fda8d6"
+    },
+    {
+      "path": "补丁工作仓库/脚本/monster_motion_v1.py",
+      "bytes": 8075,
+      "sha256": "d52b89654b129f55f6481b659c7a1b8d0e3c7dcd01f9aae503e7d367ca7b8602"
+    },
+    {
+      "path": "补丁工作仓库/脚本/mouse_motion_v1.py",
+      "bytes": 2695,
+      "sha256": "42e5526b508dc2bb59b4cb121cefb3d0ff246c7f7b80711633e7aa49fd0efdab"
+    },
+    {
+      "path": "补丁工作仓库/脚本/mouse_motion_v2.py",
+      "bytes": 3186,
+      "sha256": "43cf025be2585fba720b24a21f8fd49fdafaca0d0439d09d3172c3c124a6de17"
+    },
+    {
+      "path": "补丁工作仓库/脚本/mouse_transition_v1.py",
+      "bytes": 5819,
+      "sha256": "7c22475ec8e5bbd0d4f79869d75e60249e7f624d12b625a80ee0e504f1860ef8"
+    },
+    {
+      "path": "补丁工作仓库/脚本/native_damage_harness.py",
+      "bytes": 2983,
+      "sha256": "a7f3175e279d3462827bb316d05e86866831e90a2ecd5065e9a475ff332a4cd6"
+    },
+    {
+      "path": "补丁工作仓库/脚本/newpal_processes_v1.py",
+      "bytes": 1637,
+      "sha256": "7d10f28174a2c0afb857d2d6ba47dd329ba361dae559c382c04ec5559d7a661b"
+    },
+    {
+      "path": "补丁工作仓库/脚本/portable_map_bridge_v1.py",
+      "bytes": 10952,
+      "sha256": "47d0777a4ca5edc0840a49bff26edb0424fe93f982f746a0bbbec467f7b53f4c"
+    },
+    {
+      "path": "补丁工作仓库/脚本/postbattle_recovery_v1.py",
+      "bytes": 2960,
+      "sha256": "1365bc8592fd994fe165d753cfcb3323b40826e2b10767364c3ddb631e597237"
+    },
+    {
+      "path": "补丁工作仓库/脚本/preview_luocha_compact_v5.py",
+      "bytes": 17822,
+      "sha256": "94e1c14093be3b0f93213084479b3e3b20bd0edf35cd5a20b225a33dd569c749"
+    },
+    {
+      "path": "补丁工作仓库/脚本/preview_map_visual_v3.py",
+      "bytes": 11421,
+      "sha256": "06d5f5bb2c8f0315b13721bf20362d0739a4cc7588f798e9a90715a47a507a89"
+    },
+    {
+      "path": "补丁工作仓库/脚本/preview_map_visual_v4.py",
+      "bytes": 18169,
+      "sha256": "3d7eee90d286b3d5f7f5532610b197478683847ded2c79b8de26fe1efbe27e1c"
+    },
+    {
+      "path": "补丁工作仓库/脚本/probe_map_position_readonly_v1.py",
+      "bytes": 5889,
+      "sha256": "d2e28b16fc39fba8e0dae42a01bfcf03fbd73d3b808dacdcac7876b70b32fec7"
+    },
+    {
+      "path": "补丁工作仓库/脚本/research_group_death_v1.py",
+      "bytes": 11479,
+      "sha256": "6b6177a1ebd32849a5063bf71c7adeb0133e1ec55e70ddefff3d800367836e14"
+    },
+    {
+      "path": "补丁工作仓库/脚本/settings_toggle_v1.py",
+      "bytes": 12468,
+      "sha256": "d998721714c09fefada6322c02e3afa650a187d1576901d4884a82a594783345"
+    },
+    {
+      "path": "补丁工作仓库/脚本/simple_batch_v1.py",
+      "bytes": 1204,
+      "sha256": "bf8f3dd1b6a91df6c62f84be6ba037a53af140ba75c54eb810d3c9a352b57c94"
+    },
+    {
+      "path": "补丁工作仓库/脚本/snake_frame_v1.py",
+      "bytes": 2491,
+      "sha256": "41c0fe3303f0e176534197cfb43bbfe456142d2043e1e0ad5c2dd7a1bd9c5795"
+    },
+    {
+      "path": "补丁工作仓库/脚本/story_motion_v2.py",
+      "bytes": 2661,
+      "sha256": "65ad4548af1d0d4e5224c84ac8c2d4db88b0cccae4b74c3cd6e959f84ee9ac57"
+    },
+    {
+      "path": "补丁工作仓库/脚本/story_motion_v3.py",
+      "bytes": 1978,
+      "sha256": "6b3b6651ffddb7e9537fa18c64595d43eb9c694d35c1fd69f7dd730ffd398ec5"
+    },
+    {
+      "path": "补丁工作仓库/脚本/style_luocha_assets_v2.py",
+      "bytes": 12667,
+      "sha256": "4ec963e7c98375b6f535a05363c32d37dbabf4b5364972363f72f8061ed3673a"
+    },
+    {
+      "path": "补丁工作仓库/脚本/verify_four_features_v9.py",
+      "bytes": 3304,
+      "sha256": "30464a11e1d8fc45e60dc5a4922fabfe72759c0403d7c9f99d5c85bf8b02b180"
+    },
+    {
+      "path": "补丁工作仓库/脚本/verify_group_death_v1.py",
+      "bytes": 9293,
+      "sha256": "7d50c0cc6910ec0409c42b607efdc9b3fd56d8a0a140d67f09debea64bd7bb64"
+    },
+    {
+      "path": "补丁工作仓库/脚本/verify_joystick_compat_v1.py",
+      "bytes": 3900,
+      "sha256": "2a850746dc087791971257f7ce417641637d2fe798ebc4e251dbd7b15c84453f"
+    },
+    {
+      "path": "补丁工作仓库/脚本/verify_map_nameplates_v1.py",
+      "bytes": 6864,
+      "sha256": "4c6a9cfb6eb97adae491a84ebca057b7361e4c18eab8a0eeeecdfc8c44c36802"
+    },
+    {
+      "path": "补丁工作仓库/脚本/verify_story_motion_v2.py",
+      "bytes": 6454,
+      "sha256": "e961c4fb47f8a571991059a43002c41cb70ca0a577ac1ffcdc196899406d11cf"
+    },
+    {
+      "path": "补丁工作仓库/脚本/verify_story_motion_v3.py",
+      "bytes": 4672,
+      "sha256": "4e05b161baa61ff66d6fb5b2a13cbca6a65c85e47651250dcbdb94dc8071c98a"
+    },
+    {
+      "path": "补丁工作仓库/脚本/walk_start_v1.py",
+      "bytes": 1658,
+      "sha256": "579bde2232e6d3c31a4c77951cca18b7afaceb723b9445c6bc7edeae155eefbd"
+    },
+    {
+      "path": "补丁工作仓库/脚本/window_mouse_v1.py",
+      "bytes": 7317,
+      "sha256": "236ffed901f0d43f494dfa58ca6dd5b7db61949b6b26e8b8e94c4deb35a9da13"
+    }
+  ]
+}

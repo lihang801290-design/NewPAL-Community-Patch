@@ -1,0 +1,9 @@
+{
+  "version": "v0.3.0-preview",
+  "original_to_current_reconstruction": "exact EXE and all 111 PNGs",
+  "cave_and_lotus_source_code_regeneration": "passed",
+  "repository_integrity": "passed",
+  "not_full_source_rebuild": true,
+  "gameplay": "previous accepted functionality retained; newest nameplate logic final gameplay feedback pending",
+  "checks_document": "发布检查.md"
+}

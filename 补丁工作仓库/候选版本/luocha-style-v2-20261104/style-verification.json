@@ -1,0 +1,691 @@
+{
+  "status": "passed RGB/alpha/layout checks and offline previews; user appearance pending",
+  "base_exe_sha1": "00a13b8f4fa34201dafb67f99639959c112e7698",
+  "baseline_assets": {
+    "np_lr_base_502_v1.png": "a1f22c699f59197ddf0f279133eca868b9c296c35f2f2c4f2b0c0b99efb4bdc9",
+    "np_lr_base_503_v1.png": "8e2d577ca539d34416335a96dff0fa39e4bde779d5c18cce93e7b19910adc3bf",
+    "np_lr_base_504_v1.png": "5d622b7262aa274f17641a33940f3c357336f7eb6ed805b589a37eee2c25b8ba",
+    "np_lr_base_505_v1.png": "9ecd08a7a3a46fc65eb116a23eacc4fa268f9ec5af6775a69203a0db40f02718",
+    "np_lr_base_506_v1.png": "76302535195e2dfb60a796bf19a88663f21244ed6bf00c7c1b0f49bb0e94f633",
+    "np_lr_base_507_v1.png": "608b913fc24afac437ff36534d56741dfeb6a933c4ca4221b2143e9125ea7e39",
+    "np_lr_base_508_v1.png": "88cdf8d89213f367c759b58f0c528b68d668b7fef5b5c0962c0f4da6e47553c0",
+    "np_lr_base_509_v1.png": "b341a0b4706782df985f2536dfa9aecedcf1d92a323cb84ad71c649a398c198a",
+    "np_lr_base_510_v1.png": "5693f373c8e1f7e1381bf9be9b492d69435c88a361665bed10dd4d2df9f3f32e",
+    "np_lr_base_511_v1.png": "a623efa09dd066561d30b2ac4c59cc149ba4c3ac4ec34053f3ce009acd8c9bbb",
+    "np_lr_base_512_v1.png": "69b5c0a23e6c46a5fb0f875f8db9e509109ade06f30a341fe907e50ccee11e74",
+    "np_lr_base_513_v1.png": "99cacee5ace429d9bf156420ab1d4802affd801f6c31b2eed79d946bdc6ecafb",
+    "np_lr_base_514_v1.png": "4c28a9fbc9415ef8da4fd8b7adfe60969e343bf137178a43afaa03aa1e52323f",
+    "np_lr_base_515_v1.png": "1be595cab4e9b105510b607c865da57a7ae83a6bdc481418179042a04ce53b31",
+    "np_lr_base_516_v1.png": "39856200c5be14b8de1b70bc7b4cf432280726f7352e6ebc01b73c44449df870",
+    "np_lr_base_517_v1.png": "cd079f539d9385e2f751899e3df01691d178df03c91723069f772ab7354deaa9",
+    "np_lr_base_518_v1.png": "1b804a77e0ec0552964cc5c47524cdbf4d3043e33d9b98c41ee8a512a3d4131f",
+    "np_lr_link_01_v1.png": "b8f56e612ad7abea0f14bf4e7606a242355d9322428b822735381dfa17e0a7de",
+    "np_lr_link_02_v1.png": "027df30121e3ba5237f7f35885588e431116f9b4ed2ebbac18458115b20c9377",
+    "np_lr_link_03_v1.png": "a6a87e4415dbb748e69133883f13b148bebf6685a26ab02a361e1640cac49418",
+    "np_lr_link_04_v1.png": "642f16e027968ec9e33398680b97c7b3a4aaf67c148efbbba7f38fba3d345bd6",
+    "np_lr_link_05_v1.png": "5900b42f94555f801336aad03c7465e5541978afe0ac8cbfc1bb4e0847c00d22",
+    "np_lr_link_06_v1.png": "6a5e695e45d145d9208216d3e901e7a3f8ac517c5e48f0080b9a3418c273e617",
+    "np_lr_link_07_v1.png": "1a4975a13995f20cc7d1f55a577aee4eecbe6aa4519ed96125fb2ddf03cf7dd8",
+    "np_lr_link_08_v1.png": "6d79b81194edc29911579054d1359d444d73bbe49d430216aab7611e88139a09",
+    "np_lr_link_09_v1.png": "f482c7258dd6730040ec78cf2b69d4568073622e6f6653c32e78efa12f7c1cff",
+    "np_lr_link_10_v1.png": "2cc5d7ad30b275585bb1acdccaa25b951c8f47a45df8eaa9bf674398c60e85d9",
+    "np_lr_link_12_v1.png": "e4d2df8cfce591ad6d8dc55d3e2b0f405c4db6971dca4690695e1342ab91881f",
+    "np_lr_link_13_v1.png": "8c3f4d02f9eec75637680bc572e7a7d892e0acf8e74a036532d788b34ac82651",
+    "np_lr_link_14_v1.png": "8f8506eebbf0f2571561454aa1ade536656da95285a57bb5f9e4e644a46e814a",
+    "np_lr_link_15_v1.png": "91e03ea617f19421a73a8f209061b913de93c77beb04164867d167b432cffe42",
+    "np_lr_link_16_v1.png": "1b116c5e3fc063b9ce94c5ac581578784eee3ae4eefcf398cc986c3afa9c3b57",
+    "np_lr_link_17_v1.png": "7c76c194f1eb376884914e83ae42a42bf27f6be7fd82b915dd3d1de6e70640d8",
+    "np_lr_link_18_v1.png": "8bdd0f054e54317e1a13a8c9c080779dc980beb312e761357dc83052b50c7d6a",
+    "np_lr_link_19_v1.png": "538897d81f502f09631fc250ec6e7f25b72dfc358f00f279da536598a86d9cfb",
+    "np_lr_link_20_v1.png": "af904008dceb04f6e6b600f85569041d8b0ef1191f4ac38e6efc722a6ebffb29",
+    "np_lr_link_21_v1.png": "89952baa0c8218d9a08ed8cb8cca3b0e49a1885247ff305575b25640798a222a",
+    "np_lr_player_v1.png": "856159fddd88c296ce038f21a4eed308db6648e69e9d75eae5f2d447abfb2f6e",
+    "np_lr_road_502_v1.png": "824a99c8a1822d622de37f78354d06d8c18a15fa741b82c61bd4eb6e97406ff1",
+    "np_lr_road_503_v1.png": "741f5bb51a69db4055a982869c488022d54960fa9d2ae56fa259384f9315c03d",
+    "np_lr_road_504_v1.png": "b307c7b891d6bf8df84c4e3acb7c4d5ba672ed5b6dba2533c59aaba0684219a6",
+    "np_lr_road_505_v1.png": "e87ee808e87d5d706c9b652640fdffeb5cd6548b44c4f824c03ace8ad2be60b9",
+    "np_lr_road_506_v1.png": "3455e406b1c9c75fda1ae5b85dadecf59fed282987db213eca70ec2591be1c68",
+    "np_lr_road_507_v1.png": "cbafcc8d6ca3cc3f1c0c7bca92319d26fc514469731ccdfbe0820e501ac22869",
+    "np_lr_road_508_v1.png": "fb42fda17bce471061aaea6795a424aecce8da287c0c0d791a7a6248ab95f2e2",
+    "np_lr_road_509_v1.png": "f096542a66313d9e1e902e1cc2260b349fd189b829511b4b6240f33febc90d9b",
+    "np_lr_road_510_v1.png": "ec67ecaa28dd201ac62d45704c06b3ba9cb8231025175d67c00542ab93918a68",
+    "np_lr_road_511_v1.png": "23b07caea70abddc9772276b55412c7e37ab47f7ee7d364b153fbf75fbcd3817",
+    "np_lr_road_512_v1.png": "0ce42e28bc1f16e2e4adaa60ef3aad070c203d0ddf187fc9f34ea320b7601680",
+    "np_lr_road_513_v1.png": "c218731f07890ba79af38bf43e2c8eecaf9d0c543cddee85d0b0c07092c6f7a1",
+    "np_lr_road_514_v1.png": "08391ca7a4365631d6d902121d28d28b3c56f347212c716ac9f72ce466d9c026",
+    "np_lr_road_515_v1.png": "83b05c16ae5a4e2d7805dfba590759e7c65699f5f52cbc21c2aa2cf647c89991",
+    "np_lr_road_516_v1.png": "5e5a53942821e0edb3a19a9389d3ed70fb4d591e52112b82fb55ee3b11de9703",
+    "np_lr_road_517_v1.png": "36bf29a8b4002fa2d255218e0130d6a2625f7821003938f590dd382630c9167d",
+    "np_lr_road_518_v1.png": "6948feb3839ea067d022f4375e659d67caec91332bf447105a26cfebad5b98a6"
+  },
+  "resources": [
+    {
+      "file": "np_lr_base_502_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156273
+    },
+    {
+      "file": "np_lr_base_503_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 157644
+    },
+    {
+      "file": "np_lr_base_504_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 157147
+    },
+    {
+      "file": "np_lr_base_505_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156816
+    },
+    {
+      "file": "np_lr_base_506_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156678
+    },
+    {
+      "file": "np_lr_base_507_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156725
+    },
+    {
+      "file": "np_lr_base_508_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156724
+    },
+    {
+      "file": "np_lr_base_509_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156764
+    },
+    {
+      "file": "np_lr_base_510_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 157001
+    },
+    {
+      "file": "np_lr_base_511_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 158102
+    },
+    {
+      "file": "np_lr_base_512_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156785
+    },
+    {
+      "file": "np_lr_base_513_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156132
+    },
+    {
+      "file": "np_lr_base_514_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156001
+    },
+    {
+      "file": "np_lr_base_515_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156032
+    },
+    {
+      "file": "np_lr_base_516_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156027
+    },
+    {
+      "file": "np_lr_base_517_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156040
+    },
+    {
+      "file": "np_lr_base_518_v1.png",
+      "alpha_sha256": "a682fa570213181c0f6fd50f7da5ef6f263c855222c8f7441f19227d925383a3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 155526
+    },
+    {
+      "file": "np_lr_link_01_v1.png",
+      "alpha_sha256": "4ef26d76ec663d5cb1de0adbbff843011b008ba6d5597b017ed5755095d8c241",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 72
+    },
+    {
+      "file": "np_lr_link_02_v1.png",
+      "alpha_sha256": "f61611f3b3156b67bc28f97a8d806c744a9bb0e02a8e72b18f74e1c17eb4003a",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 150
+    },
+    {
+      "file": "np_lr_link_03_v1.png",
+      "alpha_sha256": "4f2eb4610e501bb10cade04d1d69d2a2e14988fe39bd81f9dbdbec34766ddb92",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156
+    },
+    {
+      "file": "np_lr_link_04_v1.png",
+      "alpha_sha256": "760090e3230eb603a55defc281a7606cbe50540da702cbe8ab24531f93166a8b",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 198
+    },
+    {
+      "file": "np_lr_link_05_v1.png",
+      "alpha_sha256": "38db168791e02f2b225b578181d1d953bc652515310142cb7c0ef51cb3d5b16c",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 74
+    },
+    {
+      "file": "np_lr_link_06_v1.png",
+      "alpha_sha256": "10173f16580a36fc7a665792bd52df521e83c05265783b35d3afa6935fca48bb",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 170
+    },
+    {
+      "file": "np_lr_link_07_v1.png",
+      "alpha_sha256": "6e64d59a60da766ac2d21b20d46cf78468e36e6385c9704c7380a7704828c759",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 192
+    },
+    {
+      "file": "np_lr_link_08_v1.png",
+      "alpha_sha256": "0e77fae7f673bc46caaac3f329c3652bb3798078e77408df584d3104a7b10bf0",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 156
+    },
+    {
+      "file": "np_lr_link_09_v1.png",
+      "alpha_sha256": "d98fc74f9a5a83d76811522d20e8f359b23e7f5b48a01207ab528cfca6b2c167",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 180
+    },
+    {
+      "file": "np_lr_link_10_v1.png",
+      "alpha_sha256": "abb17b069d51d41166ec52f5543e9136b62aa63d078294a8ec9b6d68646629c4",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 96
+    },
+    {
+      "file": "np_lr_link_12_v1.png",
+      "alpha_sha256": "d7bb7da42c27df89c56d5ca1d188d8cd27c3929e3410e3011969675bfa848354",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 234
+    },
+    {
+      "file": "np_lr_link_13_v1.png",
+      "alpha_sha256": "54c1113b3f5a2d4e92dc20994b649aa47762e9af047b011f7944b39a8978e32d",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 265
+    },
+    {
+      "file": "np_lr_link_14_v1.png",
+      "alpha_sha256": "79c2af54f7f9cbcfcf500fa4ecb008396ac39b75a90f88bf60e32220e14b45eb",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 110
+    },
+    {
+      "file": "np_lr_link_15_v1.png",
+      "alpha_sha256": "fc315ecb2cee9adf43dfdca8695d56b9de5f7d031e1b358cee78412ad4cb9ba0",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 90
+    },
+    {
+      "file": "np_lr_link_16_v1.png",
+      "alpha_sha256": "4b388659b04e34a8bd6b4c9e55086cfeede246fd4d10813d8507489b235f29b3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 420
+    },
+    {
+      "file": "np_lr_link_17_v1.png",
+      "alpha_sha256": "617d12dbe88a92a719f5a11b2b8d78d093d245db2f574525584e93ef30a09dfc",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 79
+    },
+    {
+      "file": "np_lr_link_18_v1.png",
+      "alpha_sha256": "672896ab69345e680d876c30966ddb927454b5c925d90e1d62c5e9710b80cff3",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 234
+    },
+    {
+      "file": "np_lr_link_19_v1.png",
+      "alpha_sha256": "fd18d5f33642a834c6fa96492c0b02d15df69f3ccce04aa50fa3c428afc534a5",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 385
+    },
+    {
+      "file": "np_lr_link_20_v1.png",
+      "alpha_sha256": "7ae600d78a5314e41f732b111feb4d0e8fa945d85f6103243a8cc9f100ae29a0",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 307
+    },
+    {
+      "file": "np_lr_link_21_v1.png",
+      "alpha_sha256": "c007dfedff476b7f209025014584427a2e73be206da99b80c2380584910c83db",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 74
+    },
+    {
+      "file": "np_lr_player_v1.png",
+      "alpha_sha256": "fa827a78d14dcff7123e958141f5ea0cdc1d51df18a85042d2122d35b1b0c812",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 0
+    },
+    {
+      "file": "np_lr_road_502_v1.png",
+      "alpha_sha256": "0c762ddbdd5d56847232f044010a74a9899b399e11b47296f202fbf2c0a64d34",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 1568
+    },
+    {
+      "file": "np_lr_road_503_v1.png",
+      "alpha_sha256": "3c7b044c8cb73d485c79ed50e1d393d9bef188fff0ea3d741f240fcf2a923a7e",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 30552
+    },
+    {
+      "file": "np_lr_road_504_v1.png",
+      "alpha_sha256": "7b2cd364aae27d99dfadaf52966d93dd29e950006ca025e47749d1874d842493",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 7296
+    },
+    {
+      "file": "np_lr_road_505_v1.png",
+      "alpha_sha256": "4cef7cfe76f1f4b75027edd05fb75f5f557da5dbdfc697b78bc29731943e1dcd",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 9783
+    },
+    {
+      "file": "np_lr_road_506_v1.png",
+      "alpha_sha256": "8e2b4a781be38d5cdf499eea22a85a9f6a36cb02081fb60d09d5731f984d8df9",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 17536
+    },
+    {
+      "file": "np_lr_road_507_v1.png",
+      "alpha_sha256": "7b098951bb7a0bd477ee680f923245454b215a12cd0874fd3712caf0aeeaa4c1",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 9562
+    },
+    {
+      "file": "np_lr_road_508_v1.png",
+      "alpha_sha256": "acb5c28263f4d30e3ee30d45dc40161c3f741c906ce2c86b79cdb4e19b207f0d",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 8851
+    },
+    {
+      "file": "np_lr_road_509_v1.png",
+      "alpha_sha256": "b14ffa7122191339d097eb63412dd07cafd5d0ebd2ec9a05d4d041adda055750",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 11844
+    },
+    {
+      "file": "np_lr_road_510_v1.png",
+      "alpha_sha256": "361b401a93e816030869b9f6adeb1ed6a477eb28404c0349cf3a7bb79cafb1d2",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 6894
+    },
+    {
+      "file": "np_lr_road_511_v1.png",
+      "alpha_sha256": "efdaf3d299c8f4a5b0a2f83151ef5db8f3638298033941dfd4829bf8169fd80c",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 24992
+    },
+    {
+      "file": "np_lr_road_512_v1.png",
+      "alpha_sha256": "23655d40852758fbadc547ad979f187fa2bdf54b3d2428b87ca109a51181a798",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 7851
+    },
+    {
+      "file": "np_lr_road_513_v1.png",
+      "alpha_sha256": "febc496b1a2901a1e49ef9914235c50ee31e0b39ab43d4a82a42f51d01476b0a",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 8583
+    },
+    {
+      "file": "np_lr_road_514_v1.png",
+      "alpha_sha256": "82f2bc888fe59b648b6b112ba1ac90de1970ac82613592629ee6272af9e05c6f",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 6890
+    },
+    {
+      "file": "np_lr_road_515_v1.png",
+      "alpha_sha256": "b4d5a10743694bc92e5532d6b5e59f4cce44c92f20f1b01f3b2ff8109ba34e31",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 6010
+    },
+    {
+      "file": "np_lr_road_516_v1.png",
+      "alpha_sha256": "3998799f2d38f6f0fadf2f5a325fe45b52aa34bc2be4496ee758d71995866174",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 8932
+    },
+    {
+      "file": "np_lr_road_517_v1.png",
+      "alpha_sha256": "94fc38b44847187af8ffddd374278ecef8bd104a87319a5fec1fee35759d9970",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 11959
+    },
+    {
+      "file": "np_lr_road_518_v1.png",
+      "alpha_sha256": "cc3e717992c130362f6fe0b588b96095c269aa9fbca3a4a5d94f43e5cd0d8972",
+      "alpha_identical": true,
+      "changed_rgb_pixels": 3662
+    }
+  ],
+  "alpha_identical_all": true,
+  "alpha_bin_sha256": "56db37bcbaf834c12775e79f5525ff3c630cbc3303dfa563a16fc0b7e165d25d",
+  "atlas_sha256": "e92ad35b9c195c17ba1c7a8e87639f1d02f94ef10d64ddcee62079b21b266681",
+  "nameplates": [
+    {
+      "page": 0,
+      "label": "洞外",
+      "box": [
+        475,
+        286,
+        517,
+        304
+      ],
+      "road_clearance_pixel_conflicts": 0
+    },
+    {
+      "page": 0,
+      "label": "主洞",
+      "box": [
+        299,
+        176,
+        341,
+        194
+      ],
+      "road_clearance_pixel_conflicts": 0
+    },
+    {
+      "page": 0,
+      "label": "上方短通道",
+      "box": [
+        184,
+        66,
+        266,
+        84
+      ],
+      "road_clearance_pixel_conflicts": 0
+    },
+    {
+      "page": 0,
+      "label": "上方旧洞",
+      "box": [
+        436,
+        63,
+        504,
+        81
+      ],
+      "road_clearance_pixel_conflicts": 0
+    },
+    {
+      "page": 0,
+      "label": "左侧支洞",
+      "box": [
+        36,
+        157,
+        104,
+        175
+      ],
+      "road_clearance_pixel_conflicts": 0
+    },
+    {
+      "page": 0,
+      "label": "右侧支洞",
+      "box": [
+        532,
+        192,
+        600,
+        210
+      ],
+      "road_clearance_pixel_conflicts": 0
+    },
+    {
+      "page": 0,
+      "label": "圆形支洞",
+      "box": [
+        38,
+        328,
+        106,
+        346
+      ],
+      "road_clearance_pixel_conflicts": 0
+    },
+    {
+      "page": 1,
+      "label": "主洞",
+      "box": [
+        299,
+        193,
+        341,
+        211
+      ],
+      "road_clearance_pixel_conflicts": 0
+    },
+    {
+      "page": 1,
+      "label": "斜向通道",
+      "box": [
+        51,
+        66,
+        119,
+        84
+      ],
+      "road_clearance_pixel_conflicts": 0
+    },
+    {
+      "page": 1,
+      "label": "狭长通道",
+      "box": [
+        271,
+        67,
+        339,
+        85
+      ],
+      "road_clearance_pixel_conflicts": 0
+    },
+    {
+      "page": 1,
+      "label": "小曲支洞",
+      "box": [
+        511,
+        183,
+        579,
+        201
+      ],
+      "road_clearance_pixel_conflicts": 0
+    },
+    {
+      "page": 1,
+      "label": "左侧支洞",
+      "box": [
+        46,
+        223,
+        114,
+        241
+      ],
+      "road_clearance_pixel_conflicts": 0
+    },
+    {
+      "page": 1,
+      "label": "大殿",
+      "box": [
+        549,
+        292,
+        591,
+        310
+      ],
+      "road_clearance_pixel_conflicts": 0
+    }
+  ],
+  "captions": {
+    "502": [
+      "1→主洞"
+    ],
+    "503": [
+      "1→洞外   2→上方短通道   3→上方短通道   4→左侧支洞   5→圆形支洞"
+    ],
+    "506": [
+      "7→上方旧洞   8→右侧支洞"
+    ],
+    "508": [
+      "9→右侧支洞   10→左侧支洞"
+    ],
+    "504": [
+      "2→主洞   3→主洞   6→上方旧洞"
+    ],
+    "505": [
+      "6→上方短通道   7→主洞"
+    ],
+    "509": [
+      "4→主洞   10→主洞"
+    ],
+    "507": [
+      "8→主洞   9→主洞"
+    ],
+    "510": [
+      "5→主洞   11→主洞〔后页〕"
+    ],
+    "511": [
+      "11→圆形支洞〔前页〕   12→斜向通道   13→斜向通道   14→狭长通道",
+      "15→左侧支洞   16→大殿"
+    ],
+    "514": [
+      "18→斜向通道   19→小曲支洞"
+    ],
+    "516": [
+      "20→小曲支洞   21→左侧支洞"
+    ],
+    "512": [
+      "12→主洞   13→主洞   17→狭长通道   18→主洞"
+    ],
+    "513": [
+      "14→主洞   17→斜向通道"
+    ],
+    "515": [
+      "19→主洞   20→主洞"
+    ],
+    "517": [
+      "15→主洞   21→主洞"
+    ],
+    "518": [
+      "16→主洞"
+    ]
+  },
+  "style_spec_sha256": "7940f98ee80dd10e1784deb8fabb8b7c5d2f456c5cecefec2750f8942b2abce4",
+  "theme": "cave only; shared UI rules apply to other environment themes",
+  "source_geometry_unchanged": true,
+  "position_transforms_unchanged": true,
+  "number_pairing_unchanged": true,
+  "exploration_format_unchanged": true,
+  "installed": true,
+  "visual_review": {
+    "status": "passed offline preview review; gameplay appearance pending",
+    "reviewed_scene_previews": [
+      503,
+      506,
+      508,
+      511,
+      514,
+      516
+    ],
+    "nameplate_collision_conflicts": 0,
+    "captions_at_most_two_lines": true,
+    "notes": [
+      "主标题/副标题沿用共享UI，片区名统一朱赭名牌与13px楷体；数字11px衬线，同号对应不变。",
+      "洞穴材质参考仅进入RGB；道路/标签资源原alpha逐字节保持，坐标与探索格式不改。",
+      "环境主题独立，未将岩壁样式应用到森林或其他地图。"
+    ]
+  },
+  "installation": {
+    "revision": "luocha-style-v2-20261104",
+    "updated_at": "2026-11-04T05:44:54",
+    "changed": [
+      "np_lr_base_502_v1.png",
+      "np_lr_base_503_v1.png",
+      "np_lr_base_504_v1.png",
+      "np_lr_base_505_v1.png",
+      "np_lr_base_506_v1.png",
+      "np_lr_base_507_v1.png",
+      "np_lr_base_508_v1.png",
+      "np_lr_base_509_v1.png",
+      "np_lr_base_510_v1.png",
+      "np_lr_base_511_v1.png",
+      "np_lr_base_512_v1.png",
+      "np_lr_base_513_v1.png",
+      "np_lr_base_514_v1.png",
+      "np_lr_base_515_v1.png",
+      "np_lr_base_516_v1.png",
+      "np_lr_base_517_v1.png",
+      "np_lr_base_518_v1.png",
+      "np_lr_link_01_v1.png",
+      "np_lr_link_02_v1.png",
+      "np_lr_link_03_v1.png",
+      "np_lr_link_04_v1.png",
+      "np_lr_link_05_v1.png",
+      "np_lr_link_06_v1.png",
+      "np_lr_link_07_v1.png",
+      "np_lr_link_08_v1.png",
+      "np_lr_link_09_v1.png",
+      "np_lr_link_10_v1.png",
+      "np_lr_link_12_v1.png",
+      "np_lr_link_13_v1.png",
+      "np_lr_link_14_v1.png",
+      "np_lr_link_15_v1.png",
+      "np_lr_link_16_v1.png",
+      "np_lr_link_17_v1.png",
+      "np_lr_link_18_v1.png",
+      "np_lr_link_19_v1.png",
+      "np_lr_link_20_v1.png",
+      "np_lr_link_21_v1.png",
+      "np_lr_road_502_v1.png",
+      "np_lr_road_503_v1.png",
+      "np_lr_road_504_v1.png",
+      "np_lr_road_505_v1.png",
+      "np_lr_road_506_v1.png",
+      "np_lr_road_507_v1.png",
+      "np_lr_road_508_v1.png",
+      "np_lr_road_509_v1.png",
+      "np_lr_road_510_v1.png",
+      "np_lr_road_511_v1.png",
+      "np_lr_road_512_v1.png",
+      "np_lr_road_513_v1.png",
+      "np_lr_road_514_v1.png",
+      "np_lr_road_515_v1.png",
+      "np_lr_road_516_v1.png",
+      "np_lr_road_517_v1.png",
+      "np_lr_road_518_v1.png"
+    ],
+    "backup": "N:\\steam\\steamapps\\common\\NewPAL\\补丁工作仓库\\修改资源备份\\luocha-style-v2-20261104",
+    "exe_unchanged": true,
+    "exe_sha1": "00a13b8f4fa34201dafb67f99639959c112e7698",
+    "png_alpha_identical_all": true,
+    "fog_alpha_unchanged": true,
+    "atlas_geometry_unchanged": true,
+    "number_pairing_unchanged": true,
+    "exploration_and_save_format_unchanged": true,
+    "style_spec": "地图开发/界面模板/地图视觉范式_v2.json",
+    "environment_scope": "cave terrain on luocha only; common UI tokens apply to other environment themes",
+    "user_appearance_accepted": false
+  }
+}

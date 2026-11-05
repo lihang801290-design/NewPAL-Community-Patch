@@ -1,0 +1,235 @@
+{
+  "cave": [
+    {
+      "kind": "cave",
+      "label": "洞外",
+      "file": "np_lr_label_00_v1.png",
+      "page": 0,
+      "scenes": [
+        502
+      ],
+      "visited_mask": 1,
+      "x": 450,
+      "y": 327
+    },
+    {
+      "kind": "cave",
+      "label": "主洞",
+      "file": "np_lr_label_01_v1.png",
+      "page": 0,
+      "scenes": [
+        503,
+        506,
+        508
+      ],
+      "visited_mask": 14,
+      "x": 291,
+      "y": 162
+    },
+    {
+      "kind": "cave",
+      "label": "上方短通道",
+      "file": "np_lr_label_02_v1.png",
+      "page": 0,
+      "scenes": [
+        504
+      ],
+      "visited_mask": 16,
+      "x": 176,
+      "y": 68
+    },
+    {
+      "kind": "cave",
+      "label": "上方旧洞",
+      "file": "np_lr_label_03_v1.png",
+      "page": 0,
+      "scenes": [
+        505
+      ],
+      "visited_mask": 32,
+      "x": 480,
+      "y": 75
+    },
+    {
+      "kind": "cave",
+      "label": "左侧支洞",
+      "file": "np_lr_label_04_v1.png",
+      "page": 0,
+      "scenes": [
+        509
+      ],
+      "visited_mask": 64,
+      "x": 38,
+      "y": 158
+    },
+    {
+      "kind": "cave",
+      "label": "右侧支洞",
+      "file": "np_lr_label_05_v1.png",
+      "page": 0,
+      "scenes": [
+        507
+      ],
+      "visited_mask": 128,
+      "x": 446,
+      "y": 197
+    },
+    {
+      "kind": "cave",
+      "label": "圆形支洞",
+      "file": "np_lr_label_06_v1.png",
+      "page": 0,
+      "scenes": [
+        510
+      ],
+      "visited_mask": 256,
+      "x": 45,
+      "y": 302
+    },
+    {
+      "kind": "cave",
+      "label": "主洞",
+      "file": "np_lr_label_07_v1.png",
+      "page": 1,
+      "scenes": [
+        511,
+        514,
+        516
+      ],
+      "visited_mask": 3584,
+      "x": 291,
+      "y": 174
+    },
+    {
+      "kind": "cave",
+      "label": "斜向通道",
+      "file": "np_lr_label_08_v1.png",
+      "page": 1,
+      "scenes": [
+        512
+      ],
+      "visited_mask": 4096,
+      "x": 83,
+      "y": 65
+    },
+    {
+      "kind": "cave",
+      "label": "狭长通道",
+      "file": "np_lr_label_09_v1.png",
+      "page": 1,
+      "scenes": [
+        513
+      ],
+      "visited_mask": 8192,
+      "x": 303,
+      "y": 65
+    },
+    {
+      "kind": "cave",
+      "label": "小曲支洞",
+      "file": "np_lr_label_10_v1.png",
+      "page": 1,
+      "scenes": [
+        515
+      ],
+      "visited_mask": 16384,
+      "x": 460,
+      "y": 200
+    },
+    {
+      "kind": "cave",
+      "label": "左侧支洞",
+      "file": "np_lr_label_11_v1.png",
+      "page": 1,
+      "scenes": [
+        517
+      ],
+      "visited_mask": 32768,
+      "x": 58,
+      "y": 204
+    },
+    {
+      "kind": "cave",
+      "label": "大殿",
+      "file": "np_lr_label_12_v1.png",
+      "page": 1,
+      "scenes": [
+        518
+      ],
+      "visited_mask": 65536,
+      "x": 390,
+      "y": 315
+    }
+  ],
+  "dream": [
+    {
+      "kind": "dream",
+      "label": "洞外入口",
+      "file": "np_map_label_502_v1.png",
+      "scenes": [
+        502
+      ],
+      "visited_mask": 1,
+      "x": 519,
+      "y": 425,
+      "box": [
+        519,
+        425,
+        601,
+        444
+      ]
+    },
+    {
+      "kind": "dream",
+      "label": "主洞",
+      "file": "np_map_label_498_v1.png",
+      "scenes": [
+        498
+      ],
+      "visited_mask": 2,
+      "x": 88,
+      "y": 207,
+      "box": [
+        88,
+        207,
+        153,
+        229
+      ]
+    },
+    {
+      "kind": "dream",
+      "label": "上層通道",
+      "file": "np_map_label_499_v1.png",
+      "scenes": [
+        499
+      ],
+      "visited_mask": 4,
+      "x": 378,
+      "y": 67,
+      "box": [
+        378,
+        67,
+        451,
+        88
+      ]
+    },
+    {
+      "kind": "dream",
+      "label": "羅剎大殿",
+      "file": "np_map_label_518_v1.png",
+      "scenes": [
+        518
+      ],
+      "visited_mask": 8,
+      "x": 40,
+      "y": 51,
+      "box": [
+        40,
+        51,
+        124,
+        73
+      ]
+    }
+  ],
+  "rule": "actual entered scene history; never proximity/fog alpha or page visibility"
+}

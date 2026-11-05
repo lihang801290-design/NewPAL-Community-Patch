@@ -1,0 +1,33 @@
+{
+  "status": "passed; gameplay acceptance pending",
+  "baseline_sha1": "4f83962f58daeddafecb1b59ba70643cdf4f48e1",
+  "candidate_sha1": "784f6f717d9d066ff2d310d37099541b70f8bc6a",
+  "checks": [
+    "M press/release/repeat toggle; no allocation per repeat",
+    "unrelated keyboard keys pass through",
+    "Back native path 0x651 press/release latch",
+    "Back native path 0x603 press/release latch",
+    "recognized controller duplicate JOY path excluded",
+    "generic Back follows current native mapping, not hard-coded JOY8",
+    "A/B/directions/other controller buttons unchanged",
+    "battle/menu/script/inactive/unsupported scene guards",
+    "held key across context change does not synthesize a press",
+    "focus/hidden/minimize/close/disconnect release modal state; native event preserved",
+    "native world frame skipped only while map visible; callbacks run; close resumes world",
+    "all four scene dimensions and actual leader world-coordinate transforms including edges",
+    "invalid scene/leader/dimensions/coordinate data closes safely to native frame",
+    "missing textures refuse map; no allocation retry loop",
+    "stale/reused native widget slots rejected",
+    "close-only 0x300 code41 button0; held/release swallowed; outside-map native pass",
+    "close-only 0x651 code0 button1; held/release swallowed; outside-map native pass",
+    "close-only 0x603 code0 button2; held/release swallowed; outside-map native pass",
+    "held Esc/B from before map open does not cancel by auto-repeat; release then fresh press required",
+    "generic B close follows native current button mapping",
+    "B duplicate JOY path ignored on recognized controller",
+    "26 actual renderer routes: dream leader accepted; 5 roles retained; Boss/NPC/monsters and mismatched followers excluded",
+    "112 unchanged encounter-gate cases incl10sec boundary, settings and incense",
+    "only map payload/hooks and one glow mismatch branch changed; existing32KB/input/audio/co-op/death/settings/gates identical"
+  ],
+  "evidence": "single external read-only snapshot: scene498 actual leader slot13, map actor10/sprite identity1; setting10000, no incense; old equality mismatch reproduced offline",
+  "limits": "no claim that protection failed; absent glow reproduced/fixed in renderer; actual new Esc/B and dream blink need gameplay acceptance"
+}

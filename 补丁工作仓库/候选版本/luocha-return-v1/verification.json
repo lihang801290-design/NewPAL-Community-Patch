@@ -1,0 +1,25 @@
+{
+  "status": "passed; gameplay acceptance pending",
+  "baseline_sha1": "b5a0b8cd39ec092653fa78a643c6e156c0792b47",
+  "candidate_sha1": "00a13b8f4fa34201dafb67f99639959c112e7698",
+  "checks": [
+    "17 source-bound scenes, 13 logical fragments, 21 audited reciprocal portal pairs; all known incoming coordinates covered",
+    "actual x86 brush: independent overlapping 503/506/508 fog, stationary cache, return to previous layer retains exploration",
+    "all 17 scenes auto-select one of exactly two pages and native-coordinate transforms; no nearest-floor snapping",
+    "invalid leader/dimensions/scene/dialogue/battle/context cannot reveal return-cave fog",
+    "flag102 routes dream/return collections independently; existing dream native frame and walk-fog still execute",
+    "real map draw: valid SDL surface/pitch/alpha formats, exact reveal alpha, RGB unchanged, dirty cache, existing M toggle and 25px player centered",
+    "missing atlas image fails closed; no invalid widget blit",
+    "only current main floor and visited same-page side caves draw; dotted links require both specific explored endpoints and the visible floor",
+    "NLR3 stores all independent masks; rewind/restart restore exact exploration; dream NMF2 remains separate; native .sav bytes untouched",
+    "missing/truncated/overlong/header/pixel corruption and same-length replaced native saves reject stale exploration",
+    "thumbnail loads leave exploration intact; sidecar write failures are nonfatal; new game clears both collection state and modal UI",
+    "binary diff allowlist: five map-only hooks and PE sizes; test mailbox/lease/save guard and all encounter/input/combat code byte-identical",
+    "all 17 source images remain hash-identical; 55 atlas resources match manifest; collision-reference RGB is never compiled into display assets"
+  ],
+  "map_test_bridge_unchanged": true,
+  "limits": "x86 executes offline; SDL/file APIs substituted. Source-traced geometry and actual gameplay appearance/traversal still need runtime review.",
+  "static_ui_revision": "ui-resource-verification.json",
+  "current_resource_manifest_sha256": "d99b045579106ebc0263cf0fb967611dcf8fa495f7e80c2abecc8405cd91b748",
+  "footer_resource_revision": "footer-resource-verification.json"
+}

@@ -1,0 +1,755 @@
+{
+  "roots": [
+    "map_nameplates_v1",
+    "coop_native_growth_v11",
+    "four_features_v9",
+    "story_motion_v3",
+    "group_death_v1",
+    "joystick_compat_v1",
+    "mouse_motion_v2",
+    "mouse_transition_v1",
+    "window_mouse_v1",
+    "settings_toggle_v1",
+    "collaboration_exchange",
+    "build_map_test_exe_v1",
+    "map_test_exe_entry_v1",
+    "map_test_tool_v1",
+    "map_test_catalog_rules_v1",
+    "verify_map_nameplates_v1",
+    "verify_story_motion_v3",
+    "verify_four_features_v9",
+    "verify_group_death_v1",
+    "verify_joystick_compat_v1",
+    "audit_publication_privacy_v1",
+    "extract_map_grid_v1",
+    "build_map_export_index_v1",
+    "build_map_test_catalog_v1",
+    "export_native_flag_groups_v1"
+  ],
+  "modules": [
+    {
+      "module": "audit_akey_history_20261101",
+      "path": "补丁工作仓库/脚本/audit_akey_history_20261101.py",
+      "sha256": "1691c8910a809b82ad2f2a0614c9a389e262415a163a49ae6f873c2b6ad175fd",
+      "imports": [
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "audit_publication_privacy_v1",
+      "path": "补丁工作仓库/脚本/audit_publication_privacy_v1.py",
+      "sha256": "3b6f815ba1aa8d4297aaa8880f312c72aabec59cdf915c64ae4dc176f84a136b",
+      "imports": [],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "battle_entry_v1",
+      "path": "补丁工作仓库/脚本/battle_entry_v1.py",
+      "sha256": "5b64b4256a4b7d1a275a5addad8c0f8a59e5ea97419eeaf0ada964bceb7d3bed",
+      "imports": [
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "battle_entry_v2",
+      "path": "补丁工作仓库/脚本/battle_entry_v2.py",
+      "sha256": "05cf4d903b55647f2d7d302a9c898a4738187f6b0d32762b35d36a0171c25f0f",
+      "imports": [
+        "battle_entry_v1",
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "battle_entry_v3",
+      "path": "补丁工作仓库/脚本/battle_entry_v3.py",
+      "sha256": "54a86767d558b9f1319750defdf08f9e639200e6b5fd1a2d0055686f5f95d42b",
+      "imports": [
+        "battle_entry_v2",
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "battle_entry_v4",
+      "path": "补丁工作仓库/脚本/battle_entry_v4.py",
+      "sha256": "a63cb845d1342e95cc4f263a70a6f3bfd74045c374220d410844efc0650261b1",
+      "imports": [
+        "battle_entry_v3",
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "battle_entry_v5",
+      "path": "补丁工作仓库/脚本/battle_entry_v5.py",
+      "sha256": "d16ad5df45e11b0bdad3bda8e72b770ad3641614eeb393f035d80b8e7fbfccde",
+      "imports": [
+        "battle_entry_v4",
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "build_luocha_boundary_routes_v1",
+      "path": "补丁工作仓库/脚本/build_luocha_boundary_routes_v1.py",
+      "sha256": "8101761b356691042f6d77b372e7efacf9db79b8854171d9ac65bc2fa24f7061",
+      "imports": [],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "build_luocha_runtime_assets_v1",
+      "path": "补丁工作仓库/脚本/build_luocha_runtime_assets_v1.py",
+      "sha256": "c249a959efbb5474aa881728160376e44090c6d975a60a84a31a8457c7e417ad",
+      "imports": [
+        "build_luocha_boundary_routes_v1",
+        "luocha_boundary_geometry_v2"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "build_map_export_index_v1",
+      "path": "补丁工作仓库/脚本/build_map_export_index_v1.py",
+      "sha256": "3f625132443e7f1b80369de3d8f2c098d415ff749419149b7425290ba15cf8f7",
+      "imports": [],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "build_map_test_catalog_v1",
+      "path": "补丁工作仓库/脚本/build_map_test_catalog_v1.py",
+      "sha256": "5438b52040753eef37c6623c4b8aac1ed1454cee73a65f4c51a2aa31de7fafe3",
+      "imports": [
+        "flash_v4",
+        "map_test_catalog_rules_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "build_map_test_exe_v1",
+      "path": "补丁工作仓库/脚本/build_map_test_exe_v1.py",
+      "sha256": "722baa6b9032df4db5da8e64f3889fade2636ef2ea75f035a990a253bce9d0e6",
+      "imports": [
+        "flash_v4",
+        "map_test_bridge_v1",
+        "portable_map_bridge_v1",
+        "settings_toggle_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "collaboration_exchange",
+      "path": "补丁工作仓库/脚本/collaboration_exchange.py",
+      "sha256": "eeeebdef591299fa2a27adbeec895099c095dceb8dbd19d4782e40fe5b72180e",
+      "imports": [],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "coop_balance_v4",
+      "path": "补丁工作仓库/脚本/coop_balance_v4.py",
+      "sha256": "17114206e474b625491cd5f974822b1ef8371f26dfe7ae3d456ee1ffd097f544",
+      "imports": [
+        "flash_v4",
+        "four_features_v3",
+        "install_verified_candidate"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "coop_balance_v5",
+      "path": "补丁工作仓库/脚本/coop_balance_v5.py",
+      "sha256": "042fcbbfb25af69da82b646a0981b084718d14c5dc8b95c0c1ebb24918514308",
+      "imports": [
+        "coop_balance_v4",
+        "flash_v4",
+        "install_verified_candidate"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "coop_boost_v10",
+      "path": "补丁工作仓库/脚本/coop_boost_v10.py",
+      "sha256": "0d450b0af1dc851fce79358329b6f628ee9afe22896b6a198a0ee37085ce003d",
+      "imports": [
+        "flash_v4",
+        "four_features_v9",
+        "install_verified_candidate"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "coop_native_growth_v11",
+      "path": "补丁工作仓库/脚本/coop_native_growth_v11.py",
+      "sha256": "520155894e21bb46a6cd561dbf0adb6ba817327f9bf50ff435bae44705b5eb16",
+      "imports": [
+        "coop_boost_v10",
+        "flash_v4",
+        "install_verified_candidate"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "coop_scaling_v1",
+      "path": "补丁工作仓库/脚本/coop_scaling_v1.py",
+      "sha256": "d4fa69d86a8e4aec41de38613ae580433c41772e0fc369bc2c629e3bd6acfc45",
+      "imports": [
+        "flash_v4",
+        "simple_batch_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "edge_walk_v1",
+      "path": "补丁工作仓库/脚本/edge_walk_v1.py",
+      "sha256": "a1fbd20186371e4898826c0baa32722f538f877d3af66b27b787ef8d7cf9e5fa",
+      "imports": [
+        "flash_v4",
+        "mouse_motion_v2"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "export_native_flag_groups_v1",
+      "path": "补丁工作仓库/脚本/export_native_flag_groups_v1.py",
+      "sha256": "ddf1f61b7a586ed8daff57c428f412068811e8bd6acc14e07779c50c3583e010",
+      "imports": [],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "extract_map_grid_v1",
+      "path": "补丁工作仓库/脚本/extract_map_grid_v1.py",
+      "sha256": "875401b4f98cab49c052d90637c04cf315535f24148164b8d13428d353ab2462",
+      "imports": [
+        "flash_v4",
+        "native_damage_harness"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "flash_v4",
+      "path": "补丁工作仓库/脚本/flash_v4.py",
+      "sha256": "729af00f52700eb933ae636987f66705b2a493c9e48bf26b120c6b71a73d1189",
+      "imports": [],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "four_features_v2",
+      "path": "补丁工作仓库/脚本/four_features_v2.py",
+      "sha256": "cc80bdd2d29204e1964723f6722948ae0548655399c9b0fae6032a90ed4ef378",
+      "imports": [
+        "coop_scaling_v1",
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "four_features_v3",
+      "path": "补丁工作仓库/脚本/four_features_v3.py",
+      "sha256": "f3927b432746b1bf5c8c3c5902c801ecd40f3b9b22434d6357cdd6ca0ccc59fc",
+      "imports": [
+        "coop_scaling_v1",
+        "flash_v4",
+        "four_features_v2",
+        "install_verified_candidate"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "four_features_v6",
+      "path": "补丁工作仓库/脚本/four_features_v6.py",
+      "sha256": "995488429c9d89a1db210f9529281f1a71d87e01ffa8be5c6d84c665073f88ca",
+      "imports": [
+        "coop_balance_v5",
+        "flash_v4",
+        "install_verified_candidate",
+        "simple_batch_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "four_features_v7",
+      "path": "补丁工作仓库/脚本/four_features_v7.py",
+      "sha256": "3936199a596718b4993171cbd95783a74008cb2743b3ee95b135fa05b98b8294",
+      "imports": [
+        "flash_v4",
+        "four_features_v6",
+        "install_verified_candidate"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "four_features_v8",
+      "path": "补丁工作仓库/脚本/four_features_v8.py",
+      "sha256": "bec52dfdb5f884192d7bf08f09590c81aaf37b601bc52318ede9690c219c3a1f",
+      "imports": [
+        "flash_v4",
+        "four_features_v7",
+        "install_verified_candidate"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "four_features_v9",
+      "path": "补丁工作仓库/脚本/four_features_v9.py",
+      "sha256": "ecd1e047f7f19c9ddadc73e03cb09b85f965dc1cd3fb4bddde9635d1eb9b7ad3",
+      "imports": [
+        "flash_v4",
+        "four_features_v8",
+        "install_verified_candidate"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "group_death_v1",
+      "path": "补丁工作仓库/脚本/group_death_v1.py",
+      "sha256": "506cd0222f60fa454a13a654d52261033a8dd35102af0a2521f0f103a8a53b80",
+      "imports": [
+        "flash_v4",
+        "research_group_death_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "hover_hand_v1",
+      "path": "补丁工作仓库/脚本/hover_hand_v1.py",
+      "sha256": "ff5d93f7cd24301c5a643a39b3ae41a9f4150c39cd0c8b77a8f3e378bf370e69",
+      "imports": [
+        "flash_v4",
+        "snake_frame_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "incense_link_v1",
+      "path": "补丁工作仓库/脚本/incense_link_v1.py",
+      "sha256": "5144aaaeaf262f01c83c3fa41671c6cb4601a82d4e55ea528b2f0fedb329cde3",
+      "imports": [
+        "flash_v4",
+        "monster_motion_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "install_verified_candidate",
+      "path": "补丁工作仓库/脚本/install_verified_candidate.py",
+      "sha256": "1a0cfc0af27e2ec547520be4aeb3a86f21465187dcad7ab1c09f61a62d750f4d",
+      "imports": [
+        "flash_v4",
+        "newpal_processes_v1",
+        "walk_start_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "joystick_compat_v1",
+      "path": "补丁工作仓库/脚本/joystick_compat_v1.py",
+      "sha256": "5e8ee884af3166cd8cb07e142856ed89f73a3d10cfbc5509cd39212e1b30ad14",
+      "imports": [
+        "flash_v4",
+        "hover_hand_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "lotus_runtime_v1",
+      "path": "补丁工作仓库/脚本/lotus_runtime_v1.py",
+      "sha256": "e7422e37be98a6d82f1dc7d4121350de6f922a089265e471affd5ffa0818fc57",
+      "imports": [
+        "flash_v4",
+        "luocha_return_runtime_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "lotus_runtime_v2",
+      "path": "补丁工作仓库/脚本/lotus_runtime_v2.py",
+      "sha256": "d34e27af2a54f1f42e9904ebd2841573e529de6cb4f989ca7cfda3f530fa3d5a",
+      "imports": [
+        "flash_v4",
+        "lotus_runtime_v1",
+        "luocha_return_runtime_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "luocha_boundary_geometry_v2",
+      "path": "补丁工作仓库/脚本/luocha_boundary_geometry_v2.py",
+      "sha256": "98046377f8f60dc1d2126ecb50924366e823a473c33cc5aadb0b4b6380e55e6d",
+      "imports": [],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "luocha_return_runtime_v1",
+      "path": "补丁工作仓库/脚本/luocha_return_runtime_v1.py",
+      "sha256": "0b6bab0c4c9d516b9e6c0fe4bc3c5d55a45bf2cd76bb7818fa6ff19a166d15e4",
+      "imports": [
+        "build_luocha_runtime_assets_v1",
+        "flash_v4",
+        "settings_toggle_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "map_art_runtime_v6",
+      "path": "补丁工作仓库/脚本/map_art_runtime_v6.py",
+      "sha256": "09f593c51bbc50fb2198d2400034d6f23842d7fc93ea2c0a6836b8e5aefc9bc3",
+      "imports": [
+        "flash_v4",
+        "lotus_runtime_v1",
+        "lotus_runtime_v2",
+        "luocha_return_runtime_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "map_nameplates_v1",
+      "path": "补丁工作仓库/脚本/map_nameplates_v1.py",
+      "sha256": "4f7f0b469a9ffb4bdf9a32dcd5bbac74dcc62b3d715bf72fe9a80cb5a4031f67",
+      "imports": [
+        "map_art_runtime_v6",
+        "preview_luocha_compact_v5",
+        "preview_map_visual_v3"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "map_test_bridge_v1",
+      "path": "补丁工作仓库/脚本/map_test_bridge_v1.py",
+      "sha256": "ffb592bcc05c66522e33c331bb0900a068271dc004d8d4c7236e2c3a324a153b",
+      "imports": [
+        "flash_v4",
+        "settings_toggle_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "map_test_catalog_rules_v1",
+      "path": "补丁工作仓库/脚本/map_test_catalog_rules_v1.py",
+      "sha256": "46e8561e9a662d66a8ae81898e7408b0781113e223e9f6f93b9b251a2a7c92bb",
+      "imports": [],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "map_test_exe_entry_v1",
+      "path": "补丁工作仓库/脚本/map_test_exe_entry_v1.py",
+      "sha256": "31a8a0b581b9df7e325ed4c285c6581dc31e3c457a81182344ecbc84dca1050b",
+      "imports": [
+        "map_test_tool_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "map_test_tool_v1",
+      "path": "补丁工作仓库/脚本/map_test_tool_v1.py",
+      "sha256": "753db4923e511f7ec36534cb947e6840ee5b3e4512c3c98aeffdcf2d87fda8d6",
+      "imports": [
+        "map_test_catalog_rules_v1",
+        "newpal_processes_v1",
+        "portable_map_bridge_v1",
+        "probe_map_position_readonly_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "monster_motion_v1",
+      "path": "补丁工作仓库/脚本/monster_motion_v1.py",
+      "sha256": "d52b89654b129f55f6481b659c7a1b8d0e3c7dcd01f9aae503e7d367ca7b8602",
+      "imports": [
+        "battle_entry_v5",
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "mouse_motion_v1",
+      "path": "补丁工作仓库/脚本/mouse_motion_v1.py",
+      "sha256": "42e5526b508dc2bb59b4cb121cefb3d0ff246c7f7b80711633e7aa49fd0efdab",
+      "imports": [
+        "flash_v4",
+        "incense_link_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "mouse_motion_v2",
+      "path": "补丁工作仓库/脚本/mouse_motion_v2.py",
+      "sha256": "43cf025be2585fba720b24a21f8fd49fdafaca0d0439d09d3172c3c124a6de17",
+      "imports": [
+        "flash_v4",
+        "mouse_motion_v1",
+        "mouse_transition_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "mouse_transition_v1",
+      "path": "补丁工作仓库/脚本/mouse_transition_v1.py",
+      "sha256": "7c22475ec8e5bbd0d4f79869d75e60249e7f624d12b625a80ee0e504f1860ef8",
+      "imports": [
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "native_damage_harness",
+      "path": "补丁工作仓库/脚本/native_damage_harness.py",
+      "sha256": "a7f3175e279d3462827bb316d05e86866831e90a2ecd5065e9a475ff332a4cd6",
+      "imports": [
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "newpal_processes_v1",
+      "path": "补丁工作仓库/脚本/newpal_processes_v1.py",
+      "sha256": "7d10f28174a2c0afb857d2d6ba47dd329ba361dae559c382c04ec5559d7a661b",
+      "imports": [],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "portable_map_bridge_v1",
+      "path": "补丁工作仓库/脚本/portable_map_bridge_v1.py",
+      "sha256": "47d0777a4ca5edc0840a49bff26edb0424fe93f982f746a0bbbec467f7b53f4c",
+      "imports": [
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "postbattle_recovery_v1",
+      "path": "补丁工作仓库/脚本/postbattle_recovery_v1.py",
+      "sha256": "1365bc8592fd994fe165d753cfcb3323b40826e2b10767364c3ddb631e597237",
+      "imports": [
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "preview_luocha_compact_v5",
+      "path": "补丁工作仓库/脚本/preview_luocha_compact_v5.py",
+      "sha256": "94e1c14093be3b0f93213084479b3e3b20bd0edf35cd5a20b225a33dd569c749",
+      "imports": [
+        "build_luocha_boundary_routes_v1",
+        "preview_map_visual_v4",
+        "style_luocha_assets_v2"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "preview_map_visual_v3",
+      "path": "补丁工作仓库/脚本/preview_map_visual_v3.py",
+      "sha256": "06d5f5bb2c8f0315b13721bf20362d0739a4cc7588f798e9a90715a47a507a89",
+      "imports": [],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "preview_map_visual_v4",
+      "path": "补丁工作仓库/脚本/preview_map_visual_v4.py",
+      "sha256": "3d7eee90d286b3d5f7f5532610b197478683847ded2c79b8de26fe1efbe27e1c",
+      "imports": [
+        "preview_map_visual_v3"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "probe_map_position_readonly_v1",
+      "path": "补丁工作仓库/脚本/probe_map_position_readonly_v1.py",
+      "sha256": "d2e28b16fc39fba8e0dae42a01bfcf03fbd73d3b808dacdcac7876b70b32fec7",
+      "imports": [],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "research_group_death_v1",
+      "path": "补丁工作仓库/脚本/research_group_death_v1.py",
+      "sha256": "6b6177a1ebd32849a5063bf71c7adeb0133e1ec55e70ddefff3d800367836e14",
+      "imports": [
+        "flash_v4",
+        "native_damage_harness"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "settings_toggle_v1",
+      "path": "补丁工作仓库/脚本/settings_toggle_v1.py",
+      "sha256": "d998721714c09fefada6322c02e3afa650a187d1576901d4884a82a594783345",
+      "imports": [
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "simple_batch_v1",
+      "path": "补丁工作仓库/脚本/simple_batch_v1.py",
+      "sha256": "bf8f3dd1b6a91df6c62f84be6ba037a53af140ba75c54eb810d3c9a352b57c94",
+      "imports": [
+        "flash_v4",
+        "postbattle_recovery_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "snake_frame_v1",
+      "path": "补丁工作仓库/脚本/snake_frame_v1.py",
+      "sha256": "41c0fe3303f0e176534197cfb43bbfe456142d2043e1e0ad5c2dd7a1bd9c5795",
+      "imports": [
+        "flash_v4",
+        "window_mouse_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "story_motion_v2",
+      "path": "补丁工作仓库/脚本/story_motion_v2.py",
+      "sha256": "65ad4548af1d0d4e5224c84ac8c2d4db88b0cccae4b74c3cd6e959f84ee9ac57",
+      "imports": [
+        "flash_v4",
+        "monster_motion_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "story_motion_v3",
+      "path": "补丁工作仓库/脚本/story_motion_v3.py",
+      "sha256": "6b3b6651ffddb7e9537fa18c64595d43eb9c694d35c1fd69f7dd730ffd398ec5",
+      "imports": [
+        "flash_v4",
+        "monster_motion_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "style_luocha_assets_v2",
+      "path": "补丁工作仓库/脚本/style_luocha_assets_v2.py",
+      "sha256": "4ec963e7c98375b6f535a05363c32d37dbabf4b5364972363f72f8061ed3673a",
+      "imports": [
+        "build_luocha_runtime_assets_v1",
+        "luocha_boundary_geometry_v2"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "verify_four_features_v9",
+      "path": "补丁工作仓库/脚本/verify_four_features_v9.py",
+      "sha256": "30464a11e1d8fc45e60dc5a4922fabfe72759c0403d7c9f99d5c85bf8b02b180",
+      "imports": [
+        "flash_v4",
+        "four_features_v9",
+        "native_damage_harness"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "verify_group_death_v1",
+      "path": "补丁工作仓库/脚本/verify_group_death_v1.py",
+      "sha256": "7d50c0cc6910ec0409c42b607efdc9b3fd56d8a0a140d67f09debea64bd7bb64",
+      "imports": [
+        "flash_v4",
+        "group_death_v1",
+        "research_group_death_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "verify_joystick_compat_v1",
+      "path": "补丁工作仓库/脚本/verify_joystick_compat_v1.py",
+      "sha256": "2a850746dc087791971257f7ce417641637d2fe798ebc4e251dbd7b15c84453f",
+      "imports": [
+        "audit_akey_history_20261101",
+        "flash_v4",
+        "joystick_compat_v1"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "verify_map_nameplates_v1",
+      "path": "补丁工作仓库/脚本/verify_map_nameplates_v1.py",
+      "sha256": "4c6a9cfb6eb97adae491a84ebca057b7361e4c18eab8a0eeeecdfc8c44c36802",
+      "imports": [
+        "map_nameplates_v1",
+        "native_damage_harness"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "verify_story_motion_v2",
+      "path": "补丁工作仓库/脚本/verify_story_motion_v2.py",
+      "sha256": "e961c4fb47f8a571991059a43002c41cb70ca0a577ac1ffcdc196899406d11cf",
+      "imports": [
+        "monster_motion_v1",
+        "story_motion_v2"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "verify_story_motion_v3",
+      "path": "补丁工作仓库/脚本/verify_story_motion_v3.py",
+      "sha256": "4e05b161baa61ff66d6fb5b2a13cbca6a65c85e47651250dcbdb94dc8071c98a",
+      "imports": [
+        "monster_motion_v1",
+        "story_motion_v3",
+        "verify_story_motion_v2"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "walk_start_v1",
+      "path": "补丁工作仓库/脚本/walk_start_v1.py",
+      "sha256": "579bde2232e6d3c31a4c77951cca18b7afaceb723b9445c6bc7edeae155eefbd",
+      "imports": [
+        "flash_v4"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    },
+    {
+      "module": "window_mouse_v1",
+      "path": "补丁工作仓库/脚本/window_mouse_v1.py",
+      "sha256": "236ffed901f0d43f494dfa58ca6dd5b7db61949b6b26e8b8e94c4deb35a9da13",
+      "imports": [
+        "edge_walk_v1",
+        "flash_v4",
+        "mouse_motion_v2"
+      ],
+      "entry_policy": "library/research; use documented entry points only"
+    }
+  ],
+  "external_import_names": [
+    "PIL",
+    "argparse",
+    "base64",
+    "capstone",
+    "collections",
+    "copy",
+    "csv",
+    "ctypes",
+    "datetime",
+    "hashlib",
+    "heapq",
+    "itertools",
+    "json",
+    "math",
+    "numpy",
+    "os",
+    "pathlib",
+    "pefile",
+    "re",
+    "shutil",
+    "sqlite3",
+    "struct",
+    "subprocess",
+    "sys",
+    "time",
+    "tkinter",
+    "traceback",
+    "types",
+    "unicorn",
+    "winreg",
+    "zipfile"
+  ],
+  "limits": [
+    "Import closure is not full runtime file dependency closure.",
+    "Historical module names remain because current code imports them.",
+    "Do not execute historical installers or main functions.",
+    "Binary reconstruction is supported; full source-only rebuild still needs input cleanup."
+  ]
+}

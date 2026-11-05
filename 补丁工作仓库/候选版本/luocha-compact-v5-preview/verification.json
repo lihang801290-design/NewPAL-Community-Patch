@@ -1,0 +1,1238 @@
+{
+  "status": "offline complete preview; user review and runtime integration pending",
+  "installed": false,
+  "game_files_unchanged": true,
+  "base_exe_sha256": "1575d5ac11fc5f0761a8ca25c520dea69dd227150c5f2f1d99424b4192e25375",
+  "scene_count": 17,
+  "logical_fragment_count": 13,
+  "native_pairs_unchanged": 21,
+  "same_page_connectors": 20,
+  "labels": [
+    {
+      "page": 0,
+      "scene": 502,
+      "label": "洞外",
+      "old_box": [
+        475,
+        286,
+        517,
+        304
+      ],
+      "new_box": [
+        452,
+        329,
+        494,
+        347
+      ],
+      "overlap_pixels": 0
+    },
+    {
+      "page": 0,
+      "scene": 503,
+      "label": "主洞",
+      "old_box": [
+        299,
+        176,
+        341,
+        194
+      ],
+      "new_box": [
+        293,
+        164,
+        335,
+        182
+      ],
+      "overlap_pixels": 0
+    },
+    {
+      "page": 0,
+      "scene": 504,
+      "label": "上方短通道",
+      "old_box": [
+        184,
+        66,
+        266,
+        84
+      ],
+      "new_box": [
+        178,
+        70,
+        260,
+        88
+      ],
+      "overlap_pixels": 0
+    },
+    {
+      "page": 0,
+      "scene": 505,
+      "label": "上方旧洞",
+      "old_box": [
+        436,
+        63,
+        504,
+        81
+      ],
+      "new_box": [
+        482,
+        77,
+        550,
+        95
+      ],
+      "overlap_pixels": 0
+    },
+    {
+      "page": 0,
+      "scene": 509,
+      "label": "左侧支洞",
+      "old_box": [
+        36,
+        157,
+        104,
+        175
+      ],
+      "new_box": [
+        40,
+        160,
+        108,
+        178
+      ],
+      "overlap_pixels": 0
+    },
+    {
+      "page": 0,
+      "scene": 507,
+      "label": "右侧支洞",
+      "old_box": [
+        532,
+        192,
+        600,
+        210
+      ],
+      "new_box": [
+        448,
+        199,
+        516,
+        217
+      ],
+      "overlap_pixels": 0
+    },
+    {
+      "page": 0,
+      "scene": 510,
+      "label": "圆形支洞",
+      "old_box": [
+        38,
+        328,
+        106,
+        346
+      ],
+      "new_box": [
+        47,
+        304,
+        115,
+        322
+      ],
+      "overlap_pixels": 0
+    },
+    {
+      "page": 1,
+      "scene": 511,
+      "label": "主洞",
+      "old_box": [
+        299,
+        193,
+        341,
+        211
+      ],
+      "new_box": [
+        293,
+        176,
+        335,
+        194
+      ],
+      "overlap_pixels": 0
+    },
+    {
+      "page": 1,
+      "scene": 512,
+      "label": "斜向通道",
+      "old_box": [
+        51,
+        66,
+        119,
+        84
+      ],
+      "new_box": [
+        85,
+        67,
+        153,
+        85
+      ],
+      "overlap_pixels": 0
+    },
+    {
+      "page": 1,
+      "scene": 513,
+      "label": "狭长通道",
+      "old_box": [
+        271,
+        67,
+        339,
+        85
+      ],
+      "new_box": [
+        305,
+        67,
+        373,
+        85
+      ],
+      "overlap_pixels": 0
+    },
+    {
+      "page": 1,
+      "scene": 515,
+      "label": "小曲支洞",
+      "old_box": [
+        511,
+        183,
+        579,
+        201
+      ],
+      "new_box": [
+        462,
+        202,
+        530,
+        220
+      ],
+      "overlap_pixels": 0
+    },
+    {
+      "page": 1,
+      "scene": 517,
+      "label": "左侧支洞",
+      "old_box": [
+        46,
+        223,
+        114,
+        241
+      ],
+      "new_box": [
+        60,
+        206,
+        128,
+        224
+      ],
+      "overlap_pixels": 0
+    },
+    {
+      "page": 1,
+      "scene": 518,
+      "label": "大殿",
+      "old_box": [
+        549,
+        292,
+        591,
+        310
+      ],
+      "new_box": [
+        392,
+        317,
+        434,
+        335
+      ],
+      "overlap_pixels": 0
+    }
+  ],
+  "moves": [
+    {
+      "scene": 502,
+      "page": 0,
+      "delta": [
+        -24,
+        48
+      ],
+      "old_transform": [
+        454,
+        279,
+        180,
+        1000
+      ],
+      "new_transform": [
+        430,
+        327,
+        180,
+        1000
+      ],
+      "fragment_bbox": [
+        425,
+        342,
+        484,
+        381
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 503,
+      "page": 0,
+      "delta": [
+        -5,
+        -5
+      ],
+      "old_transform": [
+        165,
+        194,
+        100,
+        1000
+      ],
+      "new_transform": [
+        160,
+        189,
+        100,
+        1000
+      ],
+      "fragment_bbox": [
+        151,
+        182,
+        425,
+        388
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 506,
+      "page": 0,
+      "delta": [
+        -5,
+        -5
+      ],
+      "old_transform": [
+        165,
+        194,
+        100,
+        1000
+      ],
+      "new_transform": [
+        160,
+        189,
+        100,
+        1000
+      ],
+      "fragment_bbox": [
+        159,
+        200,
+        425,
+        360
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 508,
+      "page": 0,
+      "delta": [
+        -5,
+        -5
+      ],
+      "old_transform": [
+        165,
+        194,
+        100,
+        1000
+      ],
+      "new_transform": [
+        160,
+        189,
+        100,
+        1000
+      ],
+      "fragment_bbox": [
+        151,
+        244,
+        405,
+        341
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 504,
+      "page": 0,
+      "delta": [
+        -5,
+        5
+      ],
+      "old_transform": [
+        171,
+        80,
+        80,
+        1000
+      ],
+      "new_transform": [
+        166,
+        85,
+        80,
+        1000
+      ],
+      "fragment_bbox": [
+        159,
+        91,
+        278,
+        170
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 505,
+      "page": 0,
+      "delta": [
+        -65,
+        15
+      ],
+      "old_transform": [
+        404,
+        80,
+        68,
+        1000
+      ],
+      "new_transform": [
+        339,
+        95,
+        68,
+        1000
+      ],
+      "fragment_bbox": [
+        332,
+        88,
+        475,
+        185
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 509,
+      "page": 0,
+      "delta": [
+        5,
+        10
+      ],
+      "old_transform": [
+        20,
+        172,
+        80,
+        1000
+      ],
+      "new_transform": [
+        25,
+        182,
+        80,
+        1000
+      ],
+      "fragment_bbox": [
+        18,
+        181,
+        137,
+        304
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 507,
+      "page": 0,
+      "delta": [
+        -83,
+        10
+      ],
+      "old_transform": [
+        523,
+        211,
+        70,
+        1000
+      ],
+      "new_transform": [
+        440,
+        221,
+        70,
+        1000
+      ],
+      "fragment_bbox": [
+        431,
+        220,
+        537,
+        329
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 510,
+      "page": 0,
+      "delta": [
+        10,
+        -25
+      ],
+      "old_transform": [
+        25,
+        345,
+        70,
+        1000
+      ],
+      "new_transform": [
+        35,
+        320,
+        70,
+        1000
+      ],
+      "fragment_bbox": [
+        30,
+        324,
+        131,
+        409
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 511,
+      "page": 1,
+      "delta": [
+        -5,
+        -10
+      ],
+      "old_transform": [
+        198,
+        213,
+        105,
+        1000
+      ],
+      "new_transform": [
+        193,
+        203,
+        105,
+        1000
+      ],
+      "fragment_bbox": [
+        184,
+        197,
+        434,
+        388
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 514,
+      "page": 1,
+      "delta": [
+        -5,
+        -10
+      ],
+      "old_transform": [
+        198,
+        213,
+        105,
+        1000
+      ],
+      "new_transform": [
+        193,
+        203,
+        105,
+        1000
+      ],
+      "fragment_bbox": [
+        213,
+        233,
+        399,
+        304
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 516,
+      "page": 1,
+      "delta": [
+        -5,
+        -10
+      ],
+      "old_transform": [
+        198,
+        213,
+        105,
+        1000
+      ],
+      "new_transform": [
+        193,
+        203,
+        105,
+        1000
+      ],
+      "fragment_bbox": [
+        184,
+        256,
+        389,
+        351
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 512,
+      "page": 1,
+      "delta": [
+        35,
+        0
+      ],
+      "old_transform": [
+        25,
+        80,
+        110,
+        1000
+      ],
+      "new_transform": [
+        60,
+        80,
+        110,
+        1000
+      ],
+      "fragment_bbox": [
+        54,
+        85,
+        182,
+        173
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 513,
+      "page": 1,
+      "delta": [
+        35,
+        -5
+      ],
+      "old_transform": [
+        180,
+        84,
+        155,
+        1000
+      ],
+      "new_transform": [
+        215,
+        79,
+        155,
+        1000
+      ],
+      "fragment_bbox": [
+        206,
+        87,
+        464,
+        162
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 515,
+      "page": 1,
+      "delta": [
+        -48,
+        28
+      ],
+      "old_transform": [
+        490,
+        200,
+        75,
+        1000
+      ],
+      "new_transform": [
+        442,
+        228,
+        75,
+        1000
+      ],
+      "fragment_bbox": [
+        435,
+        229,
+        571,
+        308
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 517,
+      "page": 1,
+      "delta": [
+        15,
+        -10
+      ],
+      "old_transform": [
+        25,
+        240,
+        90,
+        1000
+      ],
+      "new_transform": [
+        40,
+        230,
+        90,
+        1000
+      ],
+      "fragment_bbox": [
+        38,
+        226,
+        164,
+        344
+      ],
+      "native_source_unchanged": true
+    },
+    {
+      "scene": 518,
+      "page": 1,
+      "delta": [
+        -156,
+        26
+      ],
+      "old_transform": [
+        525,
+        304,
+        140,
+        1000
+      ],
+      "new_transform": [
+        369,
+        330,
+        140,
+        1000
+      ],
+      "fragment_bbox": [
+        370,
+        347,
+        467,
+        405
+      ],
+      "native_source_unchanged": true
+    }
+  ],
+  "connectors": [
+    {
+      "number": 1,
+      "old_length": 72.0,
+      "new_length": 98.1,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 36
+    },
+    {
+      "number": 2,
+      "old_length": 149.1,
+      "new_length": 137.3,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 56
+    },
+    {
+      "number": 3,
+      "old_length": 154.0,
+      "new_length": 526.4,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 252
+    },
+    {
+      "number": 4,
+      "old_length": 197.2,
+      "new_length": 152.6,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 65
+    },
+    {
+      "number": 5,
+      "old_length": 69.2,
+      "new_length": 54.0,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 17
+    },
+    {
+      "number": 6,
+      "old_length": 163.1,
+      "new_length": 86.5,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 32
+    },
+    {
+      "number": 7,
+      "old_length": 190.1,
+      "new_length": 108.5,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 44
+    },
+    {
+      "number": 8,
+      "old_length": 152.1,
+      "new_length": 54.9,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 17
+    },
+    {
+      "number": 9,
+      "old_length": 176.2,
+      "new_length": 78.5,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 30
+    },
+    {
+      "number": 10,
+      "old_length": 92.1,
+      "new_length": 66.4,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 23
+    },
+    {
+      "number": 12,
+      "old_length": 225.8,
+      "new_length": 186.4,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 71
+    },
+    {
+      "number": 13,
+      "old_length": 259.3,
+      "new_length": 204.2,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 83
+    },
+    {
+      "number": 14,
+      "old_length": 104.0,
+      "new_length": 133.0,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 45
+    },
+    {
+      "number": 15,
+      "old_length": 87.2,
+      "new_length": 67.0,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 21
+    },
+    {
+      "number": 16,
+      "old_length": 418.2,
+      "new_length": 223.9,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 102
+    },
+    {
+      "number": 17,
+      "old_length": 76.1,
+      "new_length": 68.2,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 24
+    },
+    {
+      "number": 18,
+      "old_length": 233.2,
+      "new_length": 163.2,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 71
+    },
+    {
+      "number": 19,
+      "old_length": 381.0,
+      "new_length": 332.2,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 154
+    },
+    {
+      "number": 20,
+      "old_length": 301.2,
+      "new_length": 291.5,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 136
+    },
+    {
+      "number": 21,
+      "old_length": 68.1,
+      "new_length": 50.0,
+      "endpoint_mapping_exact": true,
+      "exterior_cells_checked": 15
+    }
+  ],
+  "source_native_geometry_unchanged": true,
+  "main_family_transform_shared": true,
+  "all_native_port_identities_unchanged": true,
+  "road_overlap_checks": [
+    {
+      "a": 503,
+      "b": 502,
+      "road_overlap": 0
+    },
+    {
+      "a": 506,
+      "b": 502,
+      "road_overlap": 0
+    },
+    {
+      "a": 508,
+      "b": 502,
+      "road_overlap": 0
+    },
+    {
+      "a": 504,
+      "b": 502,
+      "road_overlap": 0
+    },
+    {
+      "a": 504,
+      "b": 503,
+      "road_overlap": 0
+    },
+    {
+      "a": 504,
+      "b": 506,
+      "road_overlap": 0
+    },
+    {
+      "a": 504,
+      "b": 508,
+      "road_overlap": 0
+    },
+    {
+      "a": 505,
+      "b": 502,
+      "road_overlap": 0
+    },
+    {
+      "a": 505,
+      "b": 503,
+      "road_overlap": 0
+    },
+    {
+      "a": 505,
+      "b": 506,
+      "road_overlap": 0
+    },
+    {
+      "a": 505,
+      "b": 508,
+      "road_overlap": 0
+    },
+    {
+      "a": 505,
+      "b": 504,
+      "road_overlap": 0
+    },
+    {
+      "a": 509,
+      "b": 502,
+      "road_overlap": 0
+    },
+    {
+      "a": 509,
+      "b": 503,
+      "road_overlap": 0
+    },
+    {
+      "a": 509,
+      "b": 506,
+      "road_overlap": 0
+    },
+    {
+      "a": 509,
+      "b": 508,
+      "road_overlap": 0
+    },
+    {
+      "a": 509,
+      "b": 504,
+      "road_overlap": 0
+    },
+    {
+      "a": 509,
+      "b": 505,
+      "road_overlap": 0
+    },
+    {
+      "a": 507,
+      "b": 502,
+      "road_overlap": 0
+    },
+    {
+      "a": 507,
+      "b": 503,
+      "road_overlap": 0
+    },
+    {
+      "a": 507,
+      "b": 506,
+      "road_overlap": 0
+    },
+    {
+      "a": 507,
+      "b": 508,
+      "road_overlap": 0
+    },
+    {
+      "a": 507,
+      "b": 504,
+      "road_overlap": 0
+    },
+    {
+      "a": 507,
+      "b": 505,
+      "road_overlap": 0
+    },
+    {
+      "a": 507,
+      "b": 509,
+      "road_overlap": 0
+    },
+    {
+      "a": 510,
+      "b": 502,
+      "road_overlap": 0
+    },
+    {
+      "a": 510,
+      "b": 503,
+      "road_overlap": 0
+    },
+    {
+      "a": 510,
+      "b": 506,
+      "road_overlap": 0
+    },
+    {
+      "a": 510,
+      "b": 508,
+      "road_overlap": 0
+    },
+    {
+      "a": 510,
+      "b": 504,
+      "road_overlap": 0
+    },
+    {
+      "a": 510,
+      "b": 505,
+      "road_overlap": 0
+    },
+    {
+      "a": 510,
+      "b": 509,
+      "road_overlap": 0
+    },
+    {
+      "a": 510,
+      "b": 507,
+      "road_overlap": 0
+    },
+    {
+      "a": 512,
+      "b": 511,
+      "road_overlap": 0
+    },
+    {
+      "a": 512,
+      "b": 514,
+      "road_overlap": 0
+    },
+    {
+      "a": 512,
+      "b": 516,
+      "road_overlap": 0
+    },
+    {
+      "a": 513,
+      "b": 511,
+      "road_overlap": 0
+    },
+    {
+      "a": 513,
+      "b": 514,
+      "road_overlap": 0
+    },
+    {
+      "a": 513,
+      "b": 516,
+      "road_overlap": 0
+    },
+    {
+      "a": 513,
+      "b": 512,
+      "road_overlap": 0
+    },
+    {
+      "a": 515,
+      "b": 511,
+      "road_overlap": 0
+    },
+    {
+      "a": 515,
+      "b": 514,
+      "road_overlap": 0
+    },
+    {
+      "a": 515,
+      "b": 516,
+      "road_overlap": 0
+    },
+    {
+      "a": 515,
+      "b": 512,
+      "road_overlap": 0
+    },
+    {
+      "a": 515,
+      "b": 513,
+      "road_overlap": 0
+    },
+    {
+      "a": 517,
+      "b": 511,
+      "road_overlap": 0
+    },
+    {
+      "a": 517,
+      "b": 514,
+      "road_overlap": 0
+    },
+    {
+      "a": 517,
+      "b": 516,
+      "road_overlap": 0
+    },
+    {
+      "a": 517,
+      "b": 512,
+      "road_overlap": 0
+    },
+    {
+      "a": 517,
+      "b": 513,
+      "road_overlap": 0
+    },
+    {
+      "a": 517,
+      "b": 515,
+      "road_overlap": 0
+    },
+    {
+      "a": 518,
+      "b": 511,
+      "road_overlap": 0
+    },
+    {
+      "a": 518,
+      "b": 514,
+      "road_overlap": 0
+    },
+    {
+      "a": 518,
+      "b": 516,
+      "road_overlap": 0
+    },
+    {
+      "a": 518,
+      "b": 512,
+      "road_overlap": 0
+    },
+    {
+      "a": 518,
+      "b": 513,
+      "road_overlap": 0
+    },
+    {
+      "a": 518,
+      "b": 515,
+      "road_overlap": 0
+    },
+    {
+      "a": 518,
+      "b": 517,
+      "road_overlap": 0
+    }
+  ],
+  "legend_and_caption_clear": true,
+  "resources": 54,
+  "mock_player_and_exploration": true,
+  "limits": "Candidate display atlas and alpha require corresponding EXE mapping integration after preview approval. Existing exploration migration must be handled; do not install PNGs alone.",
+  "native_mask_translation_checks": [
+    {
+      "scene": 502,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "4576189b05c96bb7f07a8baeed36861e50181325cbe5cf120ed5d6127663e44c"
+    },
+    {
+      "scene": 503,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "b0a9abb12c222d2ed9eb79f01d9b34fe737acc58e04bb19ae5d2b2db121f1550"
+    },
+    {
+      "scene": 506,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "c1a3bc6995f8d282ce9e9dd4e622bb105efa5d2b57b2973ec7fe5fc05620aa81"
+    },
+    {
+      "scene": 508,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "11ab17d3f82478e58783b71e2952e2ec22052bcc7603b2346646206bb6b47454"
+    },
+    {
+      "scene": 504,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "9b67f804b0c26d65f91e2d03e64a5f5dbedd588a823a7f97d321aee3831f21c4"
+    },
+    {
+      "scene": 505,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "713a0c755d71c8387bac0758c6a003c5cf979e5709ec3098a16b833c1e04f3bf"
+    },
+    {
+      "scene": 509,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "29df56e9bb533a545482c888388c4899dd5cc37db27ea5be38a390efa9f1069c"
+    },
+    {
+      "scene": 507,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "15ed572ea59e0845df18517cb662d5d797af2d6cdb457630fc04f8c418dffab8"
+    },
+    {
+      "scene": 510,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "bdf3ef5c89848bcec78261c41cd307df3227d0c7835668875823ae10d0459fcd"
+    },
+    {
+      "scene": 511,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "714877e4ec23fc569d0d2f215f8e3fc3d96fa6f32e07060274f33cf9a2df6e92"
+    },
+    {
+      "scene": 514,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "6a9226f8d1fd13979c94dafb9731e7e3df02290b97ddffbf887291ad6e3af196"
+    },
+    {
+      "scene": 516,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "9badae275d0d3cc06bd0c00b4ed626903d45d8a3a36268463365cf9b49874afc"
+    },
+    {
+      "scene": 512,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "8b2dade22ac58e50369e049b5a6eed1ef0bb1dc7d40ef65dd6d1f8f8ec8eb4e7"
+    },
+    {
+      "scene": 513,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "1fba0d41fa7d20eff6bfcc79663d845a645c747fcdd5541f66de701153eb8c11"
+    },
+    {
+      "scene": 515,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "690168bbc8f4659b3eb4f78a0d9af13aa51e8c87c96b81b438dc02c5222ceb88"
+    },
+    {
+      "scene": 517,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "47a5034e1f66cb21b3069e1c9f12ddc1fa442ad307a6240cc6983789c1952995"
+    },
+    {
+      "scene": 518,
+      "rigid_mask_translation_exact": true,
+      "native_display_grid_sha256": "24c6dc1d895ba793272a26b5cd7e31211df4c20b6c0139064e7f8d190585382c"
+    }
+  ],
+  "old_connector_length": 3569.199999999999,
+  "new_connector_length": 3082.7999999999997,
+  "alpha_bytes": 5222400
+}

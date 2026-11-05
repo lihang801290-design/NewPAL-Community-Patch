@@ -1,0 +1,24 @@
+{
+  "origin": 7356416,
+  "size": 4096,
+  "code_size": 31,
+  "context": 6213632,
+  "flag_byte": 5699508,
+  "flag_mask": 64,
+  "header_write_offsets": [
+    968,
+    976,
+    392,
+    340,
+    400
+  ],
+  "baseline_sha1": "8da3294b577d2ef8bacd2446e2be74946a41913a",
+  "candidate_sha1": "b5a0b8cd39ec092653fa78a643c6e156c0792b47",
+  "status": "candidate; internal verification pending",
+  "independent_collections": [
+    "dream-first",
+    "luocha-return-front/back (pending)"
+  ],
+  "no_story_flag_writes": true,
+  "return_exploration": "Must use independent files/schema namespace; existing np_explore2_* belongs only to dream-first."
+}

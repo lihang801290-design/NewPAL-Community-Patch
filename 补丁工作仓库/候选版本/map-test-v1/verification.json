@@ -1,0 +1,15 @@
+{
+  "status": "passed; gameplay acceptance pending",
+  "baseline_sha1": "a95e308bc2c28413c7617c37e67c0c723a71f7f0",
+  "candidate_sha1": "8da3294b577d2ef8bacd2446e2be74946a41913a",
+  "checks": [
+    "disabled-by-default and expired controller leases consume stale requests without a warp",
+    "all556 indexed maps validate and dispatch on game thread with exact seven native loader arguments; no replay after acknowledgement",
+    "battle/transition/dialogue/menu/encounter/invalid party/reentrant requests cannot invoke loader",
+    "invalid/negative/out-of-range coordinates and unknown scenes rejected; only owned map window is closed for a warp",
+    "all4 active ordinary-encounter gates force protection, preserving every register; disabled/expired gates restore exact original flags and chain",
+    "normal/autosave entry blocked only during leased testing; original SEH prologue restored otherwise; unsigned tick wrap handled",
+    "only outer-frame call,4 gate jumps,save-entry guard and PE sizes differ; no original resources/settings/input/plot tables changed"
+  ],
+  "limits": "offline native mailbox execution; loader and prior frame APIs substituted. No claim that all556 maps/landing points or forced story battles were tested live."
+}

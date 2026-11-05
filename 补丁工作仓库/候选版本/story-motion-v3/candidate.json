@@ -1,0 +1,32 @@
+{
+  "origin": 6164480,
+  "state": 6166528,
+  "section_offset": 1438720,
+  "changes": [
+    {
+      "offset": 1438754,
+      "old": 28,
+      "new": 24
+    },
+    {
+      "offset": 1438765,
+      "old": 28,
+      "new": 24
+    },
+    {
+      "offset": 1439784,
+      "old": 28,
+      "new": 24
+    },
+    {
+      "offset": 1439795,
+      "old": 28,
+      "new": 24
+    }
+  ],
+  "native_tail_retained": true,
+  "resources_changed": false,
+  "baseline_sha1": "5d953f4b580295c0dd16c26d75a729ef13169731",
+  "candidate_sha1": "4fcbb543ea1ff27e4a7ad4965a85c1a242bd5e61",
+  "status": "candidate; offline and gameplay verification pending"
+}

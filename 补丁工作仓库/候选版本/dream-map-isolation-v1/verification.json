@@ -1,0 +1,18 @@
+{
+  "status": "passed; gameplay acceptance pending",
+  "baseline_sha1": "8da3294b577d2ef8bacd2446e2be74946a41913a",
+  "candidate_sha1": "b5a0b8cd39ec092653fa78a643c6e156c0792b47",
+  "checks": [
+    "168 scene/phase contexts: original dream behavior retained with flag102 clear, return phase rejects dream viewer, other scenes rejected",
+    "all existing battle/script/inactive context exclusions preserved",
+    "M, standard Back and generic Back pass through without opening/owning the dream map in return phase",
+    "actual feathered exploration visit exits before mutating state in return phase",
+    "already-open dream map closes/releases modal state and resumes native frame when phase changes",
+    "only context trampoline, appended31-byte helper and PE size fields changed; input/visit/frame/storage/art code identical",
+    "complete map-test bridge code/mailbox/dimension region remains byte-identical"
+  ],
+  "live_game_access": false,
+  "no_story_flag_writes": true,
+  "no_save_or_resource_writes": true,
+  "map_test_bridge_unchanged": true
+}

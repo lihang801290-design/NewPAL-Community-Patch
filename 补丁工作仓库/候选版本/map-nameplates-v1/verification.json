@@ -1,0 +1,31 @@
+{
+  "status": "passed; user gameplay verification pending",
+  "baseline_sha1": "a3ada144aa8d4b051005deb155dbd283acc0fc00",
+  "candidate_sha1": "8e37646f6c3be09b9cb37463d6dbae50b60d7057",
+  "checks": [
+    "17 native scene cases: only the entered logical title shows; three main-floor variants share one name; no title leaks from full fog mask or adjacent/page-visible terrain; title fully visible even when brush mask is zero",
+    "actual frame entry unlocks titles; leaving retains them; normal save/reload/restart retain only saved visits; loading earlier progress hides unsaved future titles; NLR4/native .sav unchanged",
+    "separate 17-title cache stays outside the legacy 64-widget arrays; missing title resource closes the modal safely",
+    "all 16 dream visit combinations execute real draw with exact corresponding title crops, no cave-name bleed and no need for the brush to reach a label",
+    "road coordinates/ports/links, lotus logic and old save formats unchanged; all three public v6 ZIPs retain their exact previous hashes"
+  ],
+  "resources": 111,
+  "title_resources": 17,
+  "map_test_bridge_unchanged": true,
+  "published": false,
+  "publication_baseline": [
+    {
+      "path": "发布补丁/NewPAL_手动覆盖补丁_20261105_v6.zip",
+      "sha256": "fa92ede35d47ce8eed4aa1ff8edb47101e16cfe339a5c274449ce543658fe64f"
+    },
+    {
+      "path": "发布补丁/NewPAL_整合补丁_20261105_v6.zip",
+      "sha256": "8f26aeb4c04553bc5be15ffb72e921f7df0b45240c95c60f6a812c43df4ba1ed"
+    },
+    {
+      "path": "发布补丁/NewPAL_协作开发包_20261105_v6.zip",
+      "sha256": "4ba50e973c01a1928f8bf91c34186e72d1294ab3d6a127e1d773dc59ae36a74d"
+    }
+  ],
+  "native_saves_modified": false
+}

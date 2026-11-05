@@ -1,0 +1,41 @@
+{
+  "symbols": {
+    "context": 6213632,
+    "close": 6213807,
+    "valid_widget": 6213844,
+    "widgets": 6213932,
+    "toggle": 6214115,
+    "event": 6214200,
+    "frame": 6214975
+  },
+  "state": {
+    "open": 6221824,
+    "m_held": 6221828,
+    "back_held": 6221832,
+    "m_owned": 6221836,
+    "back_owned": 6221840,
+    "loaded": 6221844,
+    "id0": 6221848,
+    "id1": 6221852,
+    "ptr0": 6221856,
+    "ptr1": 6221860,
+    "frame_count": 6221864,
+    "esc_held": 6221868,
+    "b_held": 6221872,
+    "esc_owned": 6221876,
+    "b_owned": 6221880
+  },
+  "origin": 6213632,
+  "code_size": 2008,
+  "glow_alias": 6219776,
+  "glow_branch": 6152565,
+  "route": 6152497,
+  "glow_level": 6153200,
+  "previous_origin": 6213632,
+  "scope": "Esc/B closes map only, retaining releases; only actual leader actor10/sprite1 gains grace glow; all encounter gates unchanged",
+  "status": "candidate; internal checks pending",
+  "baseline_sha1": "4f83962f58daeddafecb1b59ba70643cdf4f48e1",
+  "candidate_sha1": "784f6f717d9d066ff2d310d37099541b70f8bc6a",
+  "controls": "M/Back toggle, Esc/B close only; keep all four press/release latches",
+  "resources": "reuse installed two map PNGs and eight settings PNGs; no archive or save changes"
+}
