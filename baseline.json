@@ -1,10 +1,10 @@
 {
-  "version": "v0.3.4-beta.1",
+  "version": "v0.3.4-beta.2",
   "original_sha256": "1301e72bf46008eb74a0f49ab81d9894ab92d037d63c63d86c906aa067c961dc",
-  "target_sha1": "a003c6437bf5153d009018d5ff7733023b9ab249",
-  "target_sha256": "f5e08abdb6b7203bc67e48968fb2180c38669160f0946643c89a9b8672b9e992",
-  "target_size": 16450560,
-  "delta_sha256": "4311daa9e498705bae4bee5ca838d54a38473f91ea1981d3ccaeb0d768ddfd28",
+  "target_sha1": "182382498f1e8f1e4f0b6c46625ae854841a2701",
+  "target_sha256": "3a9ae89195c73db90c1a369c4112f96f036b0bc671b1fdc11692e3824c26a54f",
+  "target_size": 16454656,
+  "delta_sha256": "4d7f356d82c64f82adf96cbbbec5921c9bab117b6bcc216fe05e9ef033fad79e",
   "resources": [
     {
       "path": "Resource/np_gu_menu_2_add_v2.png",
@@ -632,5 +632,5 @@
       "bytes": 479201
     }
   ],
-  "gameplay_status": "新增五项通过离线回放。完整游戏验收待补。"
+  "gameplay_status": "自动装备、模型回退和四人菜单通过离线回放。完整最终战、月如技能与道具、阿奴技能及后续回合待实机。"
 }

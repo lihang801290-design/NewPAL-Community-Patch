@@ -1,5 +1,5 @@
 {
-  "version": "v0.3.4-beta.1",
+  "version": "v0.3.4-beta.2",
   "files": [
     {
       "path": ".agents/skills/newpal-release/SKILL.md",
@@ -43,8 +43,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 3708,
-      "sha256": "46b125931ed564f6571b97ee940436cb9bee2f2a179af2a46cdec23daf6118f7"
+      "bytes": 4291,
+      "sha256": "4f21b5f7893f79526d30836cf4a1ab4c24019e214b5246f9a21ab8874f15f5e4"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -58,8 +58,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10579,
-      "sha256": "2d96192dfa39273214ab1e8cdf627e275d66b987871beaed516bdc3361920b4c"
+      "bytes": 10663,
+      "sha256": "e4e15234e6402711ba0e8aabc3df7c67cc63dc4947f262d66af35ae1a0daef2a"
     },
     {
       "path": "Resource/np_gu_menu_2_add_v2.png",
@@ -708,8 +708,8 @@
     },
     {
       "path": "baseline.json",
-      "bytes": 21239,
-      "sha256": "88eacdb9a9e4a2a19056252be8f8034c152acaa385a193f44c586385d443f262"
+      "bytes": 21323,
+      "sha256": "88ea13b5c46d209c2306c14b5ebb7d251ef4fd6202e22d52eef7392c7ae87af5"
     },
     {
       "path": "docs/asset-provenance.json",
@@ -778,13 +778,13 @@
     },
     {
       "path": "docs/功能与状态.md",
-      "bytes": 5645,
-      "sha256": "f5a0b94c9fd5d4d108970de3c768405df5380206780e73cc9908a77b9c7fb8f5"
+      "bytes": 6228,
+      "sha256": "d4071a59b2b71dcb2b673f9ab78d7f236267ac23de55f21edc971115adf61cd5"
     },
     {
       "path": "docs/协作包使用.md",
-      "bytes": 1120,
-      "sha256": "14106a17d2708a02df9fa7245d776b6f42926277e8e4ac3ceea1ccdb6c314eb3"
+      "bytes": 1204,
+      "sha256": "a2b85447750099107644569565ed584a419dbb1f23a96635cd9fc73819b578f3"
     },
     {
       "path": "docs/发布检查.md",
@@ -818,8 +818,8 @@
     },
     {
       "path": "docs/当前状态.json",
-      "bytes": 1123,
-      "sha256": "d63f1610867f5a6b2bfef1bb4c59bfb38259cbc8130bc02730bd291268a0986f"
+      "bytes": 1207,
+      "sha256": "de12ab1380ff071570ff42e713422d2be1f807626029157f9792d027e3dd8b58"
     },
     {
       "path": "docs/本轮工作记录.md",
@@ -839,7 +839,7 @@
     {
       "path": "docs/玩家常见问题.md",
       "bytes": 4142,
-      "sha256": "4daa4f769b416d85c531a21e2370f8f0a3530bebaa8bc3a1a6098e4817031c6f"
+      "sha256": "54b197ed3883c281fa485049c0d9a524accadf5bdadd88fd994074e50268aa2e"
     },
     {
       "path": "docs/知识与模块索引.md",
@@ -858,8 +858,8 @@
     },
     {
       "path": "patch/latest.json.gz",
-      "bytes": 401753,
-      "sha256": "4311daa9e498705bae4bee5ca838d54a38473f91ea1981d3ccaeb0d768ddfd28"
+      "bytes": 403228,
+      "sha256": "4d7f356d82c64f82adf96cbbbec5921c9bab117b6bcc216fe05e9ef033fad79e"
     },
     {
       "path": "patch/v0.3.0-baseline.json.gz",
