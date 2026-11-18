@@ -1,10 +1,10 @@
 {
-  "version": "v0.3.3",
+  "version": "v0.3.4-beta.1",
   "original_sha256": "1301e72bf46008eb74a0f49ab81d9894ab92d037d63c63d86c906aa067c961dc",
-  "target_sha1": "c0b02fa6d827529212224384a2e43bbc5baed562",
-  "target_sha256": "294d829ab8edd4a6557f918ba15d553bab74097bca921624baaa5788da996fba",
-  "target_size": 16434176,
-  "delta_sha256": "eb26218bee938abaa2cde906f6cce461a30a1d8d8fd473f2a3b5bb1ef4a32388",
+  "target_sha1": "a003c6437bf5153d009018d5ff7733023b9ab249",
+  "target_sha256": "f5e08abdb6b7203bc67e48968fb2180c38669160f0946643c89a9b8672b9e992",
+  "target_size": 16450560,
+  "delta_sha256": "4311daa9e498705bae4bee5ca838d54a38473f91ea1981d3ccaeb0d768ddfd28",
   "resources": [
     {
       "path": "Resource/np_gu_menu_2_add_v2.png",
@@ -632,5 +632,5 @@
       "bytes": 479201
     }
   ],
-  "gameplay_status": "维护者已确认鼠标修复。额外回复、合体伤害、追击分类和巡逻重试仍待专项实机。"
+  "gameplay_status": "新增五项通过离线回放。完整游戏验收待补。"
 }
