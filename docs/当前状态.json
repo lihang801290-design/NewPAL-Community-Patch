@@ -1,18 +1,18 @@
 {
-  "version": "v0.3.2-preview",
-  "target_sha256": "4067f280219357317ae2806163930f922303314cbf8e1543aa7e757f179c5d2e",
+  "version": "v0.3.3",
+  "target_sha256": "294d829ab8edd4a6557f918ba15d553bab74097bca921624baaa5788da996fba",
   "runtime_pngs": 125,
-  "installed_baseline": "settle-message-skip-v5; rejected cursor v6/v7 excluded",
+  "installed_baseline": "v0.3.3",
   "maps": "梦境、再入罗刹前/后、荷花池、十里坡17/18/817；十里坡用户确认落地",
   "protection_interaction": "用户确认10秒保护期间手动遇敌/宝箱正常；被动保护保留",
   "settlement_skip": "用户确认经验/物品/升级/属性等战后信息可跳过；统一消息链v5",
   "map_workflow": "人工修图/排版→地标配准→完整预览→实机定位/揭雾/存读核对",
   "gu": "继承v0.3.1用户确认选料/指针/合拢；非全配方/硬件验收",
-  "native_recovery": "继承v2离线通过；独立实机反馈仍待补",
+  "native_recovery": "原生恢复增加六分之一、保留复活，符合条件的存活队员额外恢复 6% 最大 HP/MP。",
   "nameplates": "继承离线证据；完整独立实机验收仍待补",
   "known_issues": [
-    "启动双鼠标/等待光标未彻底解决",
-    "鼠标可能被战后弹窗遮挡"
+    "全剧情／硬件未全面测试",
+    "维护者已确认鼠标修复。额外回复、合体伤害、追击分类和巡逻重试仍待专项实机。"
   ],
   "tool_release": "map-tester-v0.3.1-preview; this game chain compatibility not verified"
 }

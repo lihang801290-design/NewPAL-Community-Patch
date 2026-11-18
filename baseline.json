@@ -1,10 +1,10 @@
 {
-  "version": "v0.3.2-preview",
+  "version": "v0.3.3",
   "original_sha256": "1301e72bf46008eb74a0f49ab81d9894ab92d037d63c63d86c906aa067c961dc",
-  "target_sha1": "e453628f4b295535dc1ee8b478f34d847f3ce073",
-  "target_sha256": "4067f280219357317ae2806163930f922303314cbf8e1543aa7e757f179c5d2e",
-  "target_size": 16405504,
-  "delta_sha256": "5e81f7d6bad74a7884a85c8a9243bf659853450793a66decaf684e5e0659e82e",
+  "target_sha1": "c0b02fa6d827529212224384a2e43bbc5baed562",
+  "target_sha256": "294d829ab8edd4a6557f918ba15d553bab74097bca921624baaa5788da996fba",
+  "target_size": 16434176,
+  "delta_sha256": "eb26218bee938abaa2cde906f6cce461a30a1d8d8fd473f2a3b5bb1ef4a32388",
   "resources": [
     {
       "path": "Resource/np_gu_menu_2_add_v2.png",
@@ -632,5 +632,5 @@
       "bytes": 479201
     }
   ],
-  "gameplay_status": "Latest nameplate changes offline checked; final gameplay feedback pending"
+  "gameplay_status": "维护者已确认鼠标修复。额外回复、合体伤害、追击分类和巡逻重试仍待专项实机。"
 }
