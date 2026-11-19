@@ -4,15 +4,15 @@
 
 **给 Steam 正版《新仙剑奇侠传》补上更顺手的操作、优化的战斗节奏，修复恶性bug，以及持续开发中的迷宫探索地图。** 这是仙剑系列爱好者制作的非官方修正补丁，目前仍在研发中。
 
-**当前发布：v0.3.4-beta.2（测试版）**
+**当前发布：v0.3.4-beta.3（测试版）**
 
-> **[下载玩家补丁：NewPAL_Patch_v0.3.4-beta.2.zip](https://github.com/lihang801290-design/NewPAL-Community-Patch/releases/download/v0.3.4-beta.2/NewPAL_Patch_v0.3.4-beta.2.zip)**
+> **[下载玩家补丁：NewPAL_Patch_v0.3.4-beta.3.zip](https://github.com/lihang801290-design/NewPAL-Community-Patch/releases/download/v0.3.4-beta.3/NewPAL_Patch_v0.3.4-beta.3.zip)**
 >
-> [查看发布说明和所有附件](https://github.com/lihang801290-design/NewPAL-Community-Patch/releases/tag/v0.3.4-beta.2) · [查看正式版 v0.3.3](https://github.com/lihang801290-design/NewPAL-Community-Patch/releases/tag/v0.3.3) · [安装／还原指南](docs/安装与还原.md) · [玩家常见问题](docs/玩家常见问题.md)
+> [查看发布说明和所有附件](https://github.com/lihang801290-design/NewPAL-Community-Patch/releases/tag/v0.3.4-beta.3) · [查看正式版 v0.3.3](https://github.com/lihang801290-design/NewPAL-Community-Patch/releases/tag/v0.3.3) · [安装／还原指南](docs/安装与还原.md) · [玩家常见问题](docs/玩家常见问题.md)
 
 **普通玩家只需下载 `NewPAL_Patch` 安装包。** 无需 Python，不用先安装旧补丁。GitHub 首页 **Code → Download ZIP** 下载的是开发源码，不是可直接覆盖的玩家补丁。
 
-**本版更新**见[更新记录](CHANGELOG.md)。自动装备、模型回退和四人菜单通过离线回放。完整最终战、月如技能与道具、阿奴技能及后续回合待实机。
+**本版更新**见[更新记录](CHANGELOG.md)。新增四项通过离线检查。隐藏道具提示仍有未解析的特殊路径，120 Hz 以上实际战斗表现、鼠标手感和完整四人最终战待实机验证。
 
 ## 本补丁改善了哪些体验？
 
@@ -80,12 +80,12 @@
 
 1. 在 Steam 中右键《新仙剑奇侠传》→ **管理 → 浏览本地文件**，找到游戏目录（一般为 `steam/steamapps/common/NewPAL`）。
 2. 退出游戏，**先备份原 EXE、可能覆盖的同名 PNG 及存档**。
-3. 下载并解压 `NewPAL_Patch_v0.3.4-beta.2.zip`，按 [安装指南](docs/安装与还原.md) 将包内 **EXE 与 Resource 中配套的 125 张 PNG** 复制到游戏目录，替换同名文件；不要删掉原来的整个 Resource 文件夹，也不要造成 `Resource/Resource` 嵌套。
+3. 下载并解压 `NewPAL_Patch_v0.3.4-beta.3.zip`，按 [安装指南](docs/安装与还原.md) 将包内 **EXE 与 Resource 中配套的 125 张 PNG** 复制到游戏目录，替换同名文件；不要删掉原来的整个 Resource 文件夹，也不要造成 `Resource/Resource` 嵌套。
 4. 通过 Steam 启动游戏。如需回退，请按 [还原步骤](docs/安装与还原.md) 恢复备份。
 
 | 下载文件 | 适合谁 | 是否必需 |
 | --- | --- | --- |
-| **NewPAL_Patch_v0.3.4-beta.2.zip** | **普通玩家** | **必需，只下载它即可** |
+| **NewPAL_Patch_v0.3.4-beta.3.zip** | **普通玩家** | **必需，只下载它即可** |
 | [NewPAL_MapTester_v0.3.1-preview.zip](https://github.com/lihang801290-design/NewPAL-Community-Patch/releases/download/map-tester-v0.3.1-preview/NewPAL_MapTester_v0.3.1-preview.zip) | 地图测试人员 | 可选 |
 | NewPAL_MapArtSources_v0.3.0-preview.zip | 地图美术／开发协作者 | 可选，非已完成地图包 |
 | SHA256SUMS.txt | 需要校验下载内容的用户 | 可选 |
