@@ -100,6 +100,15 @@
       "entry_policy": "library/research; use documented entry points only"
     },
     {
+      "module": "battle_music_menu_v1",
+      "path": "补丁工作仓库/脚本/battle_music_menu_v1.py",
+      "sha256": "b240523ff0510b871431f0aefdf1d50d2302afdd348c15ef5d0f7c4d29a4c0b1",
+      "imports": [
+        "flash_v4"
+      ],
+      "entry_policy": "Build a separate candidate from the exact beta.3 EXE."
+    },
+    {
       "module": "build_luocha_boundary_routes_v1",
       "path": "补丁工作仓库/脚本/build_luocha_boundary_routes_v1.py",
       "sha256": "8101761b356691042f6d77b372e7efacf9db79b8854171d9ac65bc2fa24f7061",

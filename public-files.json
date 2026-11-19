@@ -1,5 +1,5 @@
 {
-  "version": "v0.3.4-beta.3",
+  "version": "v0.3.4-beta.4",
   "files": [
     {
       "path": ".agents/skills/newpal-release/SKILL.md",
@@ -43,8 +43,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 5321,
-      "sha256": "e498eb27071fb1fa9b8d00232267373485b99a80d5aa9ec69c46879a91470a87"
+      "bytes": 5637,
+      "sha256": "fe1f77ce6486902331bb65f4d79790f813926d998a524483301e415cb5f7620f"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -58,8 +58,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10691,
-      "sha256": "eb526586554739f4595aab539e69ef87166d8464b578ca922958903d6a6e3a65"
+      "bytes": 10881,
+      "sha256": "ad853adaa35813674cbb09b031bc73177c3e58ffed47ad0f8142223013b2cf4e"
     },
     {
       "path": "Resource/np_gu_menu_2_add_v2.png",
@@ -708,8 +708,8 @@
     },
     {
       "path": "baseline.json",
-      "bytes": 21351,
-      "sha256": "e28be2afb36cd67c35ed602adbd852c5fecae6d7186c48825ee876bdef7178b4"
+      "bytes": 21275,
+      "sha256": "bb48df89045b1102e65c97516b164d318fa51ea54159b89834e84d98443bf14f"
     },
     {
       "path": "docs/asset-provenance.json",
@@ -758,8 +758,8 @@
     },
     {
       "path": "docs/source-modules.json",
-      "bytes": 30797,
-      "sha256": "91d5a0d982c021e5c1e1c39f00be7bfa5ad61069ffd240f86770cf1ff69406d5"
+      "bytes": 31126,
+      "sha256": "b8109dbfc47d75cafc99edac952d78281f8e6fe3b923ba85af0d573569aba83e"
     },
     {
       "path": "docs/人工参与制图流程.md",
@@ -778,13 +778,13 @@
     },
     {
       "path": "docs/功能与状态.md",
-      "bytes": 7258,
-      "sha256": "e9b1c4278202c9013e72fac292a67c667901c220b15a31c51a1bc80d1b3c0445"
+      "bytes": 7574,
+      "sha256": "ecd740c85dd053eed18be0cb18394dd10e1d5f1f6a963ea15ab8dec817f98f16"
     },
     {
       "path": "docs/协作包使用.md",
       "bytes": 1204,
-      "sha256": "ebf62831791224c7dcc4ffce46d6d599002fa917d0ff0cfa1bb8f241f671ff81"
+      "sha256": "09142a4f8a6cb14069567d6bf17dd546b039e5a2232254ca1c04b56794827469"
     },
     {
       "path": "docs/发布检查.md",
@@ -818,8 +818,8 @@
     },
     {
       "path": "docs/当前状态.json",
-      "bytes": 1537,
-      "sha256": "89b1be58767a28b91a5549f88eb7bc3b6586a83c6f04bc2816cad068a6430195"
+      "bytes": 1639,
+      "sha256": "c4c8b0534840004bfb13a02a5be333f9f4ff63692b71feac3d88fe8f303954dd"
     },
     {
       "path": "docs/本轮工作记录.md",
@@ -839,7 +839,7 @@
     {
       "path": "docs/玩家常见问题.md",
       "bytes": 4142,
-      "sha256": "ff5e46fa545e3eb42d7ee4e3ff666bbce3517e749d89e7054dab22c2508780b3"
+      "sha256": "2acda9ca9f4be07f8082384c78e31fe58f821fd0d038a880f08abe20e7d8bd0a"
     },
     {
       "path": "docs/知识与模块索引.md",
@@ -858,8 +858,8 @@
     },
     {
       "path": "patch/latest.json.gz",
-      "bytes": 409249,
-      "sha256": "24da6898f4131def40ede91c03a82529afefb198e1506bbbacadde85ca848f7e"
+      "bytes": 409311,
+      "sha256": "768e9b7e6ea52853b21d3cd30da6577b6d109b6510549c0da3968c555f589bb4"
     },
     {
       "path": "patch/v0.3.0-baseline.json.gz",
@@ -1335,6 +1335,11 @@
       "path": "补丁工作仓库/脚本/battle_entry_v5.py",
       "bytes": 5585,
       "sha256": "d16ad5df45e11b0bdad3bda8e72b770ad3641614eeb393f035d80b8e7fbfccde"
+    },
+    {
+      "path": "补丁工作仓库/脚本/battle_music_menu_v1.py",
+      "bytes": 2331,
+      "sha256": "b240523ff0510b871431f0aefdf1d50d2302afdd348c15ef5d0f7c4d29a4c0b1"
     },
     {
       "path": "补丁工作仓库/脚本/build_luocha_boundary_routes_v1.py",

@@ -1,10 +1,10 @@
 {
-  "version": "v0.3.4-beta.3",
+  "version": "v0.3.4-beta.4",
   "original_sha256": "1301e72bf46008eb74a0f49ab81d9894ab92d037d63c63d86c906aa067c961dc",
-  "target_sha1": "75090b9c93974c0eea52e946fdac481e4aa23f26",
-  "target_sha256": "e7ec3c67c1f5d0d82b696e8cfd6d35ae0997dd9c3b69851c78e52b0a72c60fac",
+  "target_sha1": "4111985f5b81d4b1124c367b16b6c1eed028b533",
+  "target_sha256": "2d2208e09a481889a82893aed0f13acf6eb19c20cfc7b56febb93487b0ee108d",
   "target_size": 16487424,
-  "delta_sha256": "24da6898f4131def40ede91c03a82529afefb198e1506bbbacadde85ca848f7e",
+  "delta_sha256": "768e9b7e6ea52853b21d3cd30da6577b6d109b6510549c0da3968c555f589bb4",
   "resources": [
     {
       "path": "Resource/np_gu_menu_2_add_v2.png",
@@ -632,5 +632,5 @@
       "bytes": 479201
     }
   ],
-  "gameplay_status": "新增四项通过离线检查。隐藏道具提示仍有未解析的特殊路径，120 Hz 以上实际战斗表现、鼠标手感和完整四人最终战待实机验证。"
+  "gameplay_status": "三条战斗子菜单入口、怪叫收尾和待播取消通过离线回放。实机待验证。"
 }

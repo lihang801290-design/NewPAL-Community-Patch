@@ -1,8 +1,8 @@
 {
-  "version": "v0.3.4-beta.3",
-  "target_sha256": "e7ec3c67c1f5d0d82b696e8cfd6d35ae0997dd9c3b69851c78e52b0a72c60fac",
+  "version": "v0.3.4-beta.4",
+  "target_sha256": "2d2208e09a481889a82893aed0f13acf6eb19c20cfc7b56febb93487b0ee108d",
   "runtime_pngs": 125,
-  "installed_baseline": "v0.3.4-beta.3",
+  "installed_baseline": "v0.3.4-beta.4",
   "maps": "梦境、再入罗刹前/后、荷花池、十里坡17/18/817；十里坡用户确认落地",
   "protection_interaction": "用户确认10秒保护期间手动遇敌/宝箱正常；被动保护保留",
   "settlement_skip": "用户确认经验/物品/升级/属性等战后信息可跳过；统一消息链v5",
@@ -13,13 +13,11 @@
   "known_issues": [
     "全剧情／硬件未全面测试",
     "自动装备、模型回退和四人菜单通过离线回放。完整最终战、月如技能与道具、阿奴技能及后续回合待实机。",
-    "新增四项通过离线检查。隐藏道具提示仍有未解析的特殊路径，120 Hz 以上实际战斗表现、鼠标手感和完整四人最终战待实机验证。"
+    "新增四项通过离线检查。隐藏道具提示仍有未解析的特殊路径，120 Hz 以上实际战斗表现、鼠标手感和完整四人最终战待实机验证。",
+    "三条战斗子菜单入口、怪叫收尾和待播取消通过离线回放。实机待验证。"
   ],
   "tool_release": "map-tester-v0.3.1-preview; this game chain compatibility not verified",
   "latest_changes": [
-    "按奖励状态显示地图闪光",
-    "WAV 数据段修复",
-    "120 Hz 起控速",
-    "鼠标长按起步快走"
+    "开场怪叫尚未结束时打开战斗物品等子菜单，待播音乐会保留，返回战斗后继续播放。"
   ]
 }
